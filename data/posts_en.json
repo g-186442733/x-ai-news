@@ -8,7 +8,18 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/WebDancePtyLtd/status/2114642219756028205",
-    "lang": "en"
+    "lang": null
+  },
+  {
+    "id": "2114640596019097719",
+    "author_name": "Noxen",
+    "author_username": "noxen_noxen",
+    "text": "Same week: OpenAI and Anthropic disclosed agents acting outside their sandboxes, and Coinbase let AI agents trade and pay for you. Onchain, an agent's mistake is final. The real product isn't the agent, it's the limits: scoped access, spend caps, human approval. #AI #crypto https://t.co/eoXylTI6SE",
+    "created_at": "2026-10-26T08:49:40Z",
+    "like_count": 1,
+    "retweet_count": 0,
+    "url": "https://x.com/noxen_noxen/status/2114640596019097719",
+    "lang": null
   },
   {
     "id": "2114620599599329314",
@@ -16,10 +27,10 @@
     "author_username": "NewsPrincipia",
     "text": "OpenAI says it will train its most advanced AI models without live internet access, using stored copies of the web instead. In several incidents, AI agents escaped their test environments and hacked outside companies and agencies. Anthropic has already limited its newest models.",
     "created_at": "2026-10-26T07:30:13Z",
-    "like_count": 0,
-    "retweet_count": 0,
+    "like_count": 1,
+    "retweet_count": 1,
     "url": "https://x.com/NewsPrincipia/status/2114620599599329314",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114546305779523740",
@@ -27,10 +38,10 @@
     "author_username": "fromcodetocloud",
     "text": "I would bookmark these 7 resources before starting my next AI project.\n\nThey cover much more than prompt engineering.\n\n1. Hugging Face: Explore models and datasets  \nhttps://t.co/4kz25791C7\n\n2. Ollama : Run supported AI models locally  \nhttps://t.co/i83VW4ueio\n\n3. Anthropic",
     "created_at": "2026-10-26T02:35:00Z",
-    "like_count": 19,
+    "like_count": 20,
     "retweet_count": 2,
     "url": "https://x.com/fromcodetocloud/status/2114546305779523740",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114514984323416373",
@@ -38,10 +49,10 @@
     "author_username": "dkare1009",
     "text": "Goldmine for AI Engineers! 📌\n\nIf you're learning AI, ML, LLMs, or AI agents, don't waste hours jumping between random tutorials.\n\nThese are 10 repositories I'd actually keep bookmarked - from Python fundamentals to ML, LLMs, agents, and production AI.\n\n1. Python - 100 Days https://t.co/FWXZW4EkwT",
     "created_at": "2026-10-26T00:30:32Z",
-    "like_count": 26,
+    "like_count": 28,
     "retweet_count": 4,
     "url": "https://x.com/dkare1009/status/2114514984323416373",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114501091568288112",
@@ -52,7 +63,7 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/xlampsx/status/2114501091568288112",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114484653415432439",
@@ -60,10 +71,10 @@
     "author_username": "haider1",
     "text": "duet — anthropic\ndots — openai\nmuse — meta\ngrok bot — spacexai\n\nthese proactive AI agents don't seem that impressive now but imagine them running on models smarter than Fable or Astra that handle almost everything exactly how you want, no matter how complex or constantly changing",
     "created_at": "2026-10-25T22:30:01Z",
-    "like_count": 76,
+    "like_count": 77,
     "retweet_count": 2,
     "url": "https://x.com/haider1/status/2114484653415432439",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114470274192064900",
@@ -74,7 +85,7 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/SamanthahLaDuc/status/2114470274192064900",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114469798889345075",
@@ -85,7 +96,7 @@
     "like_count": 1,
     "retweet_count": 0,
     "url": "https://x.com/3floorsai/status/2114469798889345075",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114418110141018160",
@@ -96,7 +107,7 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/LowdCode/status/2114418110141018160",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114392247777284473",
@@ -104,10 +115,10 @@
     "author_username": "Noahpinion",
     "text": "An internet where every company has to pay big bucks to Anthropic and OpenAI every month just to avoid destruction by ever-present swarms of rogue AI agents is not nearly as economically valuable as the free internet we've enjoyed up to now. https://t.co/IFLK4Rp0wU https://t.co/JoSI9dYcLV",
     "created_at": "2026-10-25T16:22:50Z",
-    "like_count": 1357,
-    "retweet_count": 202,
+    "like_count": 1391,
+    "retweet_count": 205,
     "url": "https://x.com/Noahpinion/status/2114392247777284473",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114379948941320570",
@@ -115,10 +126,10 @@
     "author_username": "thomasunise",
     "text": "I built ARGUS\n\nAn open-source cybersecurity platform that monitors infra 24/7, investigates threats with AI agents, and can auto responds to attacks.\n\nAgents run on OpenAI, Anthropic, or open weight models with Ollama \n\nFree. Self-hosted. MIT licensed.\n\nhttps://t.co/YzIFCyqL0z",
     "created_at": "2026-10-25T15:33:57Z",
-    "like_count": 7,
+    "like_count": 8,
     "retweet_count": 0,
     "url": "https://x.com/thomasunise/status/2114379948941320570",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114322406365958159",
@@ -129,7 +140,7 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/Pagedcc/status/2114322406365958159",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114308264750104663",
@@ -140,7 +151,18 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/1AlexThirkield/status/2114308264750104663",
-    "lang": "en"
+    "lang": null
+  },
+  {
+    "id": "2114307115170881699",
+    "author_name": "MikeCast | AI News Briefing and Podcast",
+    "author_username": "MikeCastAI",
+    "text": "🎙️ MikeCast Daily · October 25, 2026\n\nOpenAI used AI agents to hack its own defenses before restarting training. Anthropic hit with a lawsuit over Elvis Presley's music. Plus Apple's foldable iPhone Duo hits stores and…\n\n📰 https://t.co/nG4OY0lZeo\n🎧 https://t.co/049BTaGtCz https://t.co/iZeQWpnpJr",
+    "created_at": "2026-10-25T10:44:32Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/MikeCastAI/status/2114307115170881699",
+    "lang": null
   },
   {
     "id": "2114303916779151857",
@@ -151,7 +173,7 @@
     "like_count": 34,
     "retweet_count": 0,
     "url": "https://x.com/vorpal_onchain/status/2114303916779151857",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114248079092121913",
@@ -160,9 +182,9 @@
     "text": "Is AGI here? I ranked every personal AI agent - only one gets S tier\n\nAI agents are taking over work and life. I ranked the best personal AI agents right now. Only one gets S.\nS: Grok Bot (SpaceXAI)\nA: OpenAI dots, Claude Duet\nB: OpenClaw\nC: Meta Muse\nD: Instinct\nDo you agree? https://t.co/f34XWv53vE",
     "created_at": "2026-10-25T06:49:57Z",
     "like_count": 281,
-    "retweet_count": 0,
+    "retweet_count": 291,
     "url": "https://x.com/VORTEX_Promos/status/2114248079092121913",
-    "lang": "en"
+    "lang": null
   },
   {
     "id": "2114226180245402073",
@@ -173,50 +195,28 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/lnbodicherla/status/2114226180245402073",
-    "lang": "en"
+    "lang": null
   },
   {
-    "id": "2114073519915217143",
-    "author_name": "nicholas.bch⚡",
-    "author_username": "realNickPawlak",
-    "text": "$1B for sandboxes.\n\nDaytona raised $60M at $1B — $91M total — renting isolated computers to AI agents. 60ms to spin one up, 1M+ provisioned for Snorkel alone. Customers: Anthropic, OpenAI, Nvidia.\n\nContainment is getting the check. #AI",
-    "created_at": "2026-10-24T19:16:19Z",
+    "id": "2114212718072955140",
+    "author_name": "LN Bodicherla",
+    "author_username": "lnbodicherla",
+    "text": "🚨 OpenAI is taking its most advanced AI models OFF the live internet during training.\n\nInstead, they’ll train using a simulated, cached version of the web.\n\nThe reason? Security risks from increasingly capable AI agents.\n\nWe’ve spent years making AI more autonomous. Now we’re",
+    "created_at": "2026-10-25T04:29:26Z",
     "like_count": 0,
     "retweet_count": 0,
-    "url": "https://x.com/realNickPawlak/status/2114073519915217143",
-    "lang": "en"
+    "url": "https://x.com/lnbodicherla/status/2114212718072955140",
+    "lang": null
   },
   {
-    "id": "2114036053531332653",
-    "author_name": "Veltrix",
-    "author_username": "0xMetaHulk",
-    "text": "OpenAI and Anthropic should utilize their AI agents to find bugs in all modern software systems and programming languages and patch them immediately.",
-    "created_at": "2026-10-24T16:47:26Z",
-    "like_count": 4,
-    "retweet_count": 0,
-    "url": "https://x.com/0xMetaHulk/status/2114036053531332653",
-    "lang": "en"
-  },
-  {
-    "id": "2113979609695830479",
-    "author_name": "DeFoor Report",
-    "author_username": "DeFoorReport",
-    "text": "𝗧𝗼𝗱𝗮𝘆 𝗼𝗻 𝘁𝗵𝗲 𝗗𝗲𝗙𝗼𝗼𝗿 𝗥𝗲𝗽𝗼𝗿𝘁\n\n𝗧𝗛𝗘 𝗟𝗟𝗠 𝗪𝗔𝗥𝗦\nOpenAnolis Builds Anolis OS 27 Agent-Native as…\nOpenAI says it will no longer train its AI models…\n\n𝗔𝗜 𝗔𝗚𝗘𝗡𝗧𝗦\nOpenAI's isolated AI agents found ways to talk to…\nMeta's Muse Could Transform Its AI https://t.co/ynmCXtOgBF",
-    "created_at": "2026-10-24T13:03:09Z",
+    "id": "2114187247750885503",
+    "author_name": "AI拉呱-洞察AI前沿",
+    "author_username": "YanErrol168",
+    "text": "OpenAI: two AI agents disabled their own safety monitoring — and one denied it afterward.\n\nOpenAI says neither was ranked most severe and it's upgrading monitoring. Anthropic opened a U.S. research preview of Claude Duet — ask first before messaging, paying, signing, or deleting. https://t.co/dyuVLE2Ypt",
+    "created_at": "2026-10-25T02:48:14Z",
     "like_count": 0,
     "retweet_count": 0,
-    "url": "https://x.com/DeFoorReport/status/2113979609695830479",
-    "lang": "en"
-  },
-  {
-    "id": "2113823596934258707",
-    "author_name": "Karla says",
-    "author_username": "landisme2",
-    "text": "OpenAI, Anthropic And Meta's AI Agents Now Text You First | The Build Lo... https://t.co/la10slePrp via @YouTube",
-    "created_at": "2026-10-24T02:43:13Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/landisme2/status/2113823596934258707",
-    "lang": "en"
+    "url": "https://x.com/YanErrol168/status/2114187247750885503",
+    "lang": null
   }
 ]

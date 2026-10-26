@@ -11,6 +11,29 @@
     ]
   },
   {
+    "id": "2114521431853736167",
+    "name": "Developers Wishlist New Language for AI Agents",
+    "summary": "Pocock called for a language with Bend as an early promising example, sparking replies from hundreds of developers who stressed compilers as essential error-catchers for agent-written code. Chris Lattner promoted Mojo for its advanced types and hardware support, while others pushed for introspectable designs like Elixir and debated hurdles for new languages. The conversation shows developers rethinking language priorities around speed, safety, and agent-driven coding realities.",
+    "url": "https://x.com/i/trending/2114521431853736167",
+    "updated_at": "2026-10-26T08:33:03Z",
+    "topics": [
+      "Technology",
+      "Software Development"
+    ]
+  },
+  {
+    "id": "2114067820980109751",
+    "name": "Private Equity Report Questions AI's Broader Economic Gains",
+    "summary": "Apollo Global Management's chief economist Torsten Slok released a report on October 24 showing revenue per worker and profit margins rising only for the Magnificent 7, while flat for the other 493 S&P 500 companies. Most firms outside tech view AI token spending as a cost center rather than a growth driver, limiting macroeconomic effects. Gartner warns of a $4.9 trillion revenue gap for data-center spending by 2030, raising impairment risks for over $3.5 trillion in infrastructure, as discussions note potential hiring slowdowns and early semiconductor weakness.",
+    "url": "https://x.com/i/trending/2114067820980109751",
+    "updated_at": "2026-10-26T08:26:38Z",
+    "topics": [
+      "Business & Finance",
+      "Technology",
+      "AI"
+    ]
+  },
+  {
     "id": "2114632560781230142",
     "name": "AI Tools Amplify Skills, Not Replace Them in Coding and Creativity",
     "summary": "Conversations highlight how using AI to enhance thinking sets people apart from those just generating basic content. In coding, engineers note AI struggles with efficient, performant code despite handling simple tasks well, while creative fields see it as a workflow booster that frees humans for originality and emotion. Throughout, the consensus emerges that AI multiplies intelligence for skilled users but risks average outcomes without strong human input and oversight.",
@@ -22,11 +45,33 @@
     ]
   },
   {
+    "id": "2114275689264271444",
+    "name": "Over 1,000 Mathematicians Form Group to Reject Commercial AI in Research",
+    "summary": "The Association for Human Mathematics, formed earlier this year, now has 1,008 members who commit to avoiding technical help for commercial AI firms and publishing only their own writing. Of those, 654 in the AI-free caucus abstain from AI entirely in core tasks like finding proofs or posing questions. The move responds to AI companies like OpenAI releasing generated manuscripts, sparking debate: supporters value human insight like chess engines aiding understanding without replacing it, while critics call it resistance to progress.",
+    "url": "https://x.com/i/trending/2114275689264271444",
+    "updated_at": "2026-10-26T08:12:27Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
     "id": "2114473450643337305",
     "name": "Debate Heats Up Over Whether AI Writes Better Code Than Humans",
     "summary": "Engineer Arpit Bhayani sparked the discussion on October 25, declaring no human will ever code better than large language models, a view echoed by many who say the debate is settled and it's time to move on. Critics like programmer Valentin Ignatev counter that AI spots bugs but delivers shallow fixes without rethinking architecture, while others note humans still lead in complex reasoning and novel problems. The exchange highlights a field in transition, where developers shift from raw coding to guiding AI on design, verification, and oversight.",
     "url": "https://x.com/i/trending/2114473450643337305",
     "updated_at": "2026-10-26T06:58:16Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2114570367863824481",
+    "name": "Rethinking AI Prompts for Bigger Ambitions",
+    "summary": "A conversation highlights moving beyond faster task completion with AI toward loftier goals, inspired by Mollick's call to amp up ambition and Felix Rieseberg's framework of speed, altitude, depth, and range. Rieseberg's tutorial breaks it down—for example, depth means prompting AI like a top professional using raw data and real methods, while range pulls in outside perspectives like psychology or journalism. Users are testing these in workflows, refactoring codebases and spotting overlooked issues, with the key lesson that under-asking limits what models can achieve as they advance.",
+    "url": "https://x.com/i/trending/2114570367863824481",
+    "updated_at": "2026-10-26T04:14:15Z",
     "topics": [
       "Technology",
       "AI"
@@ -45,66 +90,24 @@
     ]
   },
   {
+    "id": "2114539713361219795",
+    "name": "AI Coding Agents Create Divide Between Old and New Startups",
+    "summary": "Conversations highlight how startups built manually over the past three years feel outpaced by those launched this year with agent-written code, leading some to rebuild entirely for faster iteration and fewer backlogs. Jake Gold predicts even top AI firms like OpenAI could soon seem like 'pre-AI legacy' companies, urging pre-product-market-fit teams to consider re-founding. While studies show AI boosts code output by 30 percent and more, quality reviews and customer demands slow incumbents, though deep user knowledge offers them an edge. Richard Artoul noted that nothing slows progress like paying customers who can't be disrupted.",
+    "url": "https://x.com/i/trending/2114539713361219795",
+    "updated_at": "2026-10-26T02:13:26Z",
+    "topics": [
+      "Technology",
+      "AI",
+      "Business & Finance",
+      "Entrepreneurship"
+    ]
+  },
+  {
     "id": "2114059501561160085",
     "name": "AI Uncovers Software Bugs Too Fast for Patches, Warn CEOs",
     "summary": "OpenAI CEO Sam Altman warned at Stanford that AI finds bugs beyond normal hacker reach, like hardware-level issues, making patching obsolete and pushing for AI-driven defenses. Cloudflare CEO Matthew Prince noted millions of exploit attempts hit newly disclosed PHP vulnerabilities affecting 70% of PHP sites, including WordPress and firewalls, patched October 21, 2026. Economist Noah Smith fears this could turn the free internet into a costly guarded space, though some say AI aids fixes and mass exploits haven't surged as feared.",
     "url": "https://x.com/i/trending/2114059501561160085",
     "updated_at": "2026-10-25T22:00:48Z",
-    "topics": [
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2114002856294666634",
-    "name": "PhD Student Relies on AI for Most Economics Research Tasks",
-    "summary": "The student's candid account describes AI handling much of the implementation in research, sparking wide conversation about academic work and personal contribution. Figures like Nassim Nicholas Taleb warn of AI decimating white-collar professions with monstrous social consequences, while Thierry Borgeat predicts phases of productivity gains, job losses, and societal shifts. Others, including Suhail, report AI speeding up projects without replacement risk, as European banks plan cuts but Harvard researchers note labor market stability so far.",
-    "url": "https://x.com/i/trending/2114002856294666634",
-    "updated_at": "2026-10-25T03:03:58Z",
-    "topics": [
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2114051411667214384",
-    "name": "AI Tools Reshape Economics PhD Work and Job Paths",
-    "summary": "Economics PhD students and early-career researchers are leaning on AI like Claude for building code, analyzing data, critiquing writing, and revising drafts, while still reviewing every line themselves. Faculty members echo the productivity boost but feel torn over losing hands-on intellectual stimulation. Early data shows PhD grads with AI traces in dissertations facing hurdles in academia yet gaining industry spots, mirroring shifts at firms like Anthropic where junior hires dropped amid rising AI use.",
-    "url": "https://x.com/i/trending/2114051411667214384",
-    "updated_at": "2026-10-24T21:00:24Z",
-    "topics": [
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2114020383020179888",
-    "name": "What Comes After AI? Online Speculation Explores Possibilities",
-    "summary": "A popular post sparked hundreds of responses imagining AI unlocking flying cars, humanoids, fusion energy, brain-computer interfaces, gene editing, quantum computing, and space exploration. Some highlight near-term advances like AI brain microchips boosting human intelligence, while others caution about dystopian risks such as economic disruption or human-machine conflict. Industry reports back this up, noting 2026 as a pivotal year for brain-computer interfaces with regulatory progress, and Gartner's 2027 forecast predicting smarter autonomous agents and physical-world simulations ahead.",
-    "url": "https://x.com/i/trending/2114020383020179888",
-    "updated_at": "2026-10-24T15:52:09Z",
-    "topics": [
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2113627028020969817",
-    "name": "AI Tools Boost Productivity, But Human Skills Remain Key",
-    "summary": "Infographics break down AI options like Midjourney for images, Cursor for coding, and Runway for video, advising users to pick just a few for their routines. A Harvard study showed AI peer reviews beating human experts, with editors favoring them 87 percent of the time for fewer errors. PwC data reveals AI-exposed companies growing jobs faster, emphasizing human judgment and creativity amid shifting roles. The discussion stresses directing AI wisely rather than chasing every tool.",
-    "url": "https://x.com/i/trending/2113627028020969817",
-    "updated_at": "2026-10-24T13:23:06Z",
-    "topics": [
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2113946729376821597",
-    "name": "AI Set to Reshape White-Collar Jobs and Society",
-    "summary": "Taleb and Thierry Borgeat highlight how AI commoditizes expertise in fields like medicine, law, and programming, delivering results at near-zero cost after years of human training. They predict phases of infrastructure buildout, rapid job losses outpacing economic absorption, and a reckoning where capital surges ahead of labor, eroding many people's sense of purpose. Real examples include contractors using AI for social media work, leading clients to cut them out, while Goldman Sachs projects up to 9 percent of workers displaced in the next decade. Some see AI as a tool that amplifies skilled humans rather than fully replacing them.",
-    "url": "https://x.com/i/trending/2113946729376821597",
-    "updated_at": "2026-10-24T10:57:20Z",
     "topics": [
       "Technology",
       "AI"

@@ -1,10 +1,58 @@
 [
   {
-    "id": "2114488424681914548",
-    "name": "The AI graveyard: a running list of projects and startups that didn't make it",
-    "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "id": "2114651052448342430",
+    "name": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
+    "summary": "",
+    "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+    "updated_at": "2026-10-26T09:31:13Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "WIRED"
+  },
+  {
+    "id": "2114360094754320745",
+    "name": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+    "summary": "",
+    "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+    "updated_at": "2026-10-25T14:15:04Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2114348344101491151",
+    "name": "The opensource subreddit’s new rules against AI have sparked a revolt.",
+    "summary": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+    "updated_at": "2026-10-25T13:28:22Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2114327156134420989",
+    "name": "Publishers spent years figuring out how to get clicks on Google. But new AI search features have torn that ecosystem apart.",
+    "summary": "",
+    "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+    "updated_at": "2026-10-25T12:04:10Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2114070688025723363",
+    "name": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "summary": "",
     "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-    "updated_at": "2026-10-25T22:45:00Z",
+    "updated_at": "2026-10-24T19:05:04Z",
     "topics": [
       "AI",
       "Industry"
@@ -12,11 +60,23 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2114351445327962122",
-    "name": "Uber puts all 30,000 employees on ChatGPT Work",
-    "summary": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide.",
-    "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-    "updated_at": "2026-10-25T13:40:41Z",
+    "id": "2114062662267175380",
+    "name": "Pennsylvania’s AI Deceptive Advertising Act leaves a lot of loopholes.",
+    "summary": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+    "updated_at": "2026-10-24T18:33:10Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2114011303656268014",
+    "name": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+    "summary": "",
+    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "updated_at": "2026-10-24T15:09:05Z",
     "topics": [
       "AI",
       "Industry"
@@ -24,11 +84,11 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2114216633010987382",
-    "name": "Replit makes OpenAI its default over Anthropic, CEO says",
-    "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer partnering with Anthropic. ",
-    "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-    "updated_at": "2026-10-25T04:45:00Z",
+    "id": "2113995196081828195",
+    "name": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+    "summary": "",
+    "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "updated_at": "2026-10-24T14:05:05Z",
     "topics": [
       "AI",
       "Industry"
@@ -36,87 +96,15 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2114083062967619640",
-    "name": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-    "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
-    "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-    "updated_at": "2026-10-24T19:54:14Z",
+    "id": "2113965859022516642",
+    "name": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+    "summary": "",
+    "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+    "updated_at": "2026-10-24T12:08:31Z",
     "topics": [
       "AI",
       "Industry"
     ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2114027206288502902",
-    "name": "Insight Partners' Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
-    "summary": "Insight Partners' Devin Parekh opens up about losing Legora to General Catalyst, why he's fine holding stakes in rival AI labs, and why — even as everyone else piles into OpenAI and Anthropic — his $90 billion firm is deliberately staying diversified.",
-    "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
-    "updated_at": "2026-10-24T16:12:17Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2113884601307328607",
-    "name": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-    "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-    "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-    "updated_at": "2026-10-24T06:45:37Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2113798188293644613",
-    "name": "Claude Duet app is Anthropic's bet on agents",
-    "summary": "Claude Duet is available through waitlist for Pro and Max plan users",
-    "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
-    "updated_at": "2026-10-24T01:02:15Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2113659097618780556",
-    "name": "Ramp reaches $60B valuation as it pushes deeper into AI",
-    "summary": "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000.",
-    "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
-    "updated_at": "2026-10-23T15:49:33Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2113640623035027657",
-    "name": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
-    "summary": "“I may have information regarding this case,\" Claude AI told Philly police.",
-    "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-    "updated_at": "2026-10-23T14:36:08Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "Ars Technica"
-  },
-  {
-    "id": "2113617335080939613",
-    "name": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-    "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the mostly highly valued private company ever.",
-    "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-    "updated_at": "2026-10-23T13:03:36Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
+    "source": "WIRED"
   }
 ]
