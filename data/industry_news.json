@@ -1,5 +1,41 @@
 [
   {
+    "id": "2114707952158515580",
+    "name": "The ancient code holding the world together may meet its match in AI. Today is not that day.",
+    "summary": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+    "updated_at": "2026-10-26T13:17:19Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2114681332726890499",
+    "name": "The latest AI copyright infringement suit centers around a single music artist from decades past: Elvis.",
+    "summary": "",
+    "url": "https://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1793014103",
+    "updated_at": "2026-10-26T11:31:33Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "Engadget"
+  },
+  {
+    "id": "2114659390535971317",
+    "name": "ASUS ProArt P16 pairs NVIDIA's RTX Spark and up to 128GB RAM in a slim, OLED-equipped creator laptop that prioritizes AI power over broad compatibility.",
+    "summary": "",
+    "url": "https://x.com/engadget/status/2114659390535971317",
+    "updated_at": "2026-10-26T10:04:21Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "Engadget"
+  },
+  {
     "id": "2114651052448342430",
     "name": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
     "summary": "",
@@ -36,18 +72,6 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2114362607968608430",
-    "name": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
-    "summary": "",
-    "url": "https://buff.ly/ZMs9XZI",
-    "updated_at": "2026-10-25T14:25:03Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "WIRED"
-  },
-  {
     "id": "2114360094754320745",
     "name": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
     "summary": "",
@@ -72,6 +96,18 @@
     "source": "The Verge"
   },
   {
+    "id": "2114339442492068323",
+    "name": "Smart AI glasses are everywhere, but is the audio any good? It really depends on what you're using them for.",
+    "summary": "",
+    "url": "https://www.engadget.com/2292076/when-ai-glasses-worth-headphones-replacement/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1792932627",
+    "updated_at": "2026-10-25T12:53:00Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "Engadget"
+  },
+  {
     "id": "2114327156134420989",
     "name": "Publishers spent years figuring out how to get clicks on Google. But new AI search features have torn that ecosystem apart.",
     "summary": "",
@@ -82,41 +118,5 @@
       "Industry"
     ],
     "source": "The Verge"
-  },
-  {
-    "id": "2114070688025723363",
-    "name": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-    "summary": "",
-    "url": "https://spr.ly/6016BHdWZi",
-    "updated_at": "2026-10-24T19:05:04Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2114062662267175380",
-    "name": "Pennsylvania’s AI Deceptive Advertising Act leaves a lot of loopholes.",
-    "summary": "",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-    "updated_at": "2026-10-24T18:33:10Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
-  },
-  {
-    "id": "2114011303656268014",
-    "name": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-    "summary": "",
-    "url": "https://spr.ly/6017BHdK7F",
-    "updated_at": "2026-10-24T15:09:05Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
   }
 ]
