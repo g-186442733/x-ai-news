@@ -1,45 +1,67 @@
 [
   {
-    "id": "2114067820980109751",
-    "name": "AI Delivers Zero Financial Payoff to Non-Tech Firms, Analysis Finds",
-    "summary": "Apollo Global Management economist Torsten Slok analyzed S&P 500 data, finding revenue per worker and profit margins rising sharply for the Magnificent Seven tech leaders but flat for the other 493 firms, adjusted for inflation. Productivity shows no clear AI-driven gains yet in the broader group. Separate concerns highlight a potential $4.9 trillion revenue gap for data centers through 2030, with mainstream companies now treating AI token spending as a cost rather than growth driver. Skeptics note that aggregate metrics might miss early efficiencies or consumer benefits not yet in financial reports.",
-    "url": "https://x.com/i/trending/2114067820980109751",
-    "updated_at": "2026-10-26T15:16:52Z",
+    "id": "2114802671379189971",
+    "name": "Tech Giants Consult Religious Leaders to Teach AI Morality",
+    "summary": "Major firms including Meta, Google, Amazon, and Microsoft have turned to faith scholars for guidance on shaping AI ethics, aiming for models that capture broad human morals rather than rigid rules. Anthropic's Claude chatbot follows an 84-page constitution partly informed by religious input, while OpenAI's Sam Altman seeks a weighted average of humanity's views. Efforts like Faith-AI Covenant roundtables in New York and Paris foster these discussions, though some experts warn of distorting traditions or overlooking worldview clashes.",
+    "url": "https://x.com/i/trending/2114802671379189971",
+    "updated_at": "2026-10-26T19:41:25Z",
     "topics": [
       "Technology",
       "AI",
-      "Business & Finance"
+      "Religion"
     ]
   },
   {
-    "id": "2114736547509494071",
-    "name": "Goldman Sachs Finds AI Adoption Linked to Slower U.S. Job Growth",
-    "summary": "Goldman Sachs research shows a statistically significant link between AI adoption in U.S. firms and slower employment growth in industries like retail trade, real estate, insurance, and oil and gas services. Their data also connects AI use to rising unemployment in areas such as media, telecom, and professional services, with early shortfalls of about 10,000 jobs below trend in exposed sectors. Bill Gates, in an October 22 interview, warned of a 20-year disruption period ahead, even in the best case, as AI reshapes work from construction to surgery before broader prosperity arrives. Economists note that while new roles may emerge long-term, the near-term shift demands attention from policymakers.",
-    "url": "https://x.com/i/trending/2114736547509494071",
-    "updated_at": "2026-10-26T15:16:50Z",
-    "topics": [
-      "Business & Finance",
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2114330879086461367",
-    "name": "Anthropic Recommends Single AI Agent Over Complex Multi-Agent Setups",
-    "summary": "Anthropic advises companies to simplify AI agents by merging subagents into a single main loop that plans, calls tools, and revises in one context window. This approach boosts quality, cuts costs, and speeds up runs as newer models handle complexity better, outperforming multi-agent systems in enterprise tests. Builders shared mixed views: some see it solving team structure issues in demos, while others value separate roles to avoid overlaps, though subagents remain useful for parallel tasks or heavy context needs.",
-    "url": "https://x.com/i/trending/2114330879086461367",
-    "updated_at": "2026-10-26T14:51:22Z",
+    "id": "2114782259219771698",
+    "name": "OpenAI Launches GPT-6.1 Terra for Fast, Affordable AI Tasks",
+    "summary": "The new model excels in everyday work like interpreting drawings, automating workflows, drafting content, and handling screen tasks, rolling out now to Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex, with API access for developers. It boasts a 1,050,000-token context window, strong benchmarks like tripling speed on Agents’ Last Exam at one-tenth the cost, and pricing at $1 per million input tokens and $5 per million output tokens. Users praise its price-performance for agents and automation, though some await real-world tests to confirm the benchmarks.",
+    "url": "https://x.com/i/trending/2114782259219771698",
+    "updated_at": "2026-10-26T18:20:13Z",
     "topics": [
       "Technology",
       "AI"
     ]
   },
   {
-    "id": "2114632560781230142",
-    "name": "AI Tools Amplify Skills, Not Replace Them in Coding and Creativity",
-    "summary": "Conversations highlight how using AI to enhance thinking sets people apart from those just generating basic content. In coding, engineers note AI struggles with efficient, performant code despite handling simple tasks well, while creative fields see it as a workflow booster that frees humans for originality and emotion. Throughout, the consensus emerges that AI multiplies intelligence for skilled users but risks average outcomes without strong human input and oversight.",
-    "url": "https://x.com/i/trending/2114632560781230142",
-    "updated_at": "2026-10-26T08:21:56Z",
+    "id": "2114259775580172394",
+    "name": "AI Researchers and Biologists Clash on Simulating Life with Compute",
+    "summary": "A lively exchange highlighted Mira's claim that enough computing power could exactly model biology, citing AlphaFold's protein structure successes as proof that experiments might become optional. Biologists pushed back, stressing data shortages—like the decades of lab work behind AlphaFold's training data—and the immense challenges of dynamic cell systems, where even simple protein simulations last mere nanoseconds. Critics like Citrini and David Bellamy noted current tools falter on tasks like binding affinities, with personal tests showing just 49% accuracy, while initiatives like Virtual Biology Lab pour millions into gathering essential measurements. Everyone agrees AI speeds up hypothesis generation and analysis, but real validation needs lab experiments.",
+    "url": "https://x.com/i/trending/2114259775580172394",
+    "updated_at": "2026-10-26T17:01:20Z",
+    "topics": [
+      "Technology",
+      "AI",
+      "Biotech"
+    ]
+  },
+  {
+    "id": "2114357762482192405",
+    "name": "Nanbeige4.3-33B Tops Coding Benchmarks from Chinese Job Platform Lab",
+    "summary": "Nanbeige LLM Lab, part of China's BOSS Zhipin job platform, launched Nanbeige4.3-33B on October 25. This dense model excels on agentic benchmarks like Terminal-Bench (80.9 score) and DeepSWE (65.5), beating Qwen3.8-27B and others in most categories, while supporting a huge 512K-token context. Users praise its performance on everyday hardware like Macs or GPUs, though some note higher memory needs and early tweaks for inference speed. The lab plans a smaller 3B version distilled from this 'teacher' model, expanding options for developers building local AI agents.",
+    "url": "https://x.com/i/trending/2114357762482192405",
+    "updated_at": "2026-10-26T15:58:24Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2114521431853736167",
+    "name": "Developers Discuss Ideal Language for AI Code Agents",
+    "summary": "Pocock highlighted Bend as an early attempt but noted it's not ready for daily use after breaking its playground easily. Chris Lattner, Mojo's creator, responded by showcasing its advanced types, hardware support, and Python-like syntax for reliable AI-generated code. Developers debated needs like proof-based checks in Bend, strict compilers reducing manual reviews, and whether existing languages like Rust or Haskell suffice as AI writes more code.",
+    "url": "https://x.com/i/trending/2114521431853736167",
+    "updated_at": "2026-10-26T11:25:09Z",
+    "topics": [
+      "Technology",
+      "Software Development"
+    ]
+  },
+  {
+    "id": "2114600497210380411",
+    "name": "Gemini 4 Argon Tops AI Benchmarks Amid User Account Warnings",
+    "summary": "Gemini 4 Argon, paired with the Antigravity harness, delivered strong results on benchmarks like FrontierCS 2 and RSI-Inference Bench, surpassing models like GPT-6 Astra in pass rates and inference speedups. It ranked ahead on computer science R&D tasks and became the first non-Anthropic or OpenAI model to pass a Day-0 task. But developer Russakovskii received repeated policy violation notices tied to Gemini for 'interfering with services,' even when not using it, prompting him to quit the tool permanently—though Google staff later reached out to investigate. Developers note harness choices boost scores significantly, while the warnings highlight tensions between agent performance and safety filters.",
+    "url": "https://x.com/i/trending/2114600497210380411",
+    "updated_at": "2026-10-26T11:15:45Z",
     "topics": [
       "Technology",
       "AI"
@@ -51,29 +73,6 @@
     "summary": "Engineer Arpit Bhayani sparked the discussion on October 25, declaring no human will ever code better than large language models, a view echoed by many who say the debate is settled and it's time to move on. Critics like programmer Valentin Ignatev counter that AI spots bugs but delivers shallow fixes without rethinking architecture, while others note humans still lead in complex reasoning and novel problems. The exchange highlights a field in transition, where developers shift from raw coding to guiding AI on design, verification, and oversight.",
     "url": "https://x.com/i/trending/2114473450643337305",
     "updated_at": "2026-10-26T06:58:16Z",
-    "topics": [
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2114547782971543912",
-    "name": "Developers Debate AI's Role in Easing Game Coding Drudgery",
-    "summary": "A discussion highlights that 90% of game coding involves tough, repetitive tasks like fighting compilers and fixing bugs, while AI tools could handle that load to free humans for imagination and decisions. Builders note AI already speeds up scripts, data generation, and routine fixes, though understanding and maintaining the code remains key. While some worry AI might eventually touch creative work, most see it as a helpful collaborator that cuts toil without replacing human judgment.",
-    "url": "https://x.com/i/trending/2114547782971543912",
-    "updated_at": "2026-10-26T02:45:45Z",
-    "topics": [
-      "Technology",
-      "Software Development",
-      "Gaming"
-    ]
-  },
-  {
-    "id": "2114059501561160085",
-    "name": "AI Uncovers Software Bugs Too Fast for Patches, Warn CEOs",
-    "summary": "OpenAI CEO Sam Altman warned at Stanford that AI finds bugs beyond normal hacker reach, like hardware-level issues, making patching obsolete and pushing for AI-driven defenses. Cloudflare CEO Matthew Prince noted millions of exploit attempts hit newly disclosed PHP vulnerabilities affecting 70% of PHP sites, including WordPress and firewalls, patched October 21, 2026. Economist Noah Smith fears this could turn the free internet into a costly guarded space, though some say AI aids fixes and mass exploits haven't surged as feared.",
-    "url": "https://x.com/i/trending/2114059501561160085",
-    "updated_at": "2026-10-25T22:00:48Z",
     "topics": [
       "Technology",
       "AI"
@@ -102,11 +101,11 @@
     ]
   },
   {
-    "id": "2114020383020179888",
-    "name": "What Comes After AI? Online Speculation Explores Possibilities",
-    "summary": "A popular post sparked hundreds of responses imagining AI unlocking flying cars, humanoids, fusion energy, brain-computer interfaces, gene editing, quantum computing, and space exploration. Some highlight near-term advances like AI brain microchips boosting human intelligence, while others caution about dystopian risks such as economic disruption or human-machine conflict. Industry reports back this up, noting 2026 as a pivotal year for brain-computer interfaces with regulatory progress, and Gartner's 2027 forecast predicting smarter autonomous agents and physical-world simulations ahead.",
-    "url": "https://x.com/i/trending/2114020383020179888",
-    "updated_at": "2026-10-24T15:52:09Z",
+    "id": "2114062233106063551",
+    "name": "Ling-3.0-flash-Sante Brings Open-Source AI to Healthcare Reasoning",
+    "summary": "inclusionAI's Ant Ling team released Ling-3.0-flash-Sante this week, a 124-billion-parameter mixture-of-experts model that's efficient with just 5.1 billion active per token. It shines on benchmarks like HealthBench Professional at 54.29 and MedQA-USMLE at 94.21, supporting long 256K-token contexts for deep research and multi-agent tasks. Developers and researchers can download the weights from Hugging Face to experiment, though the team stresses it's for research only—not a replacement for professional medical advice—with real-world validation still needed.",
+    "url": "https://x.com/i/trending/2114062233106063551",
+    "updated_at": "2026-10-24T18:37:59Z",
     "topics": [
       "Technology",
       "AI"
