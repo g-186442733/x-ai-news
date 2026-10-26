@@ -60,6 +60,27 @@ def news(
     }
 
 
+def industry_news(
+    *,
+    record_id: str = "industry-1",
+    name: str = "SaaS retreat story",
+    summary: str = "Custom software and agentic platforms rise",
+    url: str = "https://techcrunch.com/2026/10/25/saas-retreat/",
+    source: str = "TechCrunch",
+    updated_at: str = "2026-10-25T17:14:32Z",
+    topics=None,
+) -> dict:
+    return {
+        "id": record_id,
+        "name": name,
+        "summary": summary,
+        "url": url,
+        "source": source,
+        "updated_at": updated_at,
+        "topics": ["SaaS", "AI"] if topics is None else topics,
+    }
+
+
 def base_snapshot() -> dict:
     return {
         "generated_at": "2026-10-26T02:05:34+08:00",
@@ -86,6 +107,7 @@ def base_snapshot() -> dict:
             )
         ],
         "news": [news()],
+        "industry_news": [industry_news()],
         "trends_ai": [],
         "grokbot_posts": [
             post(
@@ -158,7 +180,7 @@ class FetchSnapshotTests(unittest.TestCase):
         names = sorted(p.name for p in out.iterdir())
         self.assertEqual(
             names,
-            ["grokbot_posts.json", "meta.json", "news.json", "posts_en.json", "posts_zh.json", "trends_ai.json"],
+            ["grokbot_posts.json", "industry_news.json", "meta.json", "news.json", "posts_en.json", "posts_zh.json", "trends_ai.json"],
         )
         posts_zh = self.read_json(out / "posts_zh.json")
         self.assertEqual([p["text"] for p in posts_zh], ["更新的中文帖子", "中文帖子"])
@@ -274,7 +296,7 @@ class FetchSnapshotTests(unittest.TestCase):
 
     def test_empty_trends_and_all_empty_arrays_succeed(self) -> None:
         snapshot = base_snapshot()
-        for field in ("posts_zh", "posts_en", "news", "trends_ai", "grokbot_posts"):
+        for field in ("posts_zh", "posts_en", "news", "industry_news", "trends_ai", "grokbot_posts"):
             snapshot[field] = []
         path = self.write_snapshot(snapshot)
         out = self.tmp / "out"
@@ -319,7 +341,15 @@ class FetchSnapshotTests(unittest.TestCase):
         out = self.tmp / "out"
         out.mkdir()
         old = b'{"old": true}\n'
-        for name in ("posts_zh.json", "posts_en.json", "news.json", "trends_ai.json", "grokbot_posts.json", "meta.json"):
+        for name in (
+            "posts_zh.json",
+            "posts_en.json",
+            "news.json",
+            "industry_news.json",
+            "trends_ai.json",
+            "grokbot_posts.json",
+            "meta.json",
+        ):
             (out / name).write_bytes(old)
         path = self.tmp / "broken.json"
         path.write_text("{not json", encoding="utf-8")
@@ -329,6 +359,7 @@ class FetchSnapshotTests(unittest.TestCase):
             "posts_zh.json",
             "posts_en.json",
             "news.json",
+            "industry_news.json",
             "trends_ai.json",
             "grokbot_posts.json",
             "meta.json",
@@ -452,6 +483,7 @@ class FetchSnapshotTests(unittest.TestCase):
             "posts_zh.json",
             "posts_en.json",
             "news.json",
+            "industry_news.json",
             "trends_ai.json",
             "grokbot_posts.json",
             "meta.json",
@@ -503,6 +535,55 @@ class FetchSnapshotTests(unittest.TestCase):
             text=True,
         )
         self.assertEqual(bad.returncode, 2)
+
+
+
+    def test_industry_news_keeps_external_media_url_and_source(self) -> None:
+        snapshot = base_snapshot()
+        snapshot["industry_news"] = [
+            industry_news(
+                record_id="tc-1",
+                name="Agentic platforms grow",
+                url="https://www.theverge.com/2026/10/25/agentic",
+                source="The Verge",
+            ),
+            {
+                "name": "Missing source skipped",
+                "summary": "no source",
+                "url": "https://wired.com/story/x",
+                "updated_at": "2026-10-25T00:00:00Z",
+                "topics": [],
+            },
+            industry_news(
+                record_id="tc-2",
+                name="Also kept",
+                url="https://arstechnica.com/ai/2026/10/example/",
+                source="Ars Technica",
+                updated_at="2026-10-24T00:00:00Z",
+            ),
+        ]
+        path = self.write_snapshot(snapshot)
+        out = self.tmp / "out-industry"
+        result = self.run_fetch(path, out)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        records = self.read_json(out / "industry_news.json")
+        self.assertEqual(len(records), 2)
+        self.assertEqual(records[0]["source"], "The Verge")
+        self.assertEqual(records[0]["url"], "https://www.theverge.com/2026/10/25/agentic")
+        self.assertEqual(records[1]["source"], "Ars Technica")
+        self.assertIn("source must be a non-empty media name", result.stderr)
+        meta = self.read_json(out / "meta.json")
+        self.assertEqual(meta["summary"]["counts"]["industry_news"], 2)
+
+    def test_industry_news_all_invalid_fails(self) -> None:
+        snapshot = base_snapshot()
+        snapshot["industry_news"] = [{"name": "No source"}]
+        path = self.write_snapshot(snapshot)
+        out = self.tmp / "out-industry-fail"
+        result = self.run_fetch(path, out)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("industry_news", result.stderr)
+        self.assertFalse(out.exists())
 
 
 if __name__ == "__main__":

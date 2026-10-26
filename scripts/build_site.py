@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the standalone static site from normalized snapshot data.
 
-Only the six normalized files are read.  No network access, X credentials, or
+Only the seven normalized files are read.  No network access, X credentials, or
 raw snapshot fallback is used.
 """
 
@@ -26,7 +26,7 @@ from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 SCHEMA_VERSION = 1
-LIST_FIELDS = ("posts_zh", "posts_en", "news", "trends_ai", "grokbot_posts")
+LIST_FIELDS = ("posts_zh", "posts_en", "news", "industry_news", "trends_ai", "grokbot_posts")
 ARRAY_FILES = {field: f"{field}.json" for field in LIST_FIELDS}
 META_FILE = "meta.json"
 OUTPUT_FILES = ("index.html", "assets/site.css", "assets/site.js")
@@ -283,28 +283,40 @@ def _validate_posts(records: Any, field: str) -> None:
                 raise DataError(f"{where}.{key} must be a non-negative integer or null")
 
 
-def _validate_news(records: Any) -> None:
+def _validate_news_like(records: Any, field: str, *, require_source: bool = False) -> None:
     if not isinstance(records, list):
-        raise DataError("news must be an array")
+        raise DataError(f"{field} must be an array")
     seen: set[str] = set()
     for index, item in enumerate(records):
-        where = f"news.json [{index}]"
+        where = f"{field}.json [{index}]"
         if not isinstance(item, dict):
             raise DataError(f"{where} must be an object")
         record_id = item.get("id")
         if not isinstance(record_id, str) or not record_id:
             raise DataError(f"{where}.id must be a non-empty string")
         if record_id in seen:
-            raise DataError(f"news contains duplicate id {record_id}")
+            raise DataError(f"{field} contains duplicate id {record_id}")
         seen.add(record_id)
         if not isinstance(item.get("name"), str) or not item["name"].strip():
             raise DataError(f"{where}.name must be a non-empty string")
         for key in ("summary", "url", "updated_at"):
             if item.get(key) is not None and not isinstance(item[key], str):
                 raise DataError(f"{where}.{key} must be a string or null")
+        if require_source:
+            source = item.get("source")
+            if not isinstance(source, str) or not source.strip():
+                raise DataError(f"{where}.source must be a non-empty string")
         topics = item.get("topics")
         if not isinstance(topics, list) or not all(isinstance(topic, str) for topic in topics):
             raise DataError(f"{where}.topics must be an array of strings")
+
+
+def _validate_news(records: Any) -> None:
+    _validate_news_like(records, "news", require_source=False)
+
+
+def _validate_industry_news(records: Any) -> None:
+    _validate_news_like(records, "industry_news", require_source=True)
 
 
 def _validate_trends(records: Any) -> None:
@@ -349,6 +361,7 @@ def load_dataset(data_dir: Path) -> tuple[dict[str, Any], dict[str, list[Any]], 
     _validate_posts(parsed["posts_en"], "posts_en")
     _validate_posts(parsed["grokbot_posts"], "grokbot_posts")
     _validate_news(parsed["news"])
+    _validate_industry_news(parsed["industry_news"])
     _validate_trends(parsed["trends_ai"])
     _validate_meta(meta, parsed, raw_bytes)
 
@@ -456,13 +469,22 @@ def _render_post(post: dict[str, Any], lang: str, dom_id: str) -> str:
 </article>"""
 
 
-def _render_news(item: dict[str, Any], lang: str, dom_id: str) -> str:
+def _render_news(item: dict[str, Any], lang: str, dom_id: str, *, show_source: bool = False) -> str:
     zh = lang == "zh"
     name = item.get("name", "")
     link = _render_external_link(item.get("url"), str(name), "news-link")
     title = link if link else esc(name)
     summary = item.get("summary")
     summary_html = f'<p class="news-summary">{esc(summary)}</p>' if summary else ""
+    source_html = ""
+    if show_source:
+        source = item.get("source")
+        if isinstance(source, str) and source.strip():
+            label = "来源" if zh else "Source"
+            source_html = (
+                f'<p class="news-source"><span class="news-source-label">{esc(label)}</span>'
+                f'{esc(source.strip())}</p>'
+            )
     topics = item.get("topics") or []
     topics_html = ""
     if topics:
@@ -473,6 +495,7 @@ def _render_news(item: dict[str, Any], lang: str, dom_id: str) -> str:
   <div class="news-meta">{_render_time(item.get("updated_at"), lang)}</div>
   <h4 class="news-title">{title}</h4>
   {summary_html}
+  {source_html}
   {topics_html}
 </article>"""
 
@@ -581,10 +604,13 @@ def _render_panel(meta: dict[str, Any], arrays: dict[str, list[Any]], lang: str)
     posts = arrays["posts_zh"] if zh else arrays["posts_en"]
     posts_heading_id = f"posts-heading-{lang}"
     news_heading_id = f"news-heading-{lang}"
+    industry_heading_id = f"industry-news-heading-{lang}"
     posts_heading = "AI 帖子" if zh else "AI Posts"
     news_heading = "AI 新闻" if zh else "AI News"
+    industry_heading = "产业趋势与商业动态" if zh else "Industry & Business"
     empty_posts = "暂无中文帖子" if zh else "No English posts yet"
     empty_news = "暂无新闻" if zh else "No news yet"
+    empty_industry = "暂无产业新闻" if zh else "No industry news yet"
 
     if posts:
         post_cards = "".join(
@@ -604,6 +630,20 @@ def _render_panel(meta: dict[str, Any], arrays: dict[str, list[Any]], lang: str)
     else:
         news_html = f'<p class="empty-state">{esc(empty_news)}</p>'
 
+    if arrays["industry_news"]:
+        industry_cards = "".join(
+            _render_news(
+                item,
+                lang,
+                f"{lang}-industry-news-{index}",
+                show_source=True,
+            )
+            for index, item in enumerate(arrays["industry_news"])
+        )
+        industry_html = f'<div class="news-list industry-news-list">{industry_cards}</div>'
+    else:
+        industry_html = f'<p class="empty-state">{esc(empty_industry)}</p>'
+
     trends_html = _render_trends(meta, arrays["trends_ai"], lang)
     grok_html = _render_grokbot(meta, arrays["grokbot_posts"], lang)
 
@@ -619,10 +659,14 @@ def _render_panel(meta: dict[str, Any], arrays: dict[str, list[Any]], lang: str)
       <h3 class="section-title" id="{posts_heading_id}">{esc(posts_heading)}</h3>
       {posts_html}
     </section>
-    <aside class="sidebar" aria-label="{esc("新闻与趋势" if zh else "News and trends")}">
+    <aside class="sidebar" aria-label="{esc("新闻、产业与趋势" if zh else "News, industry, and trends")}">
       <section class="card news-section" aria-labelledby="{news_heading_id}">
         <h3 class="section-title" id="{news_heading_id}">{esc(news_heading)}</h3>
         {news_html}
+      </section>
+      <section class="card news-section industry-news-section" aria-labelledby="{industry_heading_id}">
+        <h3 class="section-title" id="{industry_heading_id}">{esc(industry_heading)}</h3>
+        {industry_html}
       </section>
       {trends_html}
     </aside>
@@ -645,7 +689,7 @@ def render_page(
     stale_zh = _stale_text(status, "zh", stale_after_hours)
     stale_en = _stale_text(status, "en", stale_after_hours)
     hidden = " hidden" if status == "fresh" else ""
-    description = "X 公开信息快照：Grok Bot 特色、AI 帖子、AI 新闻与 AI 趋势。"
+    description = "X 公开信息快照：Grok Bot 特色、AI 帖子、AI 新闻、产业趋势与商业动态、AI 趋势。"
     tabs = f"""
       <div class="lang-tabs" role="tablist" aria-label="语言 / Language">
         <button class="lang-tab" type="button" role="tab" id="tab-zh" aria-selected="true" aria-controls="panel-zh" tabindex="0" data-lang="zh" lang="zh-Hans">中文</button>
