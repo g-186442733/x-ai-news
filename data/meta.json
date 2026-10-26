@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T14:06:26+08:00",
+  "generated_at": "2026-10-26T15:15:29+08:00",
   "timezone": "Asia/Shanghai",
   "source": "Grok Bot built-in X public reads (namespace x)",
   "trends_note": "当前全球趋势 Top 50 中无明确 AI 词条，已过滤为空。",
@@ -40,13 +40,13 @@
     "warnings": 0,
     "ignored_fields": 0
   },
-  "snapshot_sha256": "a9744a0b762d1493e34987a8e8a9790551cadbcc82e7180767e5b5cebef7c9ed",
+  "snapshot_sha256": "aad37ba9beced25d8de39bd3e6ae63e085d82f7389ae6cac54e03ab931c14df5",
   "files_sha256": {
-    "posts_zh.json": "82be8c6297f58275d9a3db20c1bc8e3de82f74ed55875b6b9dce155ae91e1a1c",
-    "posts_en.json": "fc6bf3cae12864c7e05cf879b62283e7807508133a46245219adecc31e6d0f07",
-    "news.json": "efb9ef33cc5630e2c6fcf0e4fb8985f81a57bdd6399e281cb60c917446a84d43",
+    "posts_zh.json": "c858d30c8e8cd9331d56177bf7075b53a84d38f7bc7af23296d5cdeae5962d05",
+    "posts_en.json": "75a4df2b77dfbda534061087222939dcded7e94f98798de0240d74cb0711eb9a",
+    "news.json": "14007e29e440f450e863d69861c9c9f250fbd17c1044ed087ea2c24f1a954ab1",
     "industry_news.json": "4ac112296405aaf5e8bbe0130a893a806901ca681eb77864b8f19f1753ed8d0f",
     "trends_ai.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "grokbot_posts.json": "ae0fa6d513691b0dfe69a3bc2775e5abe1517cb1b5c83b394afa406763fd0ca6"
+    "grokbot_posts.json": "1a8aec6fe06ff75f5d2ef6e2dd948e8928ef0b9e01835615ef17deeefe5ae814"
   }
 }
