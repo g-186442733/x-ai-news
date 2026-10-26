@@ -1,23 +1,13 @@
 [
   {
-    "id": "2114473450643337305",
-    "name": "Debate Heats Up Over Whether AI Writes Better Code Than Humans",
-    "summary": "Engineer Arpit Bhayani sparked the discussion on October 25, declaring no human will ever code better than large language models, a view echoed by many who say the debate is settled and it's time to move on. Critics like programmer Valentin Ignatev counter that AI spots bugs but delivers shallow fixes without rethinking architecture, while others note humans still lead in complex reasoning and novel problems. The exchange highlights a field in transition, where developers shift from raw coding to guiding AI on design, verification, and oversight.",
-    "url": "https://x.com/i/trending/2114473450643337305",
-    "updated_at": "2026-10-26T06:58:16Z",
-    "topics": [
-      "Technology"
-    ]
-  },
-  {
-    "id": "2114600496728092896",
-    "name": "Pomerado Startup Sees Rapid User Growth Days After Launch",
-    "summary": "Pomerado, a new Y Combinator startup, turns websites into reliable APIs for AI agents, making them faster, cheaper, and more dependable than browser use. Founders Akshay Manglik and Alan Ma, with backgrounds at Scale AI and McKinsey, released it on October 25, and accounts surged immediately, with demos showing 321x speed gains over baselines. The open-source tool handles tasks via natural language, auto-builds integrations, and offers a free tier at pomerado.ai, drawing developer interest for legacy systems and internal tools.",
-    "url": "https://x.com/i/trending/2114600496728092896",
-    "updated_at": "2026-10-26T06:13:51Z",
+    "id": "2114627369520836717",
+    "name": "AI Amplifies Your Own Smarts, Not Everyone Equally",
+    "summary": "Posts highlight that AI multiplies users' existing intelligence—smart prompting and spotting errors lead to standout results, while casual use yields average ones. An MIT Sloan study backs this, showing half of performance gains come from users crafting better prompts for stronger models. Experts like Wharton professor Ethan Mollick advise pushing AI to its limits, rewarding those who refine their thinking and approach.",
+    "url": "https://x.com/i/trending/2114627369520836717",
+    "updated_at": "2026-10-26T08:02:23Z",
     "topics": [
       "Technology",
-      "Entrepreneurship"
+      "AI"
     ]
   },
   {
@@ -82,6 +72,17 @@
     "summary": "A popular post sparked hundreds of responses imagining AI unlocking flying cars, humanoids, fusion energy, brain-computer interfaces, gene editing, quantum computing, and space exploration. Some highlight near-term advances like AI brain microchips boosting human intelligence, while others caution about dystopian risks such as economic disruption or human-machine conflict. Industry reports back this up, noting 2026 as a pivotal year for brain-computer interfaces with regulatory progress, and Gartner's 2027 forecast predicting smarter autonomous agents and physical-world simulations ahead.",
     "url": "https://x.com/i/trending/2114020383020179888",
     "updated_at": "2026-10-24T15:52:09Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2113532345743757791",
+    "name": "Harvard Study: AI Peer Reviews Outperform Top Human Experts",
+    "summary": "Researchers at Harvard compared AI-generated reviews using Claude Opus against high-quality human expert reviews from their rapidPeer service across 134 manuscript pairs. An AI judge picked the AI version 100% of the time in decided cases, while three former journal editors chose AI reviews 87% blindly; AI excelled in spotting weaknesses, methods, and errors with far fewer mistakes than humans. Academics hailed the potential for faster, consistent reviews but raised concerns about AI gatekeeping ideas or struggling with big-picture judgments. The authors suggest journals use AI for initial screening with human oversight to speed up science while managing risks.",
+    "url": "https://x.com/i/trending/2113532345743757791",
+    "updated_at": "2026-10-24T15:26:59Z",
     "topics": [
       "Technology",
       "AI"

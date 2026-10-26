@@ -1,22 +1,10 @@
 [
   {
-    "id": "2114439213991297506",
-    "name": "Zen rips off all the best bits of Arc, but skips the AI and bloat.",
-    "summary": "",
-    "url": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
-    "updated_at": "2026-10-25T19:29:27Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
-  },
-  {
-    "id": "2114388788705218897",
-    "name": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-    "summary": "",
-    "url": "https://spr.ly/6014BH5z6A",
-    "updated_at": "2026-10-25T16:09:05Z",
+    "id": "2114583652390646247",
+    "name": "Left alone with nothing to do, AI agents started playing",
+    "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+    "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+    "updated_at": "2026-10-26T05:03:24Z",
     "topics": [
       "AI",
       "Industry"
@@ -24,23 +12,11 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2114362607968608430",
-    "name": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
-    "summary": "",
-    "url": "https://buff.ly/ZMs9XZI",
-    "updated_at": "2026-10-25T14:25:03Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "WIRED"
-  },
-  {
-    "id": "2114360094754320745",
-    "name": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-    "summary": "",
-    "url": "https://spr.ly/6014BHehzk",
-    "updated_at": "2026-10-25T14:15:04Z",
+    "id": "2114446936392478743",
+    "name": "The hottest AI wearables and gadgets you should know about",
+    "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+    "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+    "updated_at": "2026-10-25T20:00:08Z",
     "topics": [
       "AI",
       "Industry"
@@ -48,35 +24,23 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2114348344101491151",
-    "name": "The opensource subreddit’s new rules against AI have sparked a revolt.",
-    "summary": "",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-    "updated_at": "2026-10-25T13:28:22Z",
+    "id": "2114422100626952693",
+    "name": "\"Cognitive surrender\" leads AI users to abandon logical thinking, research finds",
+    "summary": "Experiments show large majorities uncritically accepting \"faulty\" AI answers.",
+    "url": "https://arstechnica.com/ai/2026/04/research-finds-ai-users-scarily-willing-to-surrender-their-cognition-to-llms/",
+    "updated_at": "2026-10-25T18:21:27Z",
     "topics": [
       "AI",
       "Industry"
     ],
-    "source": "The Verge"
+    "source": "Ars Technica"
   },
   {
-    "id": "2114327156134420989",
-    "name": "Publishers spent years figuring out how to get clicks on Google. But new AI search features have torn that ecosystem apart.",
-    "summary": "",
-    "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-    "updated_at": "2026-10-25T12:04:10Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
-  },
-  {
-    "id": "2114070688025723363",
-    "name": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-    "summary": "",
-    "url": "https://spr.ly/6016BHdWZi",
-    "updated_at": "2026-10-24T19:05:04Z",
+    "id": "2114401640010649662",
+    "name": "AI delivers ‘zero financial payoff’ to most companies, according to Apollo economist",
+    "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+    "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+    "updated_at": "2026-10-25T17:00:09Z",
     "topics": [
       "AI",
       "Industry"
@@ -84,23 +48,11 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2114062662267175380",
-    "name": "Pennsylvania’s AI Deceptive Advertising Act leaves a lot of loopholes.",
-    "summary": "",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-    "updated_at": "2026-10-24T18:33:10Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
-  },
-  {
-    "id": "2114011303656268014",
-    "name": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-    "summary": "",
-    "url": "https://spr.ly/6017BHdK7F",
-    "updated_at": "2026-10-24T15:09:05Z",
+    "id": "2114283679325585838",
+    "name": "The AI graveyard: a running list of projects and startups that didn't make it",
+    "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "updated_at": "2026-10-25T09:11:25Z",
     "topics": [
       "AI",
       "Industry"
@@ -108,15 +60,63 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2113995196081828195",
-    "name": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-    "summary": "",
-    "url": "https://spr.ly/6019BHd8TR",
-    "updated_at": "2026-10-24T14:05:05Z",
+    "id": "2114256191694241883",
+    "name": "Riffusion’s AI generates music from text using visual sonograms",
+    "summary": "Stable Diffusion-powered music generator processes sound in the visual space.",
+    "url": "https://arstechnica.com/information-technology/2022/12/riffusions-ai-generates-music-from-text-using-visual-sonograms/",
+    "updated_at": "2026-10-25T07:22:11Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "Ars Technica"
+  },
+  {
+    "id": "2114254538232287631",
+    "name": "Block's new voice model sounds eerily human",
+    "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+    "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+    "updated_at": "2026-10-25T07:15:37Z",
     "topics": [
       "AI",
       "Industry"
     ],
     "source": "TechCrunch"
+  },
+  {
+    "id": "2114240058379366568",
+    "name": "TechCrunch | Startup and Technology News",
+    "summary": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+    "url": "https://techcrunch.com",
+    "updated_at": "2026-10-25T06:18:05Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2114159084685709726",
+    "name": "Updated Google privacy policy says your Gmail might be used for advertising",
+    "summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+    "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+    "updated_at": "2026-10-25T00:56:19Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "Ars Technica"
+  },
+  {
+    "id": "2113986188289732773",
+    "name": "Epic Games reportedly pivoting to \"AI first\" game development model",
+    "summary": "No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+    "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+    "updated_at": "2026-10-24T13:29:17Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "Ars Technica"
   }
 ]
