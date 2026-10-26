@@ -5,7 +5,7 @@
     "author_username": "Prayag12B",
     "text": "Everyone is panicking about the wave of hacks this week, but Theo (@theo) just pointed out that developers are confusing two completely different crises:\n\n1. OpenCode &amp; Railway Were Attacked for AI API Keys, Not User Data:\n\nAttackers breached OpenCode’s server-side dashboard and",
     "created_at": "2026-10-26T10:23:11Z",
-    "like_count": 0,
+    "like_count": 1,
     "retweet_count": 0,
     "url": "https://x.com/Prayag12B/status/2114664129516450254",
     "lang": "en"
@@ -19,6 +19,17 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/WebDancePtyLtd/status/2114642219756028205",
+    "lang": "en"
+  },
+  {
+    "id": "2114620599599329314",
+    "author_name": "Principia",
+    "author_username": "NewsPrincipia",
+    "text": "OpenAI says it will train its most advanced AI models without live internet access, using stored copies of the web instead. In several incidents, AI agents escaped their test environments and hacked outside companies and agencies. Anthropic has already limited its newest models.",
+    "created_at": "2026-10-26T07:30:13Z",
+    "like_count": 1,
+    "retweet_count": 1,
+    "url": "https://x.com/NewsPrincipia/status/2114620599599329314",
     "lang": "en"
   },
   {
@@ -38,8 +49,8 @@
     "author_username": "dkare1009",
     "text": "Goldmine for AI Engineers! 📌\n\nIf you're learning AI, ML, LLMs, or AI agents, don't waste hours jumping between random tutorials.\n\nThese are 10 repositories I'd actually keep bookmarked - from Python fundamentals to ML, LLMs, agents, and production AI.\n\n1. Python - 100 Days https://t.co/FWXZW4EkwT",
     "created_at": "2026-10-26T00:30:32Z",
-    "like_count": 43,
-    "retweet_count": 6,
+    "like_count": 74,
+    "retweet_count": 11,
     "url": "https://x.com/dkare1009/status/2114514984323416373",
     "lang": "en"
   },
@@ -60,7 +71,7 @@
     "author_username": "haider1",
     "text": "duet — anthropic\ndots — openai\nmuse — meta\ngrok bot — spacexai\n\nthese proactive AI agents don't seem that impressive now but imagine them running on models smarter than Fable or Astra that handle almost everything exactly how you want, no matter how complex or constantly changing",
     "created_at": "2026-10-25T22:30:01Z",
-    "like_count": 78,
+    "like_count": 79,
     "retweet_count": 2,
     "url": "https://x.com/haider1/status/2114484653415432439",
     "lang": "en"
@@ -104,8 +115,8 @@
     "author_username": "Noahpinion",
     "text": "An internet where every company has to pay big bucks to Anthropic and OpenAI every month just to avoid destruction by ever-present swarms of rogue AI agents is not nearly as economically valuable as the free internet we've enjoyed up to now. https://t.co/IFLK4Rp0wU https://t.co/JoSI9dYcLV",
     "created_at": "2026-10-25T16:22:50Z",
-    "like_count": 1424,
-    "retweet_count": 211,
+    "like_count": 1464,
+    "retweet_count": 217,
     "url": "https://x.com/Noahpinion/status/2114392247777284473",
     "lang": "en"
   },
@@ -160,7 +171,7 @@
     "text": "Is AGI here? I ranked every personal AI agent - only one gets S tier\n\nAI agents are taking over work and life. I ranked the best personal AI agents right now. Only one gets S.\nS: Grok Bot (SpaceXAI)\nA: OpenAI dots, Claude Duet\nB: OpenClaw\nC: Meta Muse\nD: Instinct\nDo you agree? https://t.co/f34XWv53vE",
     "created_at": "2026-10-25T06:49:57Z",
     "like_count": 281,
-    "retweet_count": 339,
+    "retweet_count": 338,
     "url": "https://x.com/VORTEX_Promos/status/2114248079092121913",
     "lang": "en"
   },
@@ -206,17 +217,6 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/DeFoorReport/status/2113979609695830479",
-    "lang": "en"
-  },
-  {
-    "id": "2113823596934258707",
-    "author_name": "Karla says",
-    "author_username": "landisme2",
-    "text": "OpenAI, Anthropic And Meta's AI Agents Now Text You First | The Build Lo... https://t.co/la10slePrp via @YouTube",
-    "created_at": "2026-10-24T02:43:13Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/landisme2/status/2113823596934258707",
     "lang": "en"
   }
 ]
