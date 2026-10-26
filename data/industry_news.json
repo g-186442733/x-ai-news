@@ -1,5 +1,65 @@
 [
   {
+    "id": "2114731836530131383",
+    "name": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+    "summary": "",
+    "url": "https://buff.ly/eREZdBY",
+    "updated_at": "2026-10-26T14:52:14Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "WIRED"
+  },
+  {
+    "id": "2114728526158905726",
+    "name": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+    "summary": "",
+    "url": "https://spr.ly/6011BHgLYZ",
+    "updated_at": "2026-10-26T14:39:05Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2114726835317879153",
+    "name": "Tesla wants AI and software to be its next profit engine",
+    "summary": "",
+    "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/?utm_campaign=dhtwitter&utm_content=%3Cmedia_url%3E&utm_medium=social&utm_source=twitter",
+    "updated_at": "2026-10-26T14:32:21Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "Ars Technica"
+  },
+  {
+    "id": "2114720977279922550",
+    "name": "Matiks has introduced a new platform for users to create games using AI.",
+    "summary": "",
+    "url": "https://spr.ly/6018BHgaye",
+    "updated_at": "2026-10-26T14:09:05Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2114719462373105779",
+    "name": "The author of The AGI Chronicles and co-host of Machine Gods on going all-in on YouTube and the AI race.",
+    "summary": "",
+    "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+    "updated_at": "2026-10-26T14:03:04Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
     "id": "2114707952158515580",
     "name": "The ancient code holding the world together may meet its match in AI. Today is not that day.",
     "summary": "",
@@ -53,66 +113,6 @@
     "summary": "",
     "url": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
     "updated_at": "2026-10-25T19:29:27Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
-  },
-  {
-    "id": "2114388788705218897",
-    "name": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-    "summary": "",
-    "url": "https://spr.ly/6014BH5z6A",
-    "updated_at": "2026-10-25T16:09:05Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2114360094754320745",
-    "name": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-    "summary": "",
-    "url": "https://spr.ly/6014BHehzk",
-    "updated_at": "2026-10-25T14:15:04Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "TechCrunch"
-  },
-  {
-    "id": "2114348344101491151",
-    "name": "The opensource subreddit’s new rules against AI have sparked a revolt.",
-    "summary": "",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-    "updated_at": "2026-10-25T13:28:22Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
-  },
-  {
-    "id": "2114339442492068323",
-    "name": "Smart AI glasses are everywhere, but is the audio any good? It really depends on what you're using them for.",
-    "summary": "",
-    "url": "https://www.engadget.com/2292076/when-ai-glasses-worth-headphones-replacement/?utm_term=Autofeed&utm_campaign=Echobox-Engadget&utm_medium=Social-Distribution&utm_source=Twitter#Echobox=1792932627",
-    "updated_at": "2026-10-25T12:53:00Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "Engadget"
-  },
-  {
-    "id": "2114327156134420989",
-    "name": "Publishers spent years figuring out how to get clicks on Google. But new AI search features have torn that ecosystem apart.",
-    "summary": "",
-    "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-    "updated_at": "2026-10-25T12:04:10Z",
     "topics": [
       "AI",
       "Industry"

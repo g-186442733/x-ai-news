@@ -1,22 +1,35 @@
 [
   {
-    "id": "2114438480952807608",
-    "name": "Bill Gates Predicts AI and Robots Will Reshape Work Over Next 20 Years",
-    "summary": "In a recent Verge podcast, Gates described AI and humanoid robots transforming jobs, from construction to medicine, creating disruption with winners and losers before abundance arrives. He urged society to prepare for this shift, highlighting technology's potential for good amid upheaval. Observers noted hiring slowdowns as an early sign, while economic data shows AI productivity gains limited to big tech so far, sparking concerns over jobs, education, and irreplaceable human elements in fields like medicine.",
-    "url": "https://x.com/i/trending/2114438480952807608",
-    "updated_at": "2026-10-26T13:00:20Z",
+    "id": "2114067820980109751",
+    "name": "AI Delivers Zero Financial Payoff to Non-Tech Firms, Analysis Finds",
+    "summary": "Apollo Global Management economist Torsten Slok analyzed S&P 500 data, finding revenue per worker and profit margins rising sharply for the Magnificent Seven tech leaders but flat for the other 493 firms, adjusted for inflation. Productivity shows no clear AI-driven gains yet in the broader group. Separate concerns highlight a potential $4.9 trillion revenue gap for data centers through 2030, with mainstream companies now treating AI token spending as a cost rather than growth driver. Skeptics note that aggregate metrics might miss early efficiencies or consumer benefits not yet in financial reports.",
+    "url": "https://x.com/i/trending/2114067820980109751",
+    "updated_at": "2026-10-26T15:16:52Z",
     "topics": [
+      "Technology",
+      "AI",
+      "Business & Finance"
+    ]
+  },
+  {
+    "id": "2114736547509494071",
+    "name": "Goldman Sachs Finds AI Adoption Linked to Slower U.S. Job Growth",
+    "summary": "Goldman Sachs research shows a statistically significant link between AI adoption in U.S. firms and slower employment growth in industries like retail trade, real estate, insurance, and oil and gas services. Their data also connects AI use to rising unemployment in areas such as media, telecom, and professional services, with early shortfalls of about 10,000 jobs below trend in exposed sectors. Bill Gates, in an October 22 interview, warned of a 20-year disruption period ahead, even in the best case, as AI reshapes work from construction to surgery before broader prosperity arrives. Economists note that while new roles may emerge long-term, the near-term shift demands attention from policymakers.",
+    "url": "https://x.com/i/trending/2114736547509494071",
+    "updated_at": "2026-10-26T15:16:50Z",
+    "topics": [
+      "Business & Finance",
+      "Technology",
       "AI"
     ]
   },
   {
-    "id": "2114067820980109751",
-    "name": "Economist: AI Delivers Zero Payoff Outside Tech Sector",
-    "summary": "In an October 24 note, Apollo Chief Economist Torsten Slok highlighted stark data splits: revenue per worker and profit margins rose for the Magnificent Seven tech giants but stayed flat for the other 493 S&P 500 firms. Mainstream businesses now treat AI token spending as a cost dragging on margins, with no broad productivity gains in sight. Meanwhile, a massive $4.9 trillion revenue gap looms for data-center investments by 2030, raising risks for over $3.5 trillion in AI infrastructure spending.",
-    "url": "https://x.com/i/trending/2114067820980109751",
-    "updated_at": "2026-10-26T13:00:17Z",
+    "id": "2114330879086461367",
+    "name": "Anthropic Recommends Single AI Agent Over Complex Multi-Agent Setups",
+    "summary": "Anthropic advises companies to simplify AI agents by merging subagents into a single main loop that plans, calls tools, and revises in one context window. This approach boosts quality, cuts costs, and speeds up runs as newer models handle complexity better, outperforming multi-agent systems in enterprise tests. Builders shared mixed views: some see it solving team structure issues in demos, while others value separate roles to avoid overlaps, though subagents remain useful for parallel tasks or heavy context needs.",
+    "url": "https://x.com/i/trending/2114330879086461367",
+    "updated_at": "2026-10-26T14:51:22Z",
     "topics": [
-      "Business & Finance",
       "Technology",
       "AI"
     ]
@@ -94,17 +107,6 @@
     "summary": "A popular post sparked hundreds of responses imagining AI unlocking flying cars, humanoids, fusion energy, brain-computer interfaces, gene editing, quantum computing, and space exploration. Some highlight near-term advances like AI brain microchips boosting human intelligence, while others caution about dystopian risks such as economic disruption or human-machine conflict. Industry reports back this up, noting 2026 as a pivotal year for brain-computer interfaces with regulatory progress, and Gartner's 2027 forecast predicting smarter autonomous agents and physical-world simulations ahead.",
     "url": "https://x.com/i/trending/2114020383020179888",
     "updated_at": "2026-10-24T15:52:09Z",
-    "topics": [
-      "Technology",
-      "AI"
-    ]
-  },
-  {
-    "id": "2113627028020969817",
-    "name": "AI Tools Boost Productivity, But Human Skills Remain Key",
-    "summary": "Infographics break down AI options like Midjourney for images, Cursor for coding, and Runway for video, advising users to pick just a few for their routines. A Harvard study showed AI peer reviews beating human experts, with editors favoring them 87 percent of the time for fewer errors. PwC data reveals AI-exposed companies growing jobs faster, emphasizing human judgment and creativity amid shifting roles. The discussion stresses directing AI wisely rather than chasing every tool.",
-    "url": "https://x.com/i/trending/2113627028020969817",
-    "updated_at": "2026-10-24T13:23:06Z",
     "topics": [
       "Technology",
       "AI"
