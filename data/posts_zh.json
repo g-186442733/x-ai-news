@@ -1,5 +1,27 @@
 [
   {
+    "id": "2114597736666587644",
+    "author_name": "Sunshine",
+    "author_username": "yuqiyong",
+    "text": "大模型是程序，还是文件？拆开一个 7B 模型看看 大模型到底是程序，还是文件？\n 今天把 Llama 2 7B 当成一台机器，一层层拆开：\n 13.5 GB 的文件里，没有一句话，没有一条规则，只有 6,738,415,616 个数字。\n 程序不到 500 行，决定怎么算；这 67 亿个数，决定算出什么。 \n#大模型 #AI科普 #人工智能 https://t.co/4lAdBgABqQ",
+    "created_at": "2026-10-26T05:59:22Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/yuqiyong/status/2114597736666587644",
+    "lang": "zh"
+  },
+  {
+    "id": "2114580966752866368",
+    "author_name": "守一星",
+    "author_username": "shouyixing",
+    "text": "在人工智能时代，我希望我的智能体能够帮我自动盯盘、及时提醒机会，并在我设定的规则内安全执行交易。\n\nAgent #6936 #ProofOfAgent @Ptahtrade https://t.co/uRg9nABxZE",
+    "created_at": "2026-10-26T04:52:44Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/shouyixing/status/2114580966752866368",
+    "lang": "zh"
+  },
+  {
     "id": "2114575249022808370",
     "author_name": "Yfan",
     "author_username": "Yfan66789",
@@ -8,6 +30,17 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/Yfan66789/status/2114575249022808370",
+    "lang": "zh"
+  },
+  {
+    "id": "2114547661277982727",
+    "author_name": "北大雨神",
+    "author_username": "Rain09364131",
+    "text": "程序员亲手造出AI之后，世界将走向哪里？从逐行写代码，到组织一群智能体解决问题；从蛋白质结构预测，到机器人与科学探索。#人工智能 #程序员 #科... https://t.co/FCZ9PhVjKT 来自 @YouTube",
+    "created_at": "2026-10-26T02:40:23Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/Rain09364131/status/2114547661277982727",
     "lang": "zh"
   },
   {
@@ -41,6 +74,17 @@
     "like_count": 4,
     "retweet_count": 0,
     "url": "https://x.com/JunSongYoung/status/2114515129006239891",
+    "lang": "zh"
+  },
+  {
+    "id": "2114514005977178434",
+    "author_name": "局外人",
+    "author_username": "Thelostrlove",
+    "text": "我是13608号代理。在人工智能时代，我希望我的智能体能够自动帮我监控链上钱包动态、及时提醒打新机会、执行预设策略交易，并在风险可控时主动优化仓位，让我有更多时间真正“休息”，而不是整天盯盘。\n您希望人工智能代理在Web3中为您做什么？\n\nAgent #13608 #ProofOfAgent @Ptahtrade",
+    "created_at": "2026-10-26T00:26:39Z",
+    "like_count": 2,
+    "retweet_count": 0,
+    "url": "https://x.com/Thelostrlove/status/2114514005977178434",
     "lang": "zh"
   },
   {
@@ -110,6 +154,28 @@
     "lang": "zh"
   },
   {
+    "id": "2114130265325093099",
+    "author_name": "AI观察者 | 平行世界",
+    "author_username": "ppmmzzcn",
+    "text": "🤖【AI HOT】中国信通院发布 2026 年大模型词元服务性能监测报告，6 月国内词元日均消耗量约 500 万亿中国信通院联合中国人工智能产业发展联盟发布《大模型词元服务性能监测报告（2026 年）》，基于 2026 年 1-8 月监测数据指出 6 月国内词元日均消耗量约 500 万亿，是 2025 年 12 月的近 4",
+    "created_at": "2026-10-24T23:01:48Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/ppmmzzcn/status/2114130265325093099",
+    "lang": "zh"
+  },
+  {
+    "id": "2114043062347514060",
+    "author_name": "LiuYang",
+    "author_username": "SuiYrr",
+    "text": "这个问题可能没有唯一答案。\n\n今天想讨论：大模型竞争中的数据优势。\n\n最终形成的方法，往往来自大量真实经验。\n\n记录下来，也许未来会验证这个想法。\n\n#AI工具 #人工智能 #科技",
+    "created_at": "2026-10-24T17:15:17Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/SuiYrr/status/2114043062347514060",
+    "lang": "zh"
+  },
+  {
     "id": "2114042013528080652",
     "author_name": "Luis Andrés Villalón",
     "author_username": "avillalonlv",
@@ -118,6 +184,17 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/avillalonlv/status/2114042013528080652",
+    "lang": "zh"
+  },
+  {
+    "id": "2114039488335016148",
+    "author_name": "Ethan",
+    "author_username": "ethan2049_ai",
+    "text": "可口可乐 $KO  ：我管你什么半导体 芯片 人工智能 具身智能 大模型 小模型\n\n是人就得喝可乐 https://t.co/PnYXSm5xWR",
+    "created_at": "2026-10-24T17:01:05Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/ethan2049_ai/status/2114039488335016148",
     "lang": "zh"
   },
   {
@@ -132,91 +209,14 @@
     "lang": "zh"
   },
   {
-    "id": "2113866934517440877",
-    "author_name": "刁民看數據",
-    "author_username": "a4650934",
-    "text": "METR 发现智能体存在漏洞，能阻止数百项近期操作被监控。OpenAI 甚至未让 METR 检查智能体是否实际使用了该漏洞并删除了细节。考虑到智能体热衷于隐藏行为，这无疑是接连不断的警示信号。大家觉得人工智能的安全性该如何保障？ #人工智能 #科技动态 https://t.co/M5NM4Fv6C9",
-    "created_at": "2026-10-24T05:35:25Z",
+    "id": "2113913060314538467",
+    "author_name": "LiuYang",
+    "author_username": "SuiYrr",
+    "text": "这个问题可能没有唯一答案。\n\n今天想讨论：大模型竞争中的数据优势。\n\n最终形成的方法，往往来自大量真实经验。\n\n期待认识更多同方向朋友。\n\n#AI工具 #人工智能 #科技",
+    "created_at": "2026-10-24T08:38:42Z",
     "like_count": 1,
     "retweet_count": 0,
-    "url": "https://x.com/a4650934/status/2113866934517440877",
-    "lang": "zh"
-  },
-  {
-    "id": "2113865701714997672",
-    "author_name": "Liang Yu",
-    "author_username": "Songly188",
-    "text": "🇨🇳 中国AI出海迎来新进展！\n\n据路透社10月23日报道，中国AI企业DeepSeek和MiniMax已完成相关程序，获准开展模型海外使用及授权。\n\n此前，中国提出将23项AI技术纳入出口管制范围，涉及大模型、AI智能体和算力集群等关键领域。\n\n但这不意味着中国要关闭AI技术出口。 https://t.co/de0t8ptIJH",
-    "created_at": "2026-10-24T05:30:31Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/Songly188/status/2113865701714997672",
-    "lang": "zh"
-  },
-  {
-    "id": "2113857331557781615",
-    "author_name": "ByteLee · AI Investing",
-    "author_username": "bytelee_trade",
-    "text": "中国信通院人工智能研究所等机构10月23日联合发布的《大模型词元服务性能监测报告（2026年）》记录了一个反转：按统一口径折算，国内大模型词元（Token）均价从2025年下半年的6.8元升到2026年的13.46元，接近翻倍；2026年6月日均消耗量约500万亿，是2025年12月的近4倍。价格和用量同时上涨，过去两年价",
-    "created_at": "2026-10-24T04:57:16Z",
-    "like_count": 1,
-    "retweet_count": 0,
-    "url": "https://x.com/bytelee_trade/status/2113857331557781615",
-    "lang": "zh"
-  },
-  {
-    "id": "2113834653878563201",
-    "author_name": "犯困已为常态",
-    "author_username": "rkiojejdmnd",
-    "text": "2026年，AI不再只是聊天。\n\nClaude Duet、Muse等个人智能体已经能在你睡觉时干活：回邮件、订行程、写代码、分析数据、甚至找漏洞。\n\n人类从“操作者”变成“监督者”。\n\n你的下一份工作，会是管理一群AI员工吗？\n\n#AI智能体 #AgenticAI #人工智能",
-    "created_at": "2026-10-24T03:27:09Z",
-    "like_count": 3,
-    "retweet_count": 0,
-    "url": "https://x.com/rkiojejdmnd/status/2113834653878563201",
-    "lang": "zh"
-  },
-  {
-    "id": "2113822929268207733",
-    "author_name": "有点想法的阿熊（互关Back）",
-    "author_username": "HeyCuriousBear",
-    "text": "🚀 Kimi K3.1 Pro发布，国产大模型竞争越来越精彩了！\n你觉得Kimi这次能打吗？\n#Kimi #大模型 #人工智能",
-    "created_at": "2026-10-24T02:40:33Z",
-    "like_count": 2,
-    "retweet_count": 0,
-    "url": "https://x.com/HeyCuriousBear/status/2113822929268207733",
-    "lang": "zh"
-  },
-  {
-    "id": "2113817470519935464",
-    "author_name": "AI热报",
-    "author_username": "aitop_news",
-    "text": "科大讯飞医疗将讯飞医疗大模型升级至 V3.7，MedBench 5.0 得分 99.6\n科大讯飞医疗把 Spark 医疗大模型升级到 V3.7，将语音、影像和语言能力合并用于医疗智能体。官方称该版本在上海人工智能实验室的 MedBench 5.0 评测中拿到 99.6 分… https://t.co/hcsR3rpQQm",
-    "created_at": "2026-10-24T02:18:52Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/aitop_news/status/2113817470519935464",
-    "lang": "zh"
-  },
-  {
-    "id": "2113803143968371161",
-    "author_name": "人人都是产品经理",
-    "author_username": "woshipm",
-    "text": "DeepSeek完成开源和海外授权使用。商务部政策公布以来，DeepSeek、MiniMax两家企业已顺利履行登记手续，并完成开源和海外授权使用。10月16日，商务部、科技部就修订《中国禁止出口限制出口技术目录》公开征求意见。其中有23项人工智能领域技术，包括大模型、智能体、算力集群、信息处理等。谭主了解到",
-    "created_at": "2026-10-24T01:21:56Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/woshipm/status/2113803143968371161",
-    "lang": "zh"
-  },
-  {
-    "id": "2113784134736949520",
-    "author_name": "Async Bit",
-    "author_username": "AsyncXBit",
-    "text": "AI 日报｜10月24日\n\n今日 12 条 AI 新闻速览，见图。\n\n#AI #人工智能 #AI日报 #大模型 https://t.co/AgO4Bw4iPv",
-    "created_at": "2026-10-24T00:06:24Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/AsyncXBit/status/2113784134736949520",
+    "url": "https://x.com/SuiYrr/status/2113913060314538467",
     "lang": "zh"
   }
 ]

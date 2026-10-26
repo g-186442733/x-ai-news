@@ -1,5 +1,29 @@
 [
   {
+    "id": "2114439213991297506",
+    "name": "Zen rips off all the best bits of Arc, but skips the AI and bloat.",
+    "summary": "",
+    "url": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
+    "updated_at": "2026-10-25T19:29:27Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2114388788705218897",
+    "name": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+    "summary": "",
+    "url": "https://spr.ly/6014BH5z6A",
+    "updated_at": "2026-10-25T16:09:05Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
     "id": "2114362607968608430",
     "name": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
     "summary": "",
@@ -10,6 +34,30 @@
       "Industry"
     ],
     "source": "WIRED"
+  },
+  {
+    "id": "2114360094754320745",
+    "name": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+    "summary": "",
+    "url": "https://spr.ly/6014BHehzk",
+    "updated_at": "2026-10-25T14:15:04Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2114348344101491151",
+    "name": "The opensource subreddit’s new rules against AI have sparked a revolt.",
+    "summary": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+    "updated_at": "2026-10-25T13:28:22Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
   },
   {
     "id": "2114327156134420989",
@@ -48,35 +96,11 @@
     "source": "The Verge"
   },
   {
-    "id": "2113965859022516642",
-    "name": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+    "id": "2114011303656268014",
+    "name": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
     "summary": "",
-    "url": "https://buff.ly/3nsAGeL",
-    "updated_at": "2026-10-24T12:08:31Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "WIRED"
-  },
-  {
-    "id": "2113675757545500769",
-    "name": "According to the new terms, sharing your data for better AI recommendations also means opening it up for more personalized ads.",
-    "summary": "",
-    "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-    "updated_at": "2026-10-23T16:55:45Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
-  },
-  {
-    "id": "2113669045941588428",
-    "name": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor and others as angels, it says.",
-    "summary": "",
-    "url": "https://spr.ly/6010BHbrem",
-    "updated_at": "2026-10-23T16:29:05Z",
+    "url": "https://spr.ly/6017BHdK7F",
+    "updated_at": "2026-10-24T15:09:05Z",
     "topics": [
       "AI",
       "Industry"
@@ -84,27 +108,15 @@
     "source": "TechCrunch"
   },
   {
-    "id": "2113663005174964571",
-    "name": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
+    "id": "2113995196081828195",
+    "name": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
     "summary": "",
-    "url": "https://spr.ly/6015BHbOLv",
-    "updated_at": "2026-10-23T16:05:05Z",
+    "url": "https://spr.ly/6019BHd8TR",
+    "updated_at": "2026-10-24T14:05:05Z",
     "topics": [
       "AI",
       "Industry"
     ],
     "source": "TechCrunch"
-  },
-  {
-    "id": "2113423209215443023",
-    "name": "Etsy’s new AI policies, among other changes, require that a listing’s first photo is unedited.",
-    "summary": "",
-    "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
-    "updated_at": "2026-10-23T00:12:13Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "The Verge"
   }
 ]
