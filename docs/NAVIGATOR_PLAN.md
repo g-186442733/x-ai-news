@@ -38,7 +38,7 @@
 ├── scripts/
 │   ├── fetch_via_snapshot.py          # Driver 新增：只读本地快照并规范化
 │   ├── build_site.py                  # Driver 新增：生成完整静态站
-│   └── grokbot_fetch_prompt.md        # Driver 新增：外部 Grok Bot 每小时采集说明
+│   └── grokbot_fetch_prompt.md        # Driver 新增：外部 Grok Bot 每 4 小时采集说明
 ├── assets/
 │   ├── site.css                      # Driver 新增：布局、主题、响应式、焦点样式
 │   └── site.js                       # Driver 新增：语言 Tab、时间与过期提示
@@ -84,7 +84,7 @@
 
 ```mermaid
 flowchart TD
-    A[外部 Grok Bot 每小时采集] --> B[校验后原子写入本地 latest.json]
+    A[外部 Grok Bot 每 4 小时采集] --> B[校验后原子写入本地 latest.json]
     B --> C[调用方既有仓库发布流程]
     C --> D[默认分支中的 data/latest.json]
     D --> E[Actions checkout]
@@ -232,7 +232,7 @@ python3 scripts/build_site.py --help
 
 这是交给已有 Grok Bot 运行环境的例行任务说明，不是 Actions 会执行的文件，也不会因为文件存在而自动建立调度。Driver 应写出可直接交给操作者的完整提示词，包含：
 
-1. **执行位置和周期：** 在有真实内置 X 公开读能力的 Grok Bot 环境中，每小时执行一次，建议 `Asia/Shanghai` 每小时 `:05` 开始；由该环境已有调度器登记。确认运行时真实可用的工具，不杜撰 MCP 工具方法名，不申请或填造 Bearer。
+1. **执行位置和周期：** 在有真实内置 X 公开读能力的 Grok Bot 环境中，每 4 小时执行一次，建议 `Asia/Shanghai` 每 4 小时 `:05` 开始（`5 */4 * * *`）；由该环境已有调度器登记。确认运行时真实可用的工具，不杜撰 MCP 工具方法名，不申请或填造 Bearer。
 2. **采集内容：** 分别获取中文 AI 帖子、英文 AI 帖子、AI 新闻、AI 相关趋势、Grok Bot 相关帖子。普通帖优先近 48 小时，Grok Bot 可覆盖近 30 天以保持相关性，均保留真实原帖时间；每种帖子最多 20 条、新闻和趋势各最多 10 条。此上限只约束后续采集，不截断当前已有快照的消费。
 3. **真实性：** 只写实际返回的文本、来源、时间和互动数；缺失摘要保持空值，不生成事实性补充。趋势读成功但没有 AI 条目时写 `trends_ai: []` 并提供真实 `trends_note`；禁止用普通热门词或旧趋势填空。
 4. **输出契约：** 输出第 3 节规定的全部根字段及可选元信息。保留已经批准的 `grokbot_intro.zh/en` 简介，采集过程不自行改写；`generated_at` 是本轮完整采集成功的时间，带时区。
@@ -373,7 +373,7 @@ python3 -m http.server 8000 --directory "$preview_root"
 - [ ] 实现 `scripts/build_site.py` 和专用输出目录保护，生成且只生成规定的 HTML/CSS/JS 文件。
 - [ ] 新增 `assets/site.css`、`assets/site.js`，实现首屏 Grok Bot、双语言 Tab、真实时间、空趋势“暂无”和手机布局。
 - [ ] 完成 HTML 转义、URL 校验、键盘操作、禁用 JS 的阅读能力与 Pages 子路径支持。
-- [ ] 编写 `scripts/grokbot_fetch_prompt.md`，包括每小时执行、真实数据、失败保留旧快照、原子写盘及仓库交接说明。
+- [ ] 编写 `scripts/grokbot_fetch_prompt.md`，包括每 4 小时执行、真实数据、失败保留旧快照、原子写盘及仓库交接说明。
 - [ ] 编写两份逻辑测试，在临时目录验证异常路径、数据一致性、转义和子路径，不污染生产 JSON。
 - [ ] 新增 `.gitignore` 忽略 `site/` 和 Python 缓存；不删除已有分拆数据，不新增无关工程配置。
 - [ ] 编写 `.github/workflows/pages.yml`：每小时、手动、内容更新触发，默认分支限制，build/deploy 依赖与最小权限。

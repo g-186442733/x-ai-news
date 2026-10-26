@@ -103,7 +103,7 @@ GitHub 的 schedule 可能延迟或丢弃繁忙时段的运行；公共仓库长
 ## 数据刷新（方案 B）
 
 ```text
-Grok Bot（真实内置 X 公开读，每小时 :05）
+Grok Bot（真实内置 X 公开读，每 4 小时 :05，cron `5 */4 * * *` Asia/Shanghai）
     │ 写候选 JSON → fetch_via_snapshot.py --check → 原子替换 data/latest.json
     ▼
 调用方既有仓库发布流程（审核 / 提交 / 推送到默认分支）
@@ -121,7 +121,7 @@ Actions 每小时 :17 构建 → Pages 部署
 外部运行前置条件（未完成时自动数据更新闭环尚未建立）：
 
 1. 维护方启用 Pages / GitHub Actions，并完成首轮部署。
-2. 在 Grok Bot 环境登记每小时任务。
+2. 在 Grok Bot 环境登记每 4 小时任务（`CRON_TZ=Asia/Shanghai 5 */4 * * *`）。
 3. 落实快照进入默认分支的既有发布流程。
 
 ## 架构约束
@@ -137,7 +137,7 @@ Actions 每小时 :17 构建 → Pages 部署
 ```text
 scripts/fetch_via_snapshot.py   # 本地快照规范化 + 校验
 scripts/build_site.py           # 静态站生成 + 输出保护
-scripts/grokbot_fetch_prompt.md # Grok Bot 每小时例行任务提示词
+scripts/grokbot_fetch_prompt.md # Grok Bot 每 4 小时例行任务提示词
 assets/site.css                 # 布局、主题、响应式、焦点样式
 assets/site.js                  # 语言 Tab、键盘操作、过期提示
 data/latest.json                # 唯一原始快照（只读输入）
