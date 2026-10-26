@@ -13,20 +13,28 @@
 
 ## 采集内容与上限
 
-每轮分别获取以下五类内容：
+每轮分别获取以下六类内容：
 
 1. 中文 AI 帖子 → `posts_zh`
 2. 英文 AI 帖子 → `posts_en`
 3. AI 新闻 → `news`
-4. AI 相关趋势 → `trends_ai`
-5. Grok Bot 相关帖子 → `grokbot_posts`
+4. 产业趋势与商业动态 → `industry_news`
+5. AI 相关趋势 → `trends_ai`
+6. Grok Bot 相关帖子 → `grokbot_posts`
 
 建议范围与上限（上限只约束本轮新采集，不截断已有快照）：
 
 - 普通帖子优先最近 48 小时；Grok Bot 帖子可覆盖最近 30 天，以保持相关性。
 - `posts_zh`、`posts_en`、`grokbot_posts` 各最多 20 条。
-- `news`、`trends_ai` 各最多 10 条。
+- `news`、`industry_news`、`trends_ai` 各最多 10 条；`industry_news` 建议每轮 5–10 条（允许确认成功的空数组）。
 - 所有条目保留真实原帖时间、原始文本、来源链接和采集时可见的互动数。帖子时间不是采集时间。
+
+### `industry_news` 采集说明
+
+- 主题偏向商业与产业层：SaaS 退潮 / 定制软件 / agentic 平台 / AI 就业 / AI 安全等，不要与偏模型发布、产品 demo 的 `news` 混写。
+- 来源优先英文科技媒体（The Verge、TechCrunch、Ars Technica、Wired 等）与中文科技媒体；可用现有 Grok Bot 能力：X `search_news` / `search_posts_all` 按媒体域名或产业关键词检索，必要时对公开页做 WebFetch。
+- 每条必须写真实媒体名到 `source`（如 `TechCrunch`、`The Verge`、`36氪`）；`url` 允许媒体站外链（`theverge.com` / `techcrunch.com` 等），不必限于 `x.com`。
+- 不编造标题、摘要、来源或链接；没有可靠出处就跳过该条，不要用推测补齐。
 
 ## 真实性规则
 
@@ -68,6 +76,17 @@
       "topics": ["AI"]
     }
   ],
+  "industry_news": [
+    {
+      "id": "稳定 ID 或可从 URL 派生",
+      "name": "产业/商业新闻标题",
+      "summary": "真实摘要；没有就留空字符串",
+      "url": "https://techcrunch.com/...",
+      "source": "TechCrunch",
+      "updated_at": "YYYY-MM-DDTHH:MM:SS.000Z",
+      "topics": ["SaaS", "AI"]
+    }
+  ],
   "trends_ai": [
     {
       "name": "趋势名称",
@@ -87,8 +106,8 @@
 
 约束说明：
 
-- 五个数组字段必须存在且为数组；显式 `[]` 表示已确认成功的空结果。缺字段、`null` 或类型错误不是空结果。
-- `text` 必须非空；`news[].name` 必须非空；`trends_ai[].name` 必须非空。
+- 六个数组字段必须存在且为数组；显式 `[]` 表示已确认成功的空结果。缺字段、`null` 或类型错误不是空结果。
+- `text` 必须非空；`news[].name` 与 `industry_news[].name` 必须非空；`industry_news[].source` 必须为非空媒体名；`trends_ai[].name` 必须非空。
 - 互动数写非负整数；无法取得就省略或写 `null`，不要伪造 `0`。
 - URL 只写 `http` / `https` 公开地址，不带账号密码，不写 `javascript:` / `data:` 等协议。
 - 不要写未知根字段或把上游整段响应塞进快照。
@@ -155,7 +174,7 @@ python3 scripts/fetch_via_snapshot.py --snapshot data/latest.json --out-dir data
 报告至少包含：
 
 - 快照路径（`data/latest.json`）与 `generated_at`
-- 五个数组各自数量
+- 六个数组各自数量
 - 规范化警告数量与所属数组/索引
 - 本轮是否为空结果、是否失败
 

@@ -1,6 +1,6 @@
 # X AI 新闻站
 
-把本地 X 公开信息快照离线规范化，再生成可独立部署的静态站。首页突出 Grok Bot，提供中文 / English 双语 Tab、AI 帖子、AI 新闻、AI 趋势和真实的快照更新时间。
+把本地 X 公开信息快照离线规范化，再生成可独立部署的静态站。首页突出 Grok Bot，提供中文 / English 双语 Tab、AI 帖子、AI 新闻、产业趋势与商业动态、AI 趋势和真实的快照更新时间。
 
 - 预期 Pages 地址：<https://axureboutique.github.io/x-ai-news/>
 - 仓库：<https://github.com/axureboutique/x-ai-news>
@@ -42,29 +42,30 @@ python3 -m http.server 8000 --directory "$preview_root"
 data/latest.json（唯一原始快照，只读）
         │
         ├─ fetch_via_snapshot.py ──> posts_zh.json / posts_en.json / news.json
-        │                            trends_ai.json / grokbot_posts.json / meta.json
+        │                            industry_news.json / trends_ai.json /
+        │                            grokbot_posts.json / meta.json
         │
         └─ build_site.py ──────────> site/index.html + site/assets/site.{css,js}
 ```
 
 `fetch_via_snapshot.py` 是本地文件适配器，只接受本地路径，不联网、不读取 X 凭证：
 
-- 校验根结构、五个数组字段、带时区的 `generated_at`、`trends_note` 和 `grokbot_intro`。
+- 校验根结构、六个数组字段、带时区的 `generated_at`、`trends_note` 和 `grokbot_intro`。
 - 帖子稳定 ID 优先取 X 状态 URL 中的 `/status/<数字>`；取不到时按作者、正文、时间计算 SHA-256，不伪造原帖链接。
 - 帖子 / 新闻在各自数组内去重，按真实时间倒序；无效时间保留 `null` 并排在末尾；所有有效时间统一输出 UTC ISO 8601。
 - 互动数缺失或非法为 `null`，真实的 `0` 保持 `0`。
 - URL 只保留带主机的 `http(s)` 地址；拒绝脚本协议、凭证信息和控制字符。
 - `trends_ai: []` 是合法成功结果；缺失字段、`null`、损坏 JSON 或“非空数组最终没有有效条目”会失败。
 - 输出固定键顺序、缩进和末尾换行；同一快照重复运行字节一致。
-- `meta.json` 写入 `schema_version: 1`、`summary`、`snapshot_sha256` 和五个数组文件的 `files_sha256`。
-- 六个输出先写临时文件再替换；中途失败会回滚已替换文件。`--check` 只校验和打印摘要，不创建目录、不写任何文件。
+- `meta.json` 写入 `schema_version: 1`、`summary`、`snapshot_sha256` 和六个数组文件的 `files_sha256`。
+- 七个输出先写临时文件再替换；中途失败会回滚已替换文件。`--check` 只校验和打印摘要，不创建目录、不写任何文件。
 - 输入 `data/latest.json` 永远不会被修改。
 
 ## 静态构建
 
-`build_site.py` 只读取六个规范化文件：
+`build_site.py` 只读取七个规范化文件：
 
-- 要求 `schema_version == 1`，并核验五个数组的 `files_sha256`、模块计数和字段类型；摘要不符时拒绝构建，不使用原始快照或历史文件兜底。
+- 要求 `schema_version == 1`，并核验六个数组的 `files_sha256`、模块计数和字段类型；摘要不符时拒绝构建，不使用原始快照或历史文件兜底。
 - 全部内容在构建时写入 HTML，浏览器不请求 JSON；CSS/JS 从 `assets/` 复制到 `site/assets/`。
 - 所有上游文本经 `html.escape(..., quote=True)` 转义；URL 再次做协议校验后才生成链接；外链带 `rel="noopener noreferrer"`。
 - 趋势为空时中文显示 **“暂无”**，英文显示 “No AI trends at the moment”，并展示经转义的 `trends_note`。

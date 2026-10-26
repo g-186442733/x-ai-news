@@ -81,6 +81,27 @@ def make_news(
     }
 
 
+def make_industry_news(
+    record_id: str = "industry-1",
+    *,
+    name: str = "产业新闻标题",
+    summary: str = "产业摘要",
+    url: str | None = "https://techcrunch.com/2026/10/25/saas/",
+    source: str = "TechCrunch",
+    updated_at: str = "2026-10-25T17:14:32Z",
+    topics=None,
+) -> dict:
+    return {
+        "id": record_id,
+        "name": name,
+        "summary": summary,
+        "url": url,
+        "source": source,
+        "updated_at": updated_at,
+        "topics": ["SaaS", "AI"] if topics is None else topics,
+    }
+
+
 def default_intro() -> dict:
     return {
         "zh": {"title": "Grok Bot 是什么", "bullets": ["真实简介一", "真实简介二"]},
@@ -94,6 +115,7 @@ def write_dataset(
     posts_zh=None,
     posts_en=None,
     news_items=None,
+    industry_items=None,
     trends=None,
     grokbot_posts=None,
     intro=None,
@@ -119,6 +141,7 @@ def write_dataset(
         if posts_en is None
         else posts_en,
         "news": [make_news()] if news_items is None else news_items,
+        "industry_news": [make_industry_news()] if industry_items is None else industry_items,
         "trends_ai": [] if trends is None else trends,
         "grokbot_posts": [
             make_post(
@@ -254,6 +277,7 @@ class BuildSiteTests(unittest.TestCase):
             posts_zh=[],
             posts_en=[],
             news_items=[],
+            industry_items=[],
             trends=[],
             trends_note="趋势说明原文",
         )
@@ -264,6 +288,8 @@ class BuildSiteTests(unittest.TestCase):
         self.assertIn("No English posts yet", empty_html)
         self.assertIn("暂无新闻", empty_html)
         self.assertIn("No news yet", empty_html)
+        self.assertIn("暂无产业新闻", empty_html)
+        self.assertIn("No industry news yet", empty_html)
         self.assertIn("暂无", empty_html)
         self.assertIn("No AI trends at the moment", empty_html)
         self.assertIn("趋势说明原文", empty_html)
@@ -515,6 +541,38 @@ class BuildSiteTests(unittest.TestCase):
         self.assertNotIn("fetch(", js)
         self.assertNotIn("XMLHttpRequest", js)
 
+
+
+    def test_industry_news_section_renders_title_summary_source(self) -> None:
+        self.data_dir = write_dataset(
+            self.tmp / "industry-data",
+            industry_items=[
+                make_industry_news(
+                    name="Custom software rises",
+                    summary="Agentic platforms replace one-size SaaS",
+                    source="Wired",
+                    url="https://www.wired.com/story/custom-software/",
+                )
+            ],
+        )
+        _, index = self.build(out_name="industry-site")
+        html = index.read_text(encoding="utf-8")
+        self.assertIn("产业趋势与商业动态", html)
+        self.assertIn("Industry &amp; Business", html)
+        self.assertIn("industry-news-section", html)
+        self.assertIn("Custom software rises", html)
+        self.assertIn("Agentic platforms replace one-size SaaS", html)
+        self.assertIn("Wired", html)
+        self.assertIn("https://www.wired.com/story/custom-software/", html)
+        self.assertIn('id="zh-industry-news-0"', html)
+        self.assertIn('id="en-industry-news-0"', html)
+
+    def test_industry_news_empty_state(self) -> None:
+        self.data_dir = write_dataset(self.tmp / "industry-empty-data", industry_items=[])
+        _, index = self.build(out_name="industry-empty")
+        html = index.read_text(encoding="utf-8")
+        self.assertIn("暂无产业新闻", html)
+        self.assertIn("No industry news yet", html)
 
 if __name__ == "__main__":
     unittest.main()

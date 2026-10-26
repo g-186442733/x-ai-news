@@ -20,7 +20,7 @@ from typing import Any
 from urllib.parse import urlsplit
 
 SCHEMA_VERSION = 1
-LIST_FIELDS = ("posts_zh", "posts_en", "news", "trends_ai", "grokbot_posts")
+LIST_FIELDS = ("posts_zh", "posts_en", "news", "industry_news", "trends_ai", "grokbot_posts")
 ARRAY_FILES = {field: f"{field}.json" for field in LIST_FIELDS}
 META_FILE = "meta.json"
 OUTPUT_FILES = tuple(ARRAY_FILES[field] for field in LIST_FIELDS) + (META_FILE,)
@@ -47,6 +47,7 @@ POST_KEYS = {
     "lang",
 }
 NEWS_KEYS = {"id", "name", "summary", "url", "updated_at", "topics"}
+INDUSTRY_NEWS_KEYS = NEWS_KEYS | {"source"}
 TREND_KEYS = {"name", "url", "rank", "post_count"}
 INTRO_KEYS = {"zh", "en"}
 INTRO_LANG_KEYS = {"title", "bullets"}
@@ -319,17 +320,28 @@ def _normalize_posts(
     return _sort_posts(records)
 
 
-def _normalize_news(
+def _normalize_news_items(
     raw_list: list[Any],
+    field: str,
     warnings: WarningLog,
+    *,
+    allowed_keys: set[str],
+    require_source: bool = False,
 ) -> list[dict[str, Any]]:
+    """Normalize news-like records (AI news or industry/business news).
+
+    ``url`` may be any safe http(s) link (x.com, theverge.com, techcrunch.com, …).
+    When ``require_source`` is true, each record must include a non-empty media
+    ``source`` string (for example "TechCrunch").
+    """
+
     records: list[dict[str, Any]] = []
     for index, raw in enumerate(raw_list):
-        where = f"news[{index}]"
+        where = f"{field}[{index}]"
         if not isinstance(raw, dict):
             warnings.add(where, "record is not an object; skipped")
             continue
-        warnings.ignore_fields(raw, NEWS_KEYS, where)
+        warnings.ignore_fields(raw, allowed_keys, where)
 
         name = raw.get("name")
         if not isinstance(name, str) or not name.strip():
@@ -342,6 +354,14 @@ def _normalize_news(
         elif not isinstance(summary, str):
             warnings.add(where, "summary must be a string; value set to empty")
             summary = ""
+
+        source_value: str | None = None
+        if require_source:
+            source_raw = raw.get("source")
+            if not isinstance(source_raw, str) or not source_raw.strip():
+                warnings.add(where, "source must be a non-empty media name; skipped")
+                continue
+            source_value = source_raw.strip()
 
         topics_raw = raw.get("topics")
         if topics_raw is None:
@@ -369,23 +389,24 @@ def _normalize_news(
             if url:
                 record_id = _stable_id("url", url)
             else:
-                record_id = _stable_id("text", name, summary)
+                record_id = _stable_id("text", name, summary, source_value or "")
 
-        records.append(
-            {
-                "id": str(record_id),
-                "name": name,
-                "summary": summary,
-                "url": url,
-                "updated_at": updated_at,
-                "topics": topics,
-                "_updated_dt": updated_dt,
-            }
-        )
+        record: dict[str, Any] = {
+            "id": str(record_id),
+            "name": name,
+            "summary": summary,
+            "url": url,
+            "updated_at": updated_at,
+            "topics": topics,
+            "_updated_dt": updated_dt,
+        }
+        if require_source:
+            record["source"] = source_value
+        records.append(record)
 
     if raw_list and not records:
-        raise ContractError("news: non-empty input produced no usable records")
-    records = _dedupe(records, "news", warnings)
+        raise ContractError(f"{field}: non-empty input produced no usable records")
+    records = _dedupe(records, field, warnings)
 
     def key(record: dict[str, Any]) -> tuple[bool, float, str]:
         updated_dt = record["_updated_dt"]
@@ -397,6 +418,28 @@ def _normalize_news(
     for record in records:
         record.pop("_updated_dt", None)
     return records
+
+
+def _normalize_news(
+    raw_list: list[Any],
+    warnings: WarningLog,
+) -> list[dict[str, Any]]:
+    return _normalize_news_items(
+        raw_list, "news", warnings, allowed_keys=NEWS_KEYS, require_source=False
+    )
+
+
+def _normalize_industry_news(
+    raw_list: list[Any],
+    warnings: WarningLog,
+) -> list[dict[str, Any]]:
+    return _normalize_news_items(
+        raw_list,
+        "industry_news",
+        warnings,
+        allowed_keys=INDUSTRY_NEWS_KEYS,
+        require_source=True,
+    )
 
 
 def _normalize_trends(
@@ -515,7 +558,7 @@ def normalize_snapshot(
     """Validate and normalize a parsed snapshot entirely in memory.
 
     Returns ``(outputs, meta, warnings, ignored_field_count)`` where outputs maps
-    the six file names to their final UTF-8 bytes.
+    the seven file names to their final UTF-8 bytes.
     """
 
     if not isinstance(snapshot, dict):
@@ -564,6 +607,7 @@ def normalize_snapshot(
     posts_zh = _normalize_posts(snapshot["posts_zh"], "posts_zh", warnings)
     posts_en = _normalize_posts(snapshot["posts_en"], "posts_en", warnings)
     news = _normalize_news(snapshot["news"], warnings)
+    industry_news = _normalize_industry_news(snapshot["industry_news"], warnings)
     trends = _normalize_trends(snapshot["trends_ai"], warnings)
     grokbot_posts = _normalize_posts(snapshot["grokbot_posts"], "grokbot_posts", warnings)
     intro, intro_fallback = _normalize_intro(intro_raw, warnings)
@@ -572,6 +616,7 @@ def normalize_snapshot(
         "posts_zh": posts_zh,
         "posts_en": posts_en,
         "news": news,
+        "industry_news": industry_news,
         "trends_ai": trends,
         "grokbot_posts": grokbot_posts,
     }

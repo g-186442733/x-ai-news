@@ -591,6 +591,23 @@ html.js .lang-tabs {
   overflow-wrap: anywhere;
 }
 
+.news-source {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+}
+
+.news-source-label {
+  margin-right: 0.4em;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.industry-news-section {
+  margin-top: 14px;
+}
+
 .topics {
   display: flex;
   flex-wrap: wrap;

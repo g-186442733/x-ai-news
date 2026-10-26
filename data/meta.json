@@ -33,17 +33,19 @@
       "posts_zh": 20,
       "posts_en": 20,
       "news": 10,
+      "industry_news": 0,
       "trends_ai": 0,
       "grokbot_posts": 20
     },
     "warnings": 0,
     "ignored_fields": 0
   },
-  "snapshot_sha256": "b0f824ff88db362fd8c13018dc03c7befb15922b05946f72119c4eba48798fd5",
+  "snapshot_sha256": "de2950c88be2c5b1f5dc672033873ee8b9bca0c1cc94d8ca03737be85a03184a",
   "files_sha256": {
     "posts_zh.json": "38e35aace620b0793bb61cd92c019af48811f71423250ee34fda09f809893518",
     "posts_en.json": "615cad0cdb2af01b006809ba00662f572e51f0781d35fc0593ea0e434fa742cb",
     "news.json": "3ee3883624b0086db0f1fcb044885e7f0a65bb3788193bab5aa59044dd049e6e",
+    "industry_news.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "trends_ai.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "grokbot_posts.json": "2968be875121818ed8b10bda62d844e3a3bf74808ffacfbeec63abdee925f6f0"
   }
