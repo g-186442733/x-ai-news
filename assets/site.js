@@ -124,7 +124,7 @@
   var note = document.getElementById("stale-note");
   if (note) {
     var generatedAt = body.getAttribute("data-generated-at");
-    var staleHours = parseFloat(body.getAttribute("data-stale-after-hours") || "2");
+    var staleHours = parseFloat(body.getAttribute("data-stale-after-hours") || "4");
     var zhSpan = note.querySelector("[data-stale-text-zh]");
     var enSpan = note.querySelector("[data-stale-text-en]");
     var futureToleranceMs = 5 * 60 * 1000;

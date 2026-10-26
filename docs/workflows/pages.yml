@@ -46,7 +46,7 @@ jobs:
         run: python3 scripts/fetch_via_snapshot.py --snapshot data/latest.json --out-dir data
 
       - name: Build site
-        run: python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 2
+        run: python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 4
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

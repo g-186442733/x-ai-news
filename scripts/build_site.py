@@ -33,7 +33,7 @@ OUTPUT_FILES = ("index.html", "assets/site.css", "assets/site.js")
 OUTPUT_DIRS = {"assets"}
 
 DEFAULT_BASE_PATH = "/x-ai-news/"
-DEFAULT_STALE_AFTER_HOURS = 2.0
+DEFAULT_STALE_AFTER_HOURS = 4.0
 FUTURE_TOLERANCE = timedelta(minutes=5)
 REPO_URL = "https://github.com/axureboutique/x-ai-news"
 SITE_TITLE_ZH = "X AI 新闻站"
@@ -958,7 +958,7 @@ def build_parser() -> argparse.ArgumentParser:
         default=DEFAULT_STALE_AFTER_HOURS,
         type=_positive_float,
         metavar="N",
-        help="hours before showing a stale-data notice (default: 2)",
+        help="hours before showing a stale-data notice (default: 4)",
     )
     return parser
 

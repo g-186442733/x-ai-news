@@ -19,7 +19,7 @@ python3 scripts/fetch_via_snapshot.py --snapshot data/latest.json --out-dir data
 根路径本地预览（`--base-path` 必须与服务路径一致）：
 
 ```bash
-python3 scripts/build_site.py --data-dir data --out-dir site --base-path / --stale-after-hours 2
+python3 scripts/build_site.py --data-dir data --out-dir site --base-path / --stale-after-hours 4
 python3 -m http.server 8000 --directory site
 # 打开 http://localhost:8000/
 ```
@@ -27,7 +27,7 @@ python3 -m http.server 8000 --directory site
 项目子路径预览（模拟 GitHub Pages `/x-ai-news/`）：
 
 ```bash
-python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 2
+python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 4
 preview_root="$(mktemp -d)"
 cp -R site "$preview_root/x-ai-news"
 python3 -m http.server 8000 --directory "$preview_root"

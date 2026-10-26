@@ -215,7 +215,7 @@ python3 scripts/fetch_via_snapshot.py --help
 ### 5.2 `scripts/build_site.py`
 
 ```bash
-python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 2
+python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 4
 python3 scripts/build_site.py --help
 ```
 
@@ -224,7 +224,7 @@ python3 scripts/build_site.py --help
 | `--data-dir DIR` | `data` | 读取规范化文件并检查版本、字段及摘要。 |
 | `--out-dir DIR` | `site` | 专用静态输出目录，产物只能是第 2 节列出的三个文件。 |
 | `--base-path PATH` | `/x-ai-news/` | 站内首页路径；允许 `/`，其它值规范为首尾带 `/`，拒绝协议、查询串和 `..` 段。 |
-| `--stale-after-hours N` | `2` | 正数，控制过期提示；不控制是否拉数、不改源时间。 |
+| `--stale-after-hours N` | `4` | 正数，控制过期提示；不控制是否拉数、不改源时间。 |
 
 资源源文件相对脚本所在仓库定位，不依赖启动目录。退出码同上；缺文件、版本不兼容、摘要不符或渲染失败时返回 `1`。输出成功摘要包含产物路径、各模块条目数与快照时间，不输出页面全文。
 
@@ -279,7 +279,7 @@ permissions:
 | `build` / 2 | `actions/setup-python@v7`，`python-version: '3.12'` | 不配置依赖缓存，不执行 pip/npm 安装。 |
 | `build` / 3 | `python3 -m unittest discover -s tests -v` | 构建前置逻辑校验，任一失败停止。 |
 | `build` / 4 | `python3 scripts/fetch_via_snapshot.py --snapshot data/latest.json --out-dir data` | 离线生成本次构建所需规范化数据。 |
-| `build` / 5 | `python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 2` | 离线生成静态产物，失败不上传。 |
+| `build` / 5 | `python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 4` | 离线生成静态产物，失败不上传。 |
 | `build` / 6 | `actions/configure-pages@v5` | 读取 Pages 配置；不启用需要额外凭证的自动建站选项。 |
 | `build` / 7 | `actions/upload-pages-artifact@v4`，`path: site` | 仅上传生成站点，artifact 名使用默认 `github-pages`。 |
 | `deploy` / 1 | `actions/deploy-pages@v4`，step ID 为 `deployment` | `needs: build`，部署本次运行的 Pages artifact。 |
@@ -310,7 +310,7 @@ GitHub 自动提供的工作流令牌和 OIDC 仅用于 GitHub 部署身份，�
 python3 -m unittest discover -s tests -v
 python3 scripts/fetch_via_snapshot.py --snapshot data/latest.json --check
 python3 scripts/fetch_via_snapshot.py --snapshot data/latest.json --out-dir data
-python3 scripts/build_site.py --data-dir data --out-dir site --base-path / --stale-after-hours 2
+python3 scripts/build_site.py --data-dir data --out-dir site --base-path / --stale-after-hours 4
 python3 -m http.server 8000 --directory site
 ```
 
