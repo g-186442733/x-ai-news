@@ -1,0 +1,302 @@
+{
+  "generated_at": "2026-10-26T02:05:34+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "Grok Bot built-in X public reads (namespace x)",
+  "posts_zh": [
+    {
+      "author_name": "Jax Wu♨️",
+      "author_username": "jax_wu",
+      "text": "月之暗面正式发布Kimi K3.1 Pro，3万亿参数、100万上下文，Agent能力全球第一。国模王者归来，正式打响。",
+      "created_at": "2026-10-24T11:31:18.000Z",
+      "like_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/jax_wu/status/2113956494240788583",
+      "lang": "zh"
+    },
+    {
+      "author_name": "有点想法的阿熊（互关Back）",
+      "author_username": "HeyCuriousBear",
+      "text": "🚀 Kimi K3.1 Pro发布，国产大模型竞争越来越精彩了！你觉得Kimi这次能打吗？",
+      "created_at": "2026-10-24T02:40:33.000Z",
+      "like_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/HeyCuriousBear/status/2113822929268207733",
+      "lang": "zh"
+    },
+    {
+      "author_name": "LinXunFeng",
+      "author_username": "xunfenghellolo",
+      "text": "DeepSeek 刚把撑起自家线上服务的推理框架 DeepInfer 开源了！还顺带开源了编码解码组件 deepseek-recipe。",
+      "created_at": "2026-10-20T15:41:46.000Z",
+      "like_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/xunfenghellolo/status/2112569974867013688",
+      "lang": "zh"
+    },
+    {
+      "author_name": "Inside Frontier",
+      "author_username": "insidefrontierV",
+      "text": "大模型榜单上的名次，究竟能说明什么？从这份排名出发，看看模型竞争。",
+      "created_at": "2026-10-21T03:31:04.000Z",
+      "like_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/insidefrontierV/status/2112748476727767227",
+      "lang": "zh"
+    },
+    {
+      "author_name": "xbai",
+      "author_username": "xbaiGx",
+      "text": "10 月多家机构榜单显示，AI 第一梯队竞争集中在 Claude Opus 5、Claude Fable 5、GPT-5.6 Sol、Grok 4.6 等模型之间",
+      "created_at": "2026-10-23T08:47:03.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/xbaiGx/status/2113552771979108822",
+      "lang": "zh"
+    },
+    {
+      "author_name": "ChinaAIDaily",
+      "author_username": "ChinaAIDaily",
+      "text": "⑦ AI 走进钢铁厂：首批三项国家标准发布，大模型开始\"进车间\"",
+      "created_at": "2026-10-20T11:19:39.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/ChinaAIDaily/status/2112504010083299418",
+      "lang": "zh"
+    },
+    {
+      "author_name": "Async Bit",
+      "author_username": "AsyncXBit",
+      "text": "AI 日报｜10月20日 今日 12 条 AI 新闻速览，见图。",
+      "created_at": "2026-10-20T00:06:30.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/AsyncXBit/status/2112334609375748335",
+      "lang": "zh"
+    }
+  ],
+  "posts_en": [
+    {
+      "author_name": "OpenAI",
+      "author_username": "OpenAI",
+      "text": "Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during training…",
+      "created_at": "2026-10-23T19:46:46.000Z",
+      "like_count": 13365,
+      "retweet_count": 1200,
+      "url": "https://x.com/OpenAI/status/2113718797505036665",
+      "lang": "en"
+    },
+    {
+      "author_name": "OpenAI",
+      "author_username": "OpenAI",
+      "text": "If you are wondering whether your website is affected, we have packaged a Codex skill to help check.",
+      "created_at": "2026-10-21T16:35:11.000Z",
+      "like_count": 9404,
+      "retweet_count": 1223,
+      "url": "https://x.com/OpenAI/status/2112945805686604033",
+      "lang": "en"
+    },
+    {
+      "author_name": "OpenAI",
+      "author_username": "OpenAI",
+      "text": "During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli…",
+      "created_at": "2026-10-23T22:55:45.000Z",
+      "like_count": 6845,
+      "retweet_count": 991,
+      "url": "https://x.com/OpenAI/status/2113766354386084338",
+      "lang": "en"
+    },
+    {
+      "author_name": "OpenAI",
+      "author_username": "OpenAI",
+      "text": "OpenAI models are coming to Google Cloud. We're bringing our frontier models and Codex agentic workflows to Google Cloud's Model Garden…",
+      "created_at": "2026-10-21T19:23:19.000Z",
+      "like_count": 5246,
+      "retweet_count": 413,
+      "url": "https://x.com/OpenAI/status/2112988118471295323",
+      "lang": "en"
+    },
+    {
+      "author_name": "Chomba Bupe",
+      "author_username": "ChombaBupe",
+      "text": "Anthropic: 10% chance of human extinction. Reality: Markets are already at 24% of Anthropic going bankrupt…",
+      "created_at": "2026-10-20T21:16:42.000Z",
+      "like_count": 693,
+      "retweet_count": 70,
+      "url": "https://x.com/ChombaBupe/status/2112654264036192762",
+      "lang": "en"
+    },
+    {
+      "author_name": "Yavanika Shah",
+      "author_username": "yavanikashah",
+      "text": "Apparently, being good at anything is now a ChatGPT tell. All 4K images look AI-generated…",
+      "created_at": "2026-10-21T05:32:22.000Z",
+      "like_count": 10,
+      "retweet_count": 0,
+      "url": "https://x.com/yavanikashah/status/2112779001433620650",
+      "lang": "en"
+    }
+  ],
+  "news": [
+    {
+      "id": "2114363022773002376",
+      "name": "Debate Erupts Over Claim LLMs Outcode Humans",
+      "summary": "Arpit Bhayani's post sparked debate on AI code gen vs human verification and architecture.",
+      "url": "https://x.com/i/trending/2114363022773002376",
+      "updated_at": "2026-10-25T17:14:32.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    },
+    {
+      "id": "2114330879086461367",
+      "name": "Anthropic Advises Merging Subagents into Single AI Agent",
+      "summary": "Anthropic guidance: fold most subagents into one main agent loop for ~2x faster execution.",
+      "url": "https://x.com/i/trending/2114330879086461367",
+      "updated_at": "2026-10-25T17:44:53.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    },
+    {
+      "id": "2114062233106063551",
+      "name": "Ling-3.0-flash-Sante Brings Open-Source AI to Healthcare Reasoning",
+      "summary": "inclusionAI releases 124B MoE healthcare reasoning model on Hugging Face (research only).",
+      "url": "https://x.com/i/trending/2114062233106063551",
+      "updated_at": "2026-10-24T18:37:59.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    },
+    {
+      "id": "2113823124869275959",
+      "name": "UK Chancellor Announces £600 Million AI Defence Package",
+      "summary": "UK AI defence package with biosecurity lab; OpenAI and Anthropic commit model credits.",
+      "url": "https://x.com/i/trending/2113823124869275959",
+      "updated_at": "2026-10-24T18:50:12.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    },
+    {
+      "id": "2113942745278538072",
+      "name": "DeepSeek Open-Sources DeepInfer, Sparking Open-Source Inference Speed Race",
+      "summary": "DeepSeek releases DeepInfer; community race on inference throughput.",
+      "url": "https://x.com/i/trending/2113942745278538072",
+      "updated_at": "2026-10-25T00:40:01.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    },
+    {
+      "id": "2114275689264271444",
+      "name": "Over 1,000 Mathematicians Pledge to Shun Commercial AI in Research",
+      "summary": "Association for Human Mathematics pledges no collaboration with commercial AI firms.",
+      "url": "https://x.com/i/trending/2114275689264271444",
+      "updated_at": "2026-10-25T16:05:56.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    },
+    {
+      "id": "2113652047572570581",
+      "name": "AI Debate Questions Shifting AGI Goalposts and LLM Limits",
+      "summary": "DeepMind paper argues statistical LLMs fall short on deductive reasoning; debate on AGI goalposts.",
+      "url": "https://x.com/i/trending/2113652047572570581",
+      "updated_at": "2026-10-23T15:47:05.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    }
+  ],
+  "trends_ai": [],
+  "trends_note": "当前全球趋势 Top 中无明确 AI 词条，已过滤为空。",
+  "grokbot_posts": [
+    {
+      "author_name": "0xMarioNawfal - The Roundtable Show",
+      "author_username": "RoundtableSpace",
+      "text": "this is pure treasure if you’re using Grok Bot. 20 GitHub repos to self-host it, add tools, connect apps and copy proven workflows.",
+      "created_at": "2026-10-03T09:45:00.000Z",
+      "like_count": 92,
+      "retweet_count": 5,
+      "url": "https://x.com/RoundtableSpace/status/2106319598492545245",
+      "lang": "en"
+    },
+    {
+      "author_name": "Evan Luthra",
+      "author_username": "EvanLuthra",
+      "text": "Grok Bot has a whole second life on GitHub. There’s a Telegram bridge, an iMessage skill, Linux builds and a desktop agent…",
+      "created_at": "2026-10-03T11:05:29.000Z",
+      "like_count": 85,
+      "retweet_count": 5,
+      "url": "https://x.com/EvanLuthra/status/2106339851373363673",
+      "lang": "en"
+    },
+    {
+      "author_name": "狮国游民",
+      "author_username": "SgLittlesmart",
+      "text": "如果你在用 Grok Bot，这简直是纯宝藏。20 个 GitHub 仓库，用来自己托管它、加工具、连应用，还能直接抄已经验证过的工作流。",
+      "created_at": "2026-10-04T09:00:01.000Z",
+      "like_count": 10,
+      "retweet_count": 1,
+      "url": "https://x.com/SgLittlesmart/status/2106670665151689201",
+      "lang": "zh"
+    },
+    {
+      "author_name": "Marcus 🇺🇸",
+      "author_username": "BruceWayne977",
+      "text": "Grok Bot makes me feel like I'm talking to Jarvis!!!",
+      "created_at": "2026-10-19T13:42:32.000Z",
+      "like_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/BruceWayne977/status/2112177582460596680",
+      "lang": "en"
+    },
+    {
+      "author_name": "Leah Kia | UGC creator + AI & Tech Marketing",
+      "author_username": "LeahCreatesUGC",
+      "text": "I built my marketing agency an entire operating system to manage creators and campaigns for me using Grok bot.",
+      "created_at": "2026-10-06T19:48:31.000Z",
+      "like_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/LeahCreatesUGC/status/2107558640336924813",
+      "lang": "en"
+    },
+    {
+      "author_name": "zz",
+      "author_username": "qilindebi429",
+      "text": "grok bot 除了额度不够之外，基本完美。为了 grok bot 无论办哪个会员，都只能用其中百分之 20 左右的量来使用 grok bot。",
+      "created_at": "2026-10-06T05:14:05.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/qilindebi429/status/2107338583942238612",
+      "lang": "zh"
+    }
+  ],
+  "grokbot_intro": {
+    "zh": {
+      "title": "Grok Bot 是什么",
+      "bullets": [
+        "三层架构：Jarvis（云端主控 Bot）→ Vision（Linux 云主机）→ Friday（本地 Mac 工作站）",
+        "DN-B 编排：Driver = dsh / deepseek-flash（effort max）；Navigator = Codex CLI gpt-6-astra（长流程 -p max）",
+        "审代码优先 Codex CLI（档位 ≥ 编程任务），Paseo 审查代理兜底",
+        "内置 X 公开读：搜帖 / 用户帖 / 新闻 / 趋势（无需自备开发者密钥）"
+      ]
+    },
+    "en": {
+      "title": "What is Grok Bot",
+      "bullets": [
+        "Three layers: Jarvis (cloud chief bot) → Vision (Linux cloud host) → Friday (local Mac workstation)",
+        "DN-B: Driver = dsh / deepseek-flash (effort max); Navigator = Codex CLI gpt-6-astra (long flows -p max)",
+        "Code review prefers Codex CLI (effort ≥ coding task); Paseo reviewer as fallback",
+        "Built-in X public reads: search posts / user posts / news / trends (no personal developer key required)"
+      ]
+    }
+  }
+}

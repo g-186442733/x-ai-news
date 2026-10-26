@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2114330879086461367",
+    "name": "Anthropic Advises Merging Subagents into Single AI Agent",
+    "summary": "Anthropic guidance: fold most subagents into one main agent loop for ~2x faster execution.",
+    "url": "https://x.com/i/trending/2114330879086461367",
+    "updated_at": "2026-10-25T17:44:53Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2114363022773002376",
+    "name": "Debate Erupts Over Claim LLMs Outcode Humans",
+    "summary": "Arpit Bhayani's post sparked debate on AI code gen vs human verification and architecture.",
+    "url": "https://x.com/i/trending/2114363022773002376",
+    "updated_at": "2026-10-25T17:14:32Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2114275689264271444",
+    "name": "Over 1,000 Mathematicians Pledge to Shun Commercial AI in Research",
+    "summary": "Association for Human Mathematics pledges no collaboration with commercial AI firms.",
+    "url": "https://x.com/i/trending/2114275689264271444",
+    "updated_at": "2026-10-25T16:05:56Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2113942745278538072",
+    "name": "DeepSeek Open-Sources DeepInfer, Sparking Open-Source Inference Speed Race",
+    "summary": "DeepSeek releases DeepInfer; community race on inference throughput.",
+    "url": "https://x.com/i/trending/2113942745278538072",
+    "updated_at": "2026-10-25T00:40:01Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2113823124869275959",
+    "name": "UK Chancellor Announces £600 Million AI Defence Package",
+    "summary": "UK AI defence package with biosecurity lab; OpenAI and Anthropic commit model credits.",
+    "url": "https://x.com/i/trending/2113823124869275959",
+    "updated_at": "2026-10-24T18:50:12Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2114062233106063551",
+    "name": "Ling-3.0-flash-Sante Brings Open-Source AI to Healthcare Reasoning",
+    "summary": "inclusionAI releases 124B MoE healthcare reasoning model on Hugging Face (research only).",
+    "url": "https://x.com/i/trending/2114062233106063551",
+    "updated_at": "2026-10-24T18:37:59Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  },
+  {
+    "id": "2113652047572570581",
+    "name": "AI Debate Questions Shifting AGI Goalposts and LLM Limits",
+    "summary": "DeepMind paper argues statistical LLMs fall short on deductive reasoning; debate on AGI goalposts.",
+    "url": "https://x.com/i/trending/2113652047572570581",
+    "updated_at": "2026-10-23T15:47:05Z",
+    "topics": [
+      "Technology",
+      "AI"
+    ]
+  }
+]

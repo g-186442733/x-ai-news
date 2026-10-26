@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ['feat/**', 'main', 'master']
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Normalize + build (project base path)
+        run: |
+          python3 scripts/fetch_via_snapshot.py --snapshot data/latest.json --out-dir data
+          python3 scripts/build_site.py --data-dir data --out-dir site --base-path /x-ai-news/ --stale-after-hours 2
+          test -f site/index.html

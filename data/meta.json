@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-26T02:05:34+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": "Grok Bot built-in X public reads (namespace x)",
+  "trends_note": "当前全球趋势 Top 中无明确 AI 词条，已过滤为空。",
+  "grokbot_intro": {
+    "zh": {
+      "title": "Grok Bot 是什么",
+      "bullets": [
+        "三层架构：Jarvis（云端主控 Bot）→ Vision（Linux 云主机）→ Friday（本地 Mac 工作站）",
+        "DN-B 编排：Driver = dsh / deepseek-flash（effort max）；Navigator = Codex CLI gpt-6-astra（长流程 -p max）",
+        "审代码优先 Codex CLI（档位 ≥ 编程任务），Paseo 审查代理兜底",
+        "内置 X 公开读：搜帖 / 用户帖 / 新闻 / 趋势（无需自备开发者密钥）"
+      ]
+    },
+    "en": {
+      "title": "What is Grok Bot",
+      "bullets": [
+        "Three layers: Jarvis (cloud chief bot) → Vision (Linux cloud host) → Friday (local Mac workstation)",
+        "DN-B: Driver = dsh / deepseek-flash (effort max); Navigator = Codex CLI gpt-6-astra (long flows -p max)",
+        "Code review prefers Codex CLI (effort ≥ coding task); Paseo reviewer as fallback",
+        "Built-in X public reads: search posts / user posts / news / trends (no personal developer key required)"
+      ]
+    }
+  },
+  "grokbot_intro_fallback": {
+    "zh": false,
+    "en": false
+  },
+  "summary": {
+    "counts": {
+      "posts_zh": 7,
+      "posts_en": 6,
+      "news": 7,
+      "trends_ai": 0,
+      "grokbot_posts": 6
+    },
+    "warnings": 0,
+    "ignored_fields": 0
+  },
+  "snapshot_sha256": "5449ef30d6975fa41f9b45366009a31cd928d52b3c0686e2e766a321146494a2",
+  "files_sha256": {
+    "posts_zh.json": "1750bd81e2d626418aad831c0e111da6a479ee7f86f52983daae7e7dd7d4c779",
+    "posts_en.json": "efba996fb48b78b40fd9925e8ccb80b70f7a2fbbaeda214f4fe036e8c4651e33",
+    "news.json": "f62be52462680bd555131dba92e5c57a7362ea8eda10cd578f1fa9397f27ef51",
+    "trends_ai.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "grokbot_posts.json": "9377d07e8555226e2675c261ab9c3eba0c3617e18baed4d077b3fb37682183b5"
+  }
+}

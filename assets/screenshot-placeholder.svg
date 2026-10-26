@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Grok Bot screenshot placeholder">
+  <rect width="960" height="540" fill="#0f172a"/>
+  <rect x="48" y="48" width="864" height="444" rx="24" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="480" y="250" fill="#e2e8f0" font-family="system-ui,sans-serif" font-size="36" text-anchor="middle">Grok Bot 截图占位</text>
+  <text x="480" y="300" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="20" text-anchor="middle">Screenshot placeholder — replace with a real capture</text>
+</svg>
