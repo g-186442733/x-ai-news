@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "id": "2114362607968608430",
+    "name": "The entertainment giant hopes to get trust and safety tech, among other IP, from a startup whose chatbots dozens of states allege encouraged minors to self-harm and kill their parents.",
+    "summary": "",
+    "url": "https://buff.ly/ZMs9XZI",
+    "updated_at": "2026-10-25T14:25:03Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "WIRED"
+  },
+  {
+    "id": "2114327156134420989",
+    "name": "Publishers spent years figuring out how to get clicks on Google. But new AI search features have torn that ecosystem apart.",
+    "summary": "",
+    "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+    "updated_at": "2026-10-25T12:04:10Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2114070688025723363",
+    "name": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+    "summary": "",
+    "url": "https://spr.ly/6016BHdWZi",
+    "updated_at": "2026-10-24T19:05:04Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2114062662267175380",
+    "name": "Pennsylvania’s AI Deceptive Advertising Act leaves a lot of loopholes.",
+    "summary": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+    "updated_at": "2026-10-24T18:33:10Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2113965859022516642",
+    "name": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+    "summary": "",
+    "url": "https://buff.ly/3nsAGeL",
+    "updated_at": "2026-10-24T12:08:31Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "WIRED"
+  },
+  {
+    "id": "2113675757545500769",
+    "name": "According to the new terms, sharing your data for better AI recommendations also means opening it up for more personalized ads.",
+    "summary": "",
+    "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+    "updated_at": "2026-10-23T16:55:45Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2113669045941588428",
+    "name": "Daytona is building a cloud for agents that's like giving every agent its own computer. It has attracted founders of Stripe, Perplextity, Datadog, Mercor and others as angels, it says.",
+    "summary": "",
+    "url": "https://spr.ly/6010BHbrem",
+    "updated_at": "2026-10-23T16:29:05Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2113663005174964571",
+    "name": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
+    "summary": "",
+    "url": "https://spr.ly/6015BHbOLv",
+    "updated_at": "2026-10-23T16:05:05Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
+    "id": "2113423209215443023",
+    "name": "Etsy’s new AI policies, among other changes, require that a listing’s first photo is unedited.",
+    "summary": "",
+    "url": "https://www.theverge.com/tech/1017261/etsy-ai-rules-policies-restrictions-listing",
+    "updated_at": "2026-10-23T00:12:13Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  }
+]

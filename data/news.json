@@ -1,5 +1,15 @@
 [
   {
+    "id": "2114275689264271444",
+    "name": "Over 1,000 Mathematicians Pledge to Shun Commercial AI in Research",
+    "summary": "More than 1,000 mathematicians have joined the Association for Human Mathematics, pledging not to work with commercial AI companies or publish AI-generated texts. Of them, 654 committed to an AI-free caucus that bans the tools from core research like finding proofs or posing questions—a response to OpenAI's release of hundreds of AI manuscripts in early October, which the group called a show of power. Supporters say it safeguards true human understanding, while critics like computer scientist Pedro Domingos label it resistance to progress, and voices like Steven Strogatz warn of a field in crisis.",
+    "url": "https://x.com/i/trending/2114275689264271444",
+    "updated_at": "2026-10-26T04:01:14Z",
+    "topics": [
+      "Science"
+    ]
+  },
+  {
     "id": "2114547782971543912",
     "name": "Developers Debate AI's Role in Easing Game Coding Drudgery",
     "summary": "A discussion highlights that 90% of game coding involves tough, repetitive tasks like fighting compilers and fixing bugs, while AI tools could handle that load to free humans for imagination and decisions. Builders note AI already speeds up scripts, data generation, and routine fixes, though understanding and maintaining the code remains key. While some worry AI might eventually touch creative work, most see it as a helpful collaborator that cuts toil without replacing human judgment.",
@@ -21,17 +31,6 @@
       "Technology",
       "AI",
       "Business & Finance"
-    ]
-  },
-  {
-    "id": "2114539713361219795",
-    "name": "AI Coding Agents Create Divide Between Old and New Startups",
-    "summary": "Conversations highlight how startups built manually over the past three years feel outpaced by those launched this year with agent-written code, leading some to rebuild entirely for faster iteration and fewer backlogs. Jake Gold predicts even top AI firms like OpenAI could soon seem like 'pre-AI legacy' companies, urging pre-product-market-fit teams to consider re-founding. While studies show AI boosts code output by 30 percent and more, quality reviews and customer demands slow incumbents, though deep user knowledge offers them an edge. Richard Artoul noted that nothing slows progress like paying customers who can't be disrupted.",
-    "url": "https://x.com/i/trending/2114539713361219795",
-    "updated_at": "2026-10-26T02:13:26Z",
-    "topics": [
-      "Technology",
-      "AI"
     ]
   },
   {
