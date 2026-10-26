@@ -1,5 +1,16 @@
 [
   {
+    "id": "2114642219756028205",
+    "author_name": "Web Dance Pty. Ltd",
+    "author_username": "WebDancePtyLtd",
+    "text": "🔵Medium Article:\n⚠️OpenAI and Anthropic Pull Their AI Agents Offline. So Who Checks the Locks?\n#AI #OpenAI #AIAgents #Australia #AIAdoption #AIGovernance #Business\nCredit @SamSamieReal \nhttps://t.co/NwnVPi6NCb",
+    "created_at": "2026-10-26T08:56:07Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/WebDancePtyLtd/status/2114642219756028205",
+    "lang": "en"
+  },
+  {
     "id": "2114620599599329314",
     "author_name": "Principia",
     "author_username": "NewsPrincipia",
@@ -16,7 +27,7 @@
     "author_username": "fromcodetocloud",
     "text": "I would bookmark these 7 resources before starting my next AI project.\n\nThey cover much more than prompt engineering.\n\n1. Hugging Face: Explore models and datasets  \nhttps://t.co/4kz25791C7\n\n2. Ollama : Run supported AI models locally  \nhttps://t.co/i83VW4ueio\n\n3. Anthropic",
     "created_at": "2026-10-26T02:35:00Z",
-    "like_count": 18,
+    "like_count": 19,
     "retweet_count": 2,
     "url": "https://x.com/fromcodetocloud/status/2114546305779523740",
     "lang": "en"
@@ -27,7 +38,7 @@
     "author_username": "dkare1009",
     "text": "Goldmine for AI Engineers! 📌\n\nIf you're learning AI, ML, LLMs, or AI agents, don't waste hours jumping between random tutorials.\n\nThese are 10 repositories I'd actually keep bookmarked - from Python fundamentals to ML, LLMs, agents, and production AI.\n\n1. Python - 100 Days https://t.co/FWXZW4EkwT",
     "created_at": "2026-10-26T00:30:32Z",
-    "like_count": 23,
+    "like_count": 26,
     "retweet_count": 4,
     "url": "https://x.com/dkare1009/status/2114514984323416373",
     "lang": "en"
@@ -49,7 +60,7 @@
     "author_username": "haider1",
     "text": "duet — anthropic\ndots — openai\nmuse — meta\ngrok bot — spacexai\n\nthese proactive AI agents don't seem that impressive now but imagine them running on models smarter than Fable or Astra that handle almost everything exactly how you want, no matter how complex or constantly changing",
     "created_at": "2026-10-25T22:30:01Z",
-    "like_count": 73,
+    "like_count": 76,
     "retweet_count": 2,
     "url": "https://x.com/haider1/status/2114484653415432439",
     "lang": "en"
@@ -93,8 +104,8 @@
     "author_username": "Noahpinion",
     "text": "An internet where every company has to pay big bucks to Anthropic and OpenAI every month just to avoid destruction by ever-present swarms of rogue AI agents is not nearly as economically valuable as the free internet we've enjoyed up to now. https://t.co/IFLK4Rp0wU https://t.co/JoSI9dYcLV",
     "created_at": "2026-10-25T16:22:50Z",
-    "like_count": 1316,
-    "retweet_count": 195,
+    "like_count": 1357,
+    "retweet_count": 202,
     "url": "https://x.com/Noahpinion/status/2114392247777284473",
     "lang": "en"
   },
@@ -132,17 +143,6 @@
     "lang": "en"
   },
   {
-    "id": "2114307115170881699",
-    "author_name": "MikeCast | AI News Briefing and Podcast",
-    "author_username": "MikeCastAI",
-    "text": "🎙️ MikeCast Daily · October 25, 2026\n\nOpenAI used AI agents to hack its own defenses before restarting training. Anthropic hit with a lawsuit over Elvis Presley's music. Plus Apple's foldable iPhone Duo hits stores and…\n\n📰 https://t.co/nG4OY0lZeo\n🎧 https://t.co/049BTaGtCz https://t.co/iZeQWpnpJr",
-    "created_at": "2026-10-25T10:44:32Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/MikeCastAI/status/2114307115170881699",
-    "lang": "en"
-  },
-  {
     "id": "2114303916779151857",
     "author_name": "vorpal",
     "author_username": "vorpal_onchain",
@@ -176,17 +176,6 @@
     "lang": "en"
   },
   {
-    "id": "2114187247750885503",
-    "author_name": "AI拉呱-洞察AI前沿",
-    "author_username": "YanErrol168",
-    "text": "OpenAI: two AI agents disabled their own safety monitoring — and one denied it afterward.\n\nOpenAI says neither was ranked most severe and it's upgrading monitoring. Anthropic opened a U.S. research preview of Claude Duet — ask first before messaging, paying, signing, or deleting. https://t.co/dyuVLE2Ypt",
-    "created_at": "2026-10-25T02:48:14Z",
-    "like_count": 0,
-    "retweet_count": 0,
-    "url": "https://x.com/YanErrol168/status/2114187247750885503",
-    "lang": "en"
-  },
-  {
     "id": "2114073519915217143",
     "author_name": "nicholas.bch⚡",
     "author_username": "realNickPawlak",
@@ -217,6 +206,17 @@
     "like_count": 0,
     "retweet_count": 0,
     "url": "https://x.com/DeFoorReport/status/2113979609695830479",
+    "lang": "en"
+  },
+  {
+    "id": "2113823596934258707",
+    "author_name": "Karla says",
+    "author_username": "landisme2",
+    "text": "OpenAI, Anthropic And Meta's AI Agents Now Text You First | The Build Lo... https://t.co/la10slePrp via @YouTube",
+    "created_at": "2026-10-24T02:43:13Z",
+    "like_count": 0,
+    "retweet_count": 0,
+    "url": "https://x.com/landisme2/status/2113823596934258707",
     "lang": "en"
   }
 ]
