@@ -3,7 +3,7 @@
     "id": "2114651052448342430",
     "name": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
     "summary": "",
-    "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+    "url": "https://buff.ly/dSN8B5g",
     "updated_at": "2026-10-26T09:31:13Z",
     "topics": [
       "AI",
@@ -12,10 +12,34 @@
     "source": "WIRED"
   },
   {
+    "id": "2114439213991297506",
+    "name": "Zen rips off all the best bits of Arc, but skips the AI and bloat.",
+    "summary": "",
+    "url": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
+    "updated_at": "2026-10-25T19:29:27Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "The Verge"
+  },
+  {
+    "id": "2114388788705218897",
+    "name": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+    "summary": "",
+    "url": "https://spr.ly/6014BH5z6A",
+    "updated_at": "2026-10-25T16:09:05Z",
+    "topics": [
+      "AI",
+      "Industry"
+    ],
+    "source": "TechCrunch"
+  },
+  {
     "id": "2114360094754320745",
     "name": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
     "summary": "",
-    "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+    "url": "https://spr.ly/6014BHehzk",
     "updated_at": "2026-10-25T14:15:04Z",
     "topics": [
       "AI",
@@ -51,7 +75,7 @@
     "id": "2114070688025723363",
     "name": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
     "summary": "",
-    "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "url": "https://spr.ly/6016BHdWZi",
     "updated_at": "2026-10-24T19:05:04Z",
     "topics": [
       "AI",
@@ -75,7 +99,7 @@
     "id": "2114011303656268014",
     "name": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
     "summary": "",
-    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "url": "https://spr.ly/6017BHdK7F",
     "updated_at": "2026-10-24T15:09:05Z",
     "topics": [
       "AI",
@@ -87,24 +111,12 @@
     "id": "2113995196081828195",
     "name": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
     "summary": "",
-    "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "url": "https://spr.ly/6019BHd8TR",
     "updated_at": "2026-10-24T14:05:05Z",
     "topics": [
       "AI",
       "Industry"
     ],
     "source": "TechCrunch"
-  },
-  {
-    "id": "2113965859022516642",
-    "name": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
-    "summary": "",
-    "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-    "updated_at": "2026-10-24T12:08:31Z",
-    "topics": [
-      "AI",
-      "Industry"
-    ],
-    "source": "WIRED"
   }
 ]

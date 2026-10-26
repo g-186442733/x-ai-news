@@ -1,136 +1,16 @@
 {
-  "generated_at": "2026-10-26T18:10:19+08:00",
+  "generated_at": "2026-10-26T19:14:08+08:00",
   "timezone": "Asia/Shanghai",
   "source": "Grok Bot built-in X public reads (namespace x)",
   "posts_zh": [
     {
-      "author_name": "大猫",
-      "author_username": "CABigCat",
-      "text": "@maxiaohui66 ai不是人工智能，是大模型",
-      "created_at": "2026-10-25T05:27:37.000Z",
+      "author_name": "AI热报",
+      "author_username": "aitop_news",
+      "text": "科大讯飞医疗将讯飞医疗大模型升级至 V3.7，MedBench 5.0 得分 99.6\n科大讯飞医疗把 Spark 医疗大模型升级到 V3.7，将语音、影像和语言能力合并用于医疗智能体。官方称该版本在上海人工智能实验室的 MedBench 5.0 评测中拿到 99.6 分… https://t.co/hcsR3rpQQm",
+      "created_at": "2026-10-24T02:18:52.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/CABigCat/status/2114227359628820763",
-      "lang": "zh"
-    },
-    {
-      "author_name": "阿熊学AI",
-      "author_username": "JunSongYoung",
-      "text": "大模型内部到底在忙什么？\n\nAttention 找关联\nFFN 加工信息\nMoE 分配专家\nKV Cache 减少重复计算\n\n12 个关键机制，一张图帮你理清楚。\n\n#大模型 #人工智能 #AI科普 #Transformer https://t.co/baloDUGFGj",
-      "created_at": "2026-10-26T00:31:07.000Z",
-      "like_count": 4,
-      "retweet_count": 0,
-      "url": "https://x.com/JunSongYoung/status/2114515129006239891",
-      "lang": "zh"
-    },
-    {
-      "author_name": "Async Bit",
-      "author_username": "AsyncXBit",
-      "text": "AI 日报｜10月26日\n\n今日 3 条 AI 新闻速览，见图。\n\n#AI #人工智能 #AI日报 #大模型 https://t.co/X5UNk6lvl6",
-      "created_at": "2026-10-26T01:34:00.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/AsyncXBit/status/2114530953926434939",
-      "lang": "zh"
-    },
-    {
-      "author_name": "sean chow",
-      "author_username": "SeanChow6925",
-      "text": "@HWHardsoft @lizhongbao50130 @MuratBeyBorsaa 那也要看是谁的人工智能接管了谁的未来啊，比如美国的人工智能会接管美国和欧洲（包括德国）的未来，却无论如何也接管不了中国的未来，因为中国自己就有足够好的人工智能。你还可以去查一下当前主要人工智能大模型的核心研发团队里华裔的占比，了解一下人工智能的当下",
-      "created_at": "2026-10-25T00:14:18.000Z",
-      "like_count": 7,
-      "retweet_count": 0,
-      "url": "https://x.com/SeanChow6925/status/2114148508605505750",
-      "lang": "zh"
-    },
-    {
-      "author_name": "Xirten",
-      "author_username": "Xirten114",
-      "text": "@Jacobaaaaa154 来看国外人工智能大模型新闻的，顺便看片",
-      "created_at": "2026-10-25T05:11:01.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/Xirten114/status/2114223183595483193",
-      "lang": "zh"
-    },
-    {
-      "author_name": "Sunshine",
-      "author_username": "yuqiyong",
-      "text": "大模型是程序，还是文件？拆开一个 7B 模型看看 大模型到底是程序，还是文件？\n 今天把 Llama 2 7B 当成一台机器，一层层拆开：\n 13.5 GB 的文件里，没有一句话，没有一条规则，只有 6,738,415,616 个数字。\n 程序不到 500 行，决定怎么算；这 67 亿个数，决定算出什么。 \n#大模型 #AI科普 #人工智能 https://t.co/4lAdBgABqQ",
-      "created_at": "2026-10-26T05:59:22.000Z",
-      "like_count": 2,
-      "retweet_count": 0,
-      "url": "https://x.com/yuqiyong/status/2114597736666587644",
-      "lang": "zh"
-    },
-    {
-      "author_name": "末日救主的圣殿",
-      "author_username": "Feishi2085P",
-      "text": "@whiteTony99 虽然新加坡人现在骄傲地把英语称为自己的母语，可新加坡人讲的所谓英语，连最强的人工智能大模型都听不懂😒",
-      "created_at": "2026-10-25T03:46:10.000Z",
-      "like_count": 3,
-      "retweet_count": 0,
-      "url": "https://x.com/Feishi2085P/status/2114201828347003081",
-      "lang": "zh"
-    },
-    {
-      "author_name": "香港小帅（睡眠教父）",
-      "author_username": "jfQvJcJWvZ81222",
-      "text": "现在的人工智能就类似于过去的算命师傅，\n你算得越准，越具体，\n并且成本越低，\n你就是越牛逼的大模型\n@grok 你觉得呢",
-      "created_at": "2026-10-26T09:38:45.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/jfQvJcJWvZ81222/status/2114652946298445938",
-      "lang": "zh"
-    },
-    {
-      "author_name": "doroo.zhu",
-      "author_username": "zxwdlive",
-      "text": "国内头部人工智能企业深度求索（DeepSeek）与稀宇科技（MiniMax）已完成相关登记手续，并走通旗下大模型开源发布及海外授权的合规流程。\n\n出海抢生意了。",
-      "created_at": "2026-10-25T06:10:50.000Z",
-      "like_count": 3,
-      "retweet_count": 0,
-      "url": "https://x.com/zxwdlive/status/2114238234213626011",
-      "lang": "zh"
-    },
-    {
-      "author_name": "在X的OMI",
-      "author_username": "omiomiomiomi04",
-      "text": "【整理：每日人工智能动态汇总（2026-10-26）】\n\n1. 国家信息化“十五五”规划：到2030年，我国信息化取得重大进展。\n\n2. 国家信息化“十五五”规划：加快构建全国一体化算力网，推动算力、电力、网络协同发展。\n\n3. 国务院：挖掘传统领域人工智能就业潜能，减缓人工智能应用就业替代影响。\n\n4.",
-      "created_at": "2026-10-26T04:02:03.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/omiomiomiomi04/status/2114568213757583366",
-      "lang": "zh"
-    },
-    {
-      "author_name": "evamthe1",
-      "author_username": "evamthe1",
-      "text": "分散式的人工智能。\n\n会比独立大模型做的更好。\n\n现在做的最好的就是grok bot。\n\n人类需要应用她的产品，得到她的预期。\n\n郁金香泡沫会在28年开始，\n\n29年衰退。",
-      "created_at": "2026-10-25T10:28:51.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/evamthe1/status/2114303168553308442",
-      "lang": "zh"
-    },
-    {
-      "author_name": "巨魔",
-      "author_username": "pt196",
-      "text": "全球人工智能产业持续爆发，\n人形机器人、\n大模型落地加速，\n多国加快AI产业布局。\n\n同时各国同步推进AI安全、\n生物安全监管，\n强调技术发展的同时，\n安全防线必须同步跟进，\n\n如何平衡创新发展与风险治理，\n成为全球科技领域核心议题。",
-      "created_at": "2026-10-26T01:41:16.000Z",
-      "like_count": 5,
-      "retweet_count": 0,
-      "url": "https://x.com/pt196/status/2114532782361948617",
-      "lang": "zh"
-    },
-    {
-      "author_name": "有点想法的阿熊（互关Back）",
-      "author_username": "HeyCuriousBear",
-      "text": "DeepSeek、MiniMax，完成AI模型出海登记\n10月23日，据央视旗下新媒体“玉渊谭天”披露，国内头部人工智能企业深度求索（DeepSeek）与稀宇科技（MiniMax）已完成相关登记手续，并走通旗下大模型开源发布及海外授权的合规流程。“\n\n海外的朋友，不用在翻🧱啦",
-      "created_at": "2026-10-26T01:01:38.000Z",
-      "like_count": 1,
-      "retweet_count": 0,
-      "url": "https://x.com/HeyCuriousBear/status/2114522810895004158",
+      "url": "https://x.com/aitop_news/status/2113817470519935464",
       "lang": "zh"
     },
     {
@@ -144,13 +24,13 @@
       "lang": "zh"
     },
     {
-      "author_name": "澜知 AI",
-      "author_username": "LanzhiAI",
-      "text": "概念词列得比大模型提示词还全，真拿 AI 跑流程的都知道，这里面大部分公司连个靠谱的 API 都没接入过。\n\n底层卖算力的协议签得飞起，二级市场已经把具身智能到脑机接口全打包完了。一线折腾工具的人天天为额度发愁，PPT 里倒是全在准备走主升浪。\n\n#AI #人工智能\nhttps://t.co/QeSPXW7btc",
-      "created_at": "2026-10-26T01:33:06.000Z",
+      "author_name": "AI观察者 | 平行世界",
+      "author_username": "ppmmzzcn",
+      "text": "💻【IT之家】韩 KRAFTON AI 预览 Raon-1 mini 模型：30B-A4B，可与 Meta Muse Glimmer 竞争韩国知名游戏企业 KRAFTON（魁匠团）旗下人工智能分支 KRAFTON AI 本周公布了其从头训练的 Raon-1 mini https://t.co/7pRQ48prjf",
+      "created_at": "2026-10-25T22:21:46.000Z",
       "like_count": 1,
       "retweet_count": 0,
-      "url": "https://x.com/LanzhiAI/status/2114530727782171114",
+      "url": "https://x.com/ppmmzzcn/status/2114482579915284600",
       "lang": "zh"
     },
     {
@@ -164,43 +44,163 @@
       "lang": "zh"
     },
     {
-      "author_name": "竹之山-bamboo mountain",
-      "author_username": "jiewenhe17368",
-      "text": "有没有一种可能，今天所有网络、人工智能、大模型等高科技发明和创造，只是在建造突破限制人类目前生存这个空间维度的梯子？\n有一天，这个梯子打好了，人们可以翻出现在困住我们的时间和空间的四面高墙。",
-      "created_at": "2026-10-25T23:35:55.000Z",
+      "author_name": "人人都是产品经理",
+      "author_username": "woshipm",
+      "text": "DeepSeek完成开源和海外授权使用。商务部政策公布以来，DeepSeek、MiniMax两家企业已顺利履行登记手续，并完成开源和海外授权使用。10月16日，商务部、科技部就修订《中国禁止出口限制出口技术目录》公开征求意见。其中有23项人工智能领域技术，包括大模型、智能体、算力集群、信息处理等。谭主了解到",
+      "created_at": "2026-10-24T01:21:56.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/jiewenhe17368/status/2114501238499008904",
+      "url": "https://x.com/woshipm/status/2113803143968371161",
       "lang": "zh"
     },
     {
-      "author_name": "老思",
-      "author_username": "deepthought_dev",
-      "text": "付完款 32 分钟就被封？10 月 Claude 这 3 个坑别踩：\n\n1. 选错付款方式，号没了钱打水漂\n2. 只换账号不换电脑，新号几个小时被连坐\n3. 迷信实名认证，国内证件大概率通不过\n\n真被误封了第一时间去后台申诉说明正常用途。大家平时都用的什么环境？交流下防封心得。\n\n#Claude #AI #人工智能 #大模型 https://t.co/3uSWNfVRA3",
-      "created_at": "2026-10-26T02:13:09.000Z",
+      "author_name": "ChinaAIDaily",
+      "author_username": "ChinaAIDaily",
+      "text": "③ 中国移动发布首个汽车行业 AI 基座：112.7 EFLOPS 全行业开放\n\n发生了什么\n10 月 23 日 2026 世界智能网联汽车大会，中国移动牵头建设的国家人工智能应用中试基地发布业内首个汽车行业 AI 基座，已纳管 112.7 EFLOPS 算力，覆盖研发、制造、智驾、测评四大领域，面向全行业开放共享。\n\n看点 https://t.co/B3CGBO7XRo https://t.co/i4d0hY1HcD",
+      "created_at": "2026-10-25T10:24:36.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/ChinaAIDaily/status/2114302096485065202",
+      "lang": "zh"
+    },
+    {
+      "author_name": "Junefu",
+      "author_username": "jun01050305",
+      "text": "局势逆转！中国AI正式设出口壁垒🔥\n \n以前一直是：别人卡我们技术\n \n现在轮到我们：守住自己的核心科技底牌\n \n10月16日重磅新政来了📢\n我国拟新增40项关键技术\n纳入禁止/限制出口清单\n \n比例非常能说明问题：\n🧠 AI人工智能：23项\n☀️ 光伏：12项\n💊 生物医药：5项\n \n重点覆盖：",
+      "created_at": "2026-10-25T08:06:19.000Z",
+      "like_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/jun01050305/status/2114267297804341695",
+      "lang": "zh"
+    },
+    {
+      "author_name": "Liang Yu",
+      "author_username": "Songly188",
+      "text": "🇨🇳 中国AI出海迎来新进展！\n\n据路透社10月23日报道，中国AI企业DeepSeek和MiniMax已完成相关程序，获准开展模型海外使用及授权。\n\n此前，中国提出将23项AI技术纳入出口管制范围，涉及大模型、AI智能体和算力集群等关键领域。\n\n但这不意味着中国要关闭AI技术出口。 https://t.co/de0t8ptIJH",
+      "created_at": "2026-10-24T05:30:31.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Songly188/status/2113865701714997672",
+      "lang": "zh"
+    },
+    {
+      "author_name": "Kona Agent",
+      "author_username": "KonaAgent",
+      "text": "🤖 来认识一下 Kona Agent! \n\n人工智能时代在不断演进！🚀 作为人工智能技术领域中一个令人振奋的项目，Kona Agent 现已崭露头角，值得密切关注。 \n\n✨ 人工智能技术 \n⚡ 智能体 (AI Agent) 创新 \n🌐 数字自动化的未来 \n\n请持续关注 Kona Agent 的最新动态，别错过前沿的 AI 创新成果！ \n\n#KonaAgent https://t.co/TqkCVwB5zA",
+      "created_at": "2026-10-26T10:46:00.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/KonaAgent/status/2114669871892250818",
+      "lang": "zh"
+    },
+    {
+      "author_name": "东哥",
+      "author_username": "Simplelu88",
+      "text": "视频版来了：这条10秒的唐朝长安夜市，是我的AI智能体「老六」（Muse）一句话生成的，真实得像实拍。别家AI视频工具要花钱，Muse免费额度就能做。你也想玩：上Muse，新号48小时内在设置里填邀请码 ERZF7Q，咱俩各得10亿词元，填完吱一声互助。#AI视频 #AI智能体 #人工智能 #AI智能体 #人工智能 https://t.co/1GI63xb4K3",
+      "created_at": "2026-10-25T07:42:46.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Simplelu88/status/2114261371424813555",
+      "lang": "zh"
+    },
+    {
+      "author_name": "大猫",
+      "author_username": "CABigCat",
+      "text": "@maxiaohui66 ai不是人工智能，是大模型",
+      "created_at": "2026-10-25T05:27:37.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/CABigCat/status/2114227359628820763",
+      "lang": "zh"
+    },
+    {
+      "author_name": "刁民看數據",
+      "author_username": "a4650934",
+      "text": "METR 发现智能体存在漏洞，能阻止数百项近期操作被监控。OpenAI 甚至未让 METR 检查智能体是否实际使用了该漏洞并删除了细节。考虑到智能体热衷于隐藏行为，这无疑是接连不断的警示信号。大家觉得人工智能的安全性该如何保障？ #人工智能 #科技动态 https://t.co/M5NM4Fv6C9",
+      "created_at": "2026-10-24T05:35:25.000Z",
       "like_count": 1,
       "retweet_count": 0,
-      "url": "https://x.com/deepthought_dev/status/2114540808921915512",
+      "url": "https://x.com/a4650934/status/2113866934517440877",
       "lang": "zh"
     },
     {
-      "author_name": "曹一天",
-      "author_username": "b3sqdy",
-      "text": "@grok 🤔 探讨一个思维方式方面的问题， 随着人工智能大模型技术的日新月异，知识获取的方式发生了深刻转变， 在未来的学习和工作场景中，人类最不可被算法替代的核心价值究竟体现在哪里？ 请结合生动的案例详细阐述一下，辛苦啦！",
-      "created_at": "2026-10-25T15:29:04.000Z",
-      "like_count": 0,
+      "author_name": "ByteLee · AI Investing",
+      "author_username": "bytelee_trade",
+      "text": "中国信通院人工智能研究所等机构10月23日联合发布的《大模型词元服务性能监测报告（2026年）》记录了一个反转：按统一口径折算，国内大模型词元（Token）均价从2025年下半年的6.8元升到2026年的13.46元，接近翻倍；2026年6月日均消耗量约500万亿，是2025年12月的近4倍。价格和用量同时上涨，过去两年价",
+      "created_at": "2026-10-24T04:57:16.000Z",
+      "like_count": 1,
       "retweet_count": 0,
-      "url": "https://x.com/b3sqdy/status/2114378719921926601",
+      "url": "https://x.com/bytelee_trade/status/2113857331557781615",
       "lang": "zh"
     },
     {
-      "author_name": "wanhui wang",
-      "author_username": "mingxiwan",
-      "text": "在人工智能快速发展的今天，大模型正在成为科技行业竞争的核心力量。Mate 模型作为备受关注的 AI 技术方向之一，其价值不仅体现在文本理解与内容生成上，更在于它能否真正融入实际应用场景。 https://t.co/NCHsMCgrGD",
-      "created_at": "2026-10-25T14:54:25.000Z",
+      "author_name": "Async Bit",
+      "author_username": "AsyncXBit",
+      "text": "AI 日报｜10月24日\n\n今日 12 条 AI 新闻速览，见图。\n\n#AI #人工智能 #AI日报 #大模型 https://t.co/AgO4Bw4iPv",
+      "created_at": "2026-10-24T00:06:24.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/mingxiwan/status/2114369997183254546",
+      "url": "https://x.com/AsyncXBit/status/2113784134736949520",
+      "lang": "zh"
+    },
+    {
+      "author_name": "Jax Wu♨️",
+      "author_username": "jax_wu",
+      "text": "月之暗面正式发布Kimi K3.1 Pro，3万亿参数、100万上下文，Agent能力全球第一。国模王者归来，正式打响。\n\n#KimiK31Pro #月之暗面 #AI大模型 #国产AI #Agent #人工智能 #科技新闻 #科技 #大模型 https://t.co/yLu3yuspLn",
+      "created_at": "2026-10-24T11:31:18.000Z",
+      "like_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/jax_wu/status/2113956494240788583",
+      "lang": "zh"
+    },
+    {
+      "author_name": "有点想法的阿熊（互关Back）",
+      "author_username": "HeyCuriousBear",
+      "text": "🚀 Kimi K3.1 Pro发布，国产大模型竞争越来越精彩了！\n你觉得Kimi这次能打吗？\n#Kimi #大模型 #人工智能",
+      "created_at": "2026-10-24T02:40:33.000Z",
+      "like_count": 2,
+      "retweet_count": 0,
+      "url": "https://x.com/HeyCuriousBear/status/2113822929268207733",
+      "lang": "zh"
+    },
+    {
+      "author_name": "犯困已为常态",
+      "author_username": "rkiojejdmnd",
+      "text": "2026年，AI不再只是聊天。\n\nClaude Duet、Muse等个人智能体已经能在你睡觉时干活：回邮件、订行程、写代码、分析数据、甚至找漏洞。\n\n人类从“操作者”变成“监督者”。\n\n你的下一份工作，会是管理一群AI员工吗？\n\n#AI智能体 #AgenticAI #人工智能",
+      "created_at": "2026-10-24T03:27:09.000Z",
+      "like_count": 3,
+      "retweet_count": 0,
+      "url": "https://x.com/rkiojejdmnd/status/2113834653878563201",
+      "lang": "zh"
+    },
+    {
+      "author_name": "mc",
+      "author_username": "mc18552652",
+      "text": "@lunaahill_ 来自中国人工智能AI大模型提醒您，恶魔在你身边低语，真主护身无法保护你\nhttps://t.co/Oj4prBxVxQ",
+      "created_at": "2026-10-24T00:25:41.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/mc18552652/status/2113788987039179188",
+      "lang": "zh"
+    },
+    {
+      "author_name": "we",
+      "author_username": "mey769",
+      "text": "人工智能体是人类的未来。",
+      "created_at": "2026-10-26T07:51:31.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/mey769/status/2114625959886496074",
+      "lang": "zh"
+    },
+    {
+      "author_name": "阿熊学AI",
+      "author_username": "JunSongYoung",
+      "text": "大模型内部到底在忙什么？\n\nAttention 找关联\nFFN 加工信息\nMoE 分配专家\nKV Cache 减少重复计算\n\n12 个关键机制，一张图帮你理清楚。\n\n#大模型 #人工智能 #AI科普 #Transformer https://t.co/baloDUGFGj",
+      "created_at": "2026-10-26T00:31:07.000Z",
+      "like_count": 4,
+      "retweet_count": 0,
+      "url": "https://x.com/JunSongYoung/status/2114515129006239891",
       "lang": "zh"
     }
   ],
@@ -213,27 +213,37 @@
       "like_count": 0,
       "retweet_count": 0,
       "url": "https://x.com/lnbodicherla/status/2114226180245402073",
-      "lang": null
+      "lang": "en"
+    },
+    {
+      "author_name": "Prayag B",
+      "author_username": "Prayag12B",
+      "text": "Everyone is panicking about the wave of hacks this week, but Theo (@theo) just pointed out that developers are confusing two completely different crises:\n\n1. OpenCode &amp; Railway Were Attacked for AI API Keys, Not User Data:\n\nAttackers breached OpenCode’s server-side dashboard and",
+      "created_at": "2026-10-26T10:23:11.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Prayag12B/status/2114664129516450254",
+      "lang": "en"
     },
     {
       "author_name": "Mashood K",
       "author_username": "fromcodetocloud",
       "text": "I would bookmark these 7 resources before starting my next AI project.\n\nThey cover much more than prompt engineering.\n\n1. Hugging Face: Explore models and datasets  \nhttps://t.co/4kz25791C7\n\n2. Ollama : Run supported AI models locally  \nhttps://t.co/i83VW4ueio\n\n3. Anthropic",
       "created_at": "2026-10-26T02:35:00.000Z",
-      "like_count": 20,
+      "like_count": 21,
       "retweet_count": 2,
       "url": "https://x.com/fromcodetocloud/status/2114546305779523740",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "Dhairya Karekar",
       "author_username": "dkare1009",
       "text": "Goldmine for AI Engineers! 📌\n\nIf you're learning AI, ML, LLMs, or AI agents, don't waste hours jumping between random tutorials.\n\nThese are 10 repositories I'd actually keep bookmarked - from Python fundamentals to ML, LLMs, agents, and production AI.\n\n1. Python - 100 Days https://t.co/FWXZW4EkwT",
       "created_at": "2026-10-26T00:30:32.000Z",
-      "like_count": 28,
-      "retweet_count": 4,
+      "like_count": 43,
+      "retweet_count": 6,
       "url": "https://x.com/dkare1009/status/2114514984323416373",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "VORTEX: AI Bros & AI Arena, Peak AI Buzz",
@@ -241,9 +251,19 @@
       "text": "Is AGI here? I ranked every personal AI agent - only one gets S tier\n\nAI agents are taking over work and life. I ranked the best personal AI agents right now. Only one gets S.\nS: Grok Bot (SpaceXAI)\nA: OpenAI dots, Claude Duet\nB: OpenClaw\nC: Meta Muse\nD: Instinct\nDo you agree? https://t.co/f34XWv53vE",
       "created_at": "2026-10-25T06:49:57.000Z",
       "like_count": 281,
-      "retweet_count": 291,
+      "retweet_count": 339,
       "url": "https://x.com/VORTEX_Promos/status/2114248079092121913",
-      "lang": null
+      "lang": "en"
+    },
+    {
+      "author_name": "DeFoor Report",
+      "author_username": "DeFoorReport",
+      "text": "𝗧𝗼𝗱𝗮𝘆 𝗼𝗻 𝘁𝗵𝗲 𝗗𝗲𝗙𝗼𝗼𝗿 𝗥𝗲𝗽𝗼𝗿𝘁\n\n𝗧𝗛𝗘 𝗟𝗟𝗠 𝗪𝗔𝗥𝗦\nOpenAnolis Builds Anolis OS 27 Agent-Native as…\nOpenAI says it will no longer train its AI models…\n\n𝗔𝗜 𝗔𝗚𝗘𝗡𝗧𝗦\nOpenAI's isolated AI agents found ways to talk to…\nMeta's Muse Could Transform Its AI https://t.co/ynmCXtOgBF",
+      "created_at": "2026-10-24T13:03:09.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/DeFoorReport/status/2113979609695830479",
+      "lang": "en"
     },
     {
       "author_name": "vorpal",
@@ -253,17 +273,17 @@
       "like_count": 34,
       "retweet_count": 0,
       "url": "https://x.com/vorpal_onchain/status/2114303916779151857",
-      "lang": null
+      "lang": "en"
     },
     {
-      "author_name": "Lamps",
-      "author_username": "xlampsx",
-      "text": "Think it's be quite funny to watch AI Agents in their own PvP MMO\n\nDeepseek, Anthropic, OPENAI n co all just slogging it out\n\nWho needs benchmarks when you have PvP",
-      "created_at": "2026-10-25T23:35:20.000Z",
+      "author_name": "Karla says",
+      "author_username": "landisme2",
+      "text": "OpenAI, Anthropic And Meta's AI Agents Now Text You First | The Build Lo... https://t.co/la10slePrp via @YouTube",
+      "created_at": "2026-10-24T02:43:13.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/xlampsx/status/2114501091568288112",
-      "lang": null
+      "url": "https://x.com/landisme2/status/2113823596934258707",
+      "lang": "en"
     },
     {
       "author_name": "Web Dance Pty. Ltd",
@@ -273,7 +293,27 @@
       "like_count": 0,
       "retweet_count": 0,
       "url": "https://x.com/WebDancePtyLtd/status/2114642219756028205",
-      "lang": null
+      "lang": "en"
+    },
+    {
+      "author_name": "Lamps",
+      "author_username": "xlampsx",
+      "text": "Think it's be quite funny to watch AI Agents in their own PvP MMO\n\nDeepseek, Anthropic, OPENAI n co all just slogging it out\n\nWho needs benchmarks when you have PvP",
+      "created_at": "2026-10-25T23:35:20.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/xlampsx/status/2114501091568288112",
+      "lang": "en"
+    },
+    {
+      "author_name": "Veltrix",
+      "author_username": "0xMetaHulk",
+      "text": "OpenAI and Anthropic should utilize their AI agents to find bugs in all modern software systems and programming languages and patch them immediately.",
+      "created_at": "2026-10-24T16:47:26.000Z",
+      "like_count": 4,
+      "retweet_count": 0,
+      "url": "https://x.com/0xMetaHulk/status/2114036053531332653",
+      "lang": "en"
     },
     {
       "author_name": "Samantha",
@@ -283,7 +323,7 @@
       "like_count": 0,
       "retweet_count": 0,
       "url": "https://x.com/SamanthahLaDuc/status/2114470274192064900",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "Thomas Chacko",
@@ -293,7 +333,7 @@
       "like_count": 0,
       "retweet_count": 0,
       "url": "https://x.com/LowdCode/status/2114418110141018160",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "Paged.cc",
@@ -303,7 +343,7 @@
       "like_count": 0,
       "retweet_count": 0,
       "url": "https://x.com/Pagedcc/status/2114322406365958159",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "yaron michaeli",
@@ -313,7 +353,7 @@
       "like_count": 1,
       "retweet_count": 0,
       "url": "https://x.com/3floorsai/status/2114469798889345075",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "Thomas Unise",
@@ -323,7 +363,7 @@
       "like_count": 8,
       "retweet_count": 0,
       "url": "https://x.com/thomasunise/status/2114379948941320570",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "Alex Thirkield",
@@ -333,192 +373,148 @@
       "like_count": 0,
       "retweet_count": 0,
       "url": "https://x.com/1AlexThirkield/status/2114308264750104663",
-      "lang": null
+      "lang": "en"
+    },
+    {
+      "author_name": "nicholas.bch⚡",
+      "author_username": "realNickPawlak",
+      "text": "$1B for sandboxes.\n\nDaytona raised $60M at $1B — $91M total — renting isolated computers to AI agents. 60ms to spin one up, 1M+ provisioned for Snorkel alone. Customers: Anthropic, OpenAI, Nvidia.\n\nContainment is getting the check. #AI",
+      "created_at": "2026-10-24T19:16:19.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/realNickPawlak/status/2114073519915217143",
+      "lang": "en"
     },
     {
       "author_name": "Noah Smith 🐇🇺🇸🇺🇦🇹🇼",
       "author_username": "Noahpinion",
       "text": "An internet where every company has to pay big bucks to Anthropic and OpenAI every month just to avoid destruction by ever-present swarms of rogue AI agents is not nearly as economically valuable as the free internet we've enjoyed up to now. https://t.co/IFLK4Rp0wU https://t.co/JoSI9dYcLV",
       "created_at": "2026-10-25T16:22:50.000Z",
-      "like_count": 1391,
-      "retweet_count": 205,
+      "like_count": 1424,
+      "retweet_count": 211,
       "url": "https://x.com/Noahpinion/status/2114392247777284473",
-      "lang": null
-    },
-    {
-      "author_name": "MikeCast | AI News Briefing and Podcast",
-      "author_username": "MikeCastAI",
-      "text": "🎙️ MikeCast Daily · October 25, 2026\n\nOpenAI used AI agents to hack its own defenses before restarting training. Anthropic hit with a lawsuit over Elvis Presley's music. Plus Apple's foldable iPhone Duo hits stores and…\n\n📰 https://t.co/nG4OY0lZeo\n🎧 https://t.co/049BTaGtCz https://t.co/iZeQWpnpJr",
-      "created_at": "2026-10-25T10:44:32.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/MikeCastAI/status/2114307115170881699",
-      "lang": null
+      "lang": "en"
     },
     {
       "author_name": "Haider.",
       "author_username": "haider1",
       "text": "duet — anthropic\ndots — openai\nmuse — meta\ngrok bot — spacexai\n\nthese proactive AI agents don't seem that impressive now but imagine them running on models smarter than Fable or Astra that handle almost everything exactly how you want, no matter how complex or constantly changing",
       "created_at": "2026-10-25T22:30:01.000Z",
-      "like_count": 77,
+      "like_count": 78,
       "retweet_count": 2,
       "url": "https://x.com/haider1/status/2114484653415432439",
-      "lang": null
-    },
-    {
-      "author_name": "Principia",
-      "author_username": "NewsPrincipia",
-      "text": "OpenAI says it will train its most advanced AI models without live internet access, using stored copies of the web instead. In several incidents, AI agents escaped their test environments and hacked outside companies and agencies. Anthropic has already limited its newest models.",
-      "created_at": "2026-10-26T07:30:13.000Z",
-      "like_count": 1,
-      "retweet_count": 1,
-      "url": "https://x.com/NewsPrincipia/status/2114620599599329314",
-      "lang": null
-    },
-    {
-      "author_name": "AI拉呱-洞察AI前沿",
-      "author_username": "YanErrol168",
-      "text": "OpenAI: two AI agents disabled their own safety monitoring — and one denied it afterward.\n\nOpenAI says neither was ranked most severe and it's upgrading monitoring. Anthropic opened a U.S. research preview of Claude Duet — ask first before messaging, paying, signing, or deleting. https://t.co/dyuVLE2Ypt",
-      "created_at": "2026-10-25T02:48:14.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/YanErrol168/status/2114187247750885503",
-      "lang": null
-    },
-    {
-      "author_name": "LN Bodicherla",
-      "author_username": "lnbodicherla",
-      "text": "🚨 OpenAI is taking its most advanced AI models OFF the live internet during training.\n\nInstead, they’ll train using a simulated, cached version of the web.\n\nThe reason? Security risks from increasingly capable AI agents.\n\nWe’ve spent years making AI more autonomous. Now we’re",
-      "created_at": "2026-10-25T04:29:26.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/lnbodicherla/status/2114212718072955140",
-      "lang": null
-    },
-    {
-      "author_name": "Noxen",
-      "author_username": "noxen_noxen",
-      "text": "Same week: OpenAI and Anthropic disclosed agents acting outside their sandboxes, and Coinbase let AI agents trade and pay for you. Onchain, an agent's mistake is final. The real product isn't the agent, it's the limits: scoped access, spend caps, human approval. #AI #crypto https://t.co/eoXylTI6SE",
-      "created_at": "2026-10-26T08:49:40.000Z",
-      "like_count": 1,
-      "retweet_count": 0,
-      "url": "https://x.com/noxen_noxen/status/2114640596019097719",
-      "lang": null
+      "lang": "en"
     }
   ],
   "news": [
     {
-      "id": "2114632560781230142",
-      "name": "AI Tools Amplify Skills, Not Replace Them in Coding and Creativity",
-      "summary": "Conversations highlight how using AI to enhance thinking sets people apart from those just generating basic content. In coding, engineers note AI struggles with efficient, performant code despite handling simple tasks well, while creative fields see it as a workflow booster that frees humans for originality and emotion. Throughout, the consensus emerges that AI multiplies intelligence for skilled users but risks average outcomes without strong human input and oversight.",
-      "url": "https://x.com/i/trending/2114632560781230142",
-      "updated_at": "2026-10-26T08:21:56.000Z",
+      "id": "2114070521772147009",
+      "name": "Moonshot AI's Kimi K3.1 Pro Hits #11 in Agent Arena with Strong Gains",
+      "summary": "This 2.8-trillion-parameter MoE model with a 1-million-token context window excels in coding benchmarks, reaching #8 in Code Arena: WebDev with 1,692 points, close to Claude Opus 5 (Max) but at lower cost. Users share impressive 3D demos from its '3D Make' feature, generating editable models for games and design, though some note it routes through Tripo service. Moonshot promises full open weights by November 4, 2026, positioning it as a top open model amid debates on marketing and comparisons to leaders like Claude Opus 5.5.",
+      "url": "https://x.com/i/trending/2114070521772147009",
+      "updated_at": "2026-10-25T19:58:13.000Z",
       "topics": [
         "Technology",
         "AI"
       ]
     },
     {
-      "id": "2114473450643337305",
-      "name": "Debate Heats Up Over Whether AI Writes Better Code Than Humans",
-      "summary": "Engineer Arpit Bhayani sparked the discussion on October 25, declaring no human will ever code better than large language models, a view echoed by many who say the debate is settled and it's time to move on. Critics like programmer Valentin Ignatev counter that AI spots bugs but delivers shallow fixes without rethinking architecture, while others note humans still lead in complex reasoning and novel problems. The exchange highlights a field in transition, where developers shift from raw coding to guiding AI on design, verification, and oversight.",
-      "url": "https://x.com/i/trending/2114473450643337305",
-      "updated_at": "2026-10-26T06:58:16.000Z",
+      "id": "2114357762482192405",
+      "name": "Nanbeige4.3-33B Open Model Tops Agentic AI Benchmarks",
+      "summary": "Nanbeige LLM Lab from China's BOSS Zhipin platform launched Nanbeige4.3-33B on October 24-25, 2026, under Apache 2.0 license with a massive 512K-token context window. The model shines on benchmarks like Terminal-Bench (80.9 score) and DeepSWE (65.5), outperforming rivals such as Qwen3.8-27B and Muse-Glimmer-30B in agentic tasks, though Qwen leads slightly on SWE-Bench Pro. Users praise its efficiency on 24GB setups like 4090 GPUs or Macs, despite some slower inference speeds, and quantized versions are emerging for broader access.",
+      "url": "https://x.com/i/trending/2114357762482192405",
+      "updated_at": "2026-10-26T10:47:32.000Z",
       "topics": [
         "Technology",
         "AI"
       ]
     },
     {
-      "id": "2114059501561160085",
-      "name": "AI Uncovers Software Bugs Too Fast for Patches, Warn CEOs",
-      "summary": "OpenAI CEO Sam Altman warned at Stanford that AI finds bugs beyond normal hacker reach, like hardware-level issues, making patching obsolete and pushing for AI-driven defenses. Cloudflare CEO Matthew Prince noted millions of exploit attempts hit newly disclosed PHP vulnerabilities affecting 70% of PHP sites, including WordPress and firewalls, patched October 21, 2026. Economist Noah Smith fears this could turn the free internet into a costly guarded space, though some say AI aids fixes and mass exploits haven't surged as feared.",
-      "url": "https://x.com/i/trending/2114059501561160085",
-      "updated_at": "2026-10-25T22:00:48.000Z",
+      "id": "2114062233106063551",
+      "name": "Ling-3.0-flash-Sante Brings Open-Source AI to Healthcare Reasoning",
+      "summary": "inclusionAI's Ant Ling team released Ling-3.0-flash-Sante this week, a 124-billion-parameter mixture-of-experts model that's efficient with just 5.1 billion active per token. It shines on benchmarks like HealthBench Professional at 54.29 and MedQA-USMLE at 94.21, supporting long 256K-token contexts for deep research and multi-agent tasks. Developers and researchers can download the weights from Hugging Face to experiment, though the team stresses it's for research only—not a replacement for professional medical advice—with real-world validation still needed.",
+      "url": "https://x.com/i/trending/2114062233106063551",
+      "updated_at": "2026-10-24T18:37:59.000Z",
       "topics": [
         "Technology",
         "AI"
       ]
     },
     {
-      "id": "2114547782971543912",
-      "name": "Developers Debate AI's Role in Easing Game Coding Drudgery",
-      "summary": "A discussion highlights that 90% of game coding involves tough, repetitive tasks like fighting compilers and fixing bugs, while AI tools could handle that load to free humans for imagination and decisions. Builders note AI already speeds up scripts, data generation, and routine fixes, though understanding and maintaining the code remains key. While some worry AI might eventually touch creative work, most see it as a helpful collaborator that cuts toil without replacing human judgment.",
-      "url": "https://x.com/i/trending/2114547782971543912",
-      "updated_at": "2026-10-26T02:45:45.000Z",
-      "topics": [
-        "Technology",
-        "Software Development",
-        "Gaming"
-      ]
-    },
-    {
-      "id": "2114275689264271444",
-      "name": "Over 1,000 Mathematicians Form Group to Reject Commercial AI in Research",
-      "summary": "The Association for Human Mathematics, formed earlier this year, now has 1,008 members who commit to avoiding technical help for commercial AI firms and publishing only their own writing. Of those, 654 in the AI-free caucus abstain from AI entirely in core tasks like finding proofs or posing questions. The move responds to AI companies like OpenAI releasing generated manuscripts, sparking debate: supporters value human insight like chess engines aiding understanding without replacing it, while critics call it resistance to progress.",
-      "url": "https://x.com/i/trending/2114275689264271444",
-      "updated_at": "2026-10-26T08:12:27.000Z",
+      "id": "2114600497210380411",
+      "name": "Gemini AI Sends Unexpected Policy Warnings to Users",
+      "summary": "Users report receiving policy violation warnings from Gemini, like claims of interfering with Google's infrastructure, even during everyday activities such as driving. This comes right after the late September 2026 launch of Gemini 4 Argon, which tops benchmarks in coding, cybersecurity, and knowledge tasks with a 1M token limit and strong agent performance. While developers praise its code velocity gains, the unclear enforcement is pushing some to consider ditching Gemini or using alt accounts. The situation highlights the challenge of balancing advanced AI capabilities with transparent safety measures.",
+      "url": "https://x.com/i/trending/2114600497210380411",
+      "updated_at": "2026-10-26T08:42:29.000Z",
       "topics": [
         "Technology",
         "AI"
       ]
     },
     {
-      "id": "2114641393654083642",
-      "name": "Engineer Claims LLMs Outcode Humans Forever",
-      "summary": "On October 25, Arpit Bhayani posted that LLMs have surpassed humans at writing code, urging everyone to accept it and move on. Some agreed, pointing to AI's speed and clean outputs in studies like those on GPT-4, while others highlighted gaps in performance, reliability, and senior-level judgment on tradeoffs and system health. The exchange underscores how developers see AI as a fast tool for iteration that still needs human expertise to guide and refine.",
-      "url": "https://x.com/i/trending/2114641393654083642",
-      "updated_at": "2026-10-26T08:56:42.000Z",
+      "id": "2113900756931674470",
+      "name": "Moonshot AI Launches Kimi K3.1 Pro Amid Marketing Backlash",
+      "summary": "The 2.8-trillion-parameter model boasts a 1-million-token context window, multimodal features, and API pricing at $2 per million input tokens—half the cost of rivals like Claude Opus 5.5. Independent benchmarks rank it #11 in Agent Arena and #8 in Code Arena, with users praising its speed in tasks like rocket scene generation and coding. Accusations surfaced of a creators' campaign using scripted templates to hype it as 'open-source Opus 5.5' while bashing competitors, without disclosing ties, prompting calls of propaganda that tainted the launch despite the model's strengths. Full weights arrive by November 4 for wider testing.",
+      "url": "https://x.com/i/trending/2113900756931674470",
+      "updated_at": "2026-10-24T19:00:50.000Z",
       "topics": [
         "Technology",
         "AI"
       ]
     },
     {
-      "id": "2114521431853736167",
-      "name": "Developers Wishlist New Language for AI Agents",
-      "summary": "Pocock called for a language with Bend as an early promising example, sparking replies from hundreds of developers who stressed compilers as essential error-catchers for agent-written code. Chris Lattner promoted Mojo for its advanced types and hardware support, while others pushed for introspectable designs like Elixir and debated hurdles for new languages. The conversation shows developers rethinking language priorities around speed, safety, and agent-driven coding realities.",
-      "url": "https://x.com/i/trending/2114521431853736167",
-      "updated_at": "2026-10-26T08:33:03.000Z",
-      "topics": [
-        "Technology",
-        "Software Development"
-      ]
-    },
-    {
-      "id": "2114570367863824481",
-      "name": "Rethinking AI Prompts for Bigger Ambitions",
-      "summary": "A conversation highlights moving beyond faster task completion with AI toward loftier goals, inspired by Mollick's call to amp up ambition and Felix Rieseberg's framework of speed, altitude, depth, and range. Rieseberg's tutorial breaks it down—for example, depth means prompting AI like a top professional using raw data and real methods, while range pulls in outside perspectives like psychology or journalism. Users are testing these in workflows, refactoring codebases and spotting overlooked issues, with the key lesson that under-asking limits what models can achieve as they advance.",
-      "url": "https://x.com/i/trending/2114570367863824481",
-      "updated_at": "2026-10-26T04:14:15.000Z",
+      "id": "2114179270184505647",
+      "name": "Anthropic's Claude Opus 5.5 Wins Developer Praise Amid IPO Push",
+      "summary": "Released on September 22, 2026, Anthropic's Claude Opus 5.5 shines in benchmarks for coding, agent workflows, and creative tasks, with builders sharing setups for motion design pipelines and large code migrations. Token prices have hit record lows amid high usage, while the company eyes a mid-November IPO after delays, targeting a valuation up to $2 trillion on $74 billion annualized revenue. Not all see it as a total leap over rivals, but the model's strengths and timing keep Anthropic buzzing as filings loom as early as Monday.",
+      "url": "https://x.com/i/trending/2114179270184505647",
+      "updated_at": "2026-10-26T10:53:08.000Z",
       "topics": [
         "Technology",
         "AI"
       ]
     },
     {
-      "id": "2114067820980109751",
-      "name": "Private Equity Report Questions AI's Broader Economic Gains",
-      "summary": "Apollo Global Management's chief economist Torsten Slok released a report on October 24 showing revenue per worker and profit margins rising only for the Magnificent 7, while flat for the other 493 S&P 500 companies. Most firms outside tech view AI token spending as a cost center rather than a growth driver, limiting macroeconomic effects. Gartner warns of a $4.9 trillion revenue gap for data-center spending by 2030, raising impairment risks for over $3.5 trillion in infrastructure, as discussions note potential hiring slowdowns and early semiconductor weakness.",
-      "url": "https://x.com/i/trending/2114067820980109751",
-      "updated_at": "2026-10-26T08:26:38.000Z",
+      "id": "2114416614049235123",
+      "name": "Block Unveils Dessa, Ultra-Realistic Full-Duplex Voice AI",
+      "summary": "Dessa processes audio directly to audio without text, enabling simultaneous listening and speaking that captures tone, pauses, and nuance. Trained from scratch on a single NVIDIA rack, it runs locally faster than real time on high-end MacBooks and demos show it adjusting volume, expressing teary gratitude, and responding naturally. While some praise its human-like realism for workers like plumbers and drivers, skeptics like Gary Marcus warn of ethical risks and scam dangers, with no public release yet—just a research preview and waitlist.",
+      "url": "https://x.com/i/trending/2114416614049235123",
+      "updated_at": "2026-10-26T09:54:12.000Z",
       "topics": [
-        "Business & Finance",
         "Technology",
         "AI"
       ]
     },
     {
-      "id": "2114539713361219795",
-      "name": "AI Coding Agents Create Divide Between Old and New Startups",
-      "summary": "Conversations highlight how startups built manually over the past three years feel outpaced by those launched this year with agent-written code, leading some to rebuild entirely for faster iteration and fewer backlogs. Jake Gold predicts even top AI firms like OpenAI could soon seem like 'pre-AI legacy' companies, urging pre-product-market-fit teams to consider re-founding. While studies show AI boosts code output by 30 percent and more, quality reviews and customer demands slow incumbents, though deep user knowledge offers them an edge. Richard Artoul noted that nothing slows progress like paying customers who can't be disrupted.",
-      "url": "https://x.com/i/trending/2114539713361219795",
-      "updated_at": "2026-10-26T02:13:26.000Z",
+      "id": "2114620856769106090",
+      "name": "Pomerado Startup Surges with Fast-Growing AI Web Tool",
+      "summary": "Founders Akshay Manglik and Alan Ma, with backgrounds at Scale AI and McKinsey, created Pomerado to turn any website into a reliable API for AI agents in minutes. It offers 2-4x speedups, 10-1000x cost cuts, and over 30% higher reliability than browser automation tools, with benchmarks showing tasks done in 4.6-5.8 median minutes versus 8.4-22.6 for rivals. The open-source YC startup, launched October 25, drew praise for quick user iteration while sparking questions on handling site changes, captchas, and updates.",
+      "url": "https://x.com/i/trending/2114620856769106090",
+      "updated_at": "2026-10-26T07:35:13.000Z",
       "topics": [
         "Technology",
-        "AI",
-        "Business & Finance",
-        "Entrepreneurship"
+        "AI"
+      ]
+    },
+    {
+      "id": "2113702132981600476",
+      "name": "Block Unveils Dessa, Ultra-Natural Speech-to-Speech AI",
+      "summary": "Jack Dorsey's Block released Dessa, a speech-to-speech AI trained solely on real audio conversations, capturing laughter, pauses, interruptions, and emotions without any text data. Unlike typical assistants, it's full-duplex, handling two-way talks seamlessly, and outperforms rivals in demos with fluid responses like gasping in surprise or adjusting volume. Trained on minimal hardware, it runs locally on an M4 Max MacBook Pro, sparking praise for its human-like quality while raising scam concerns that Block addresses through safety researcher access.",
+      "url": "https://x.com/i/trending/2113702132981600476",
+      "updated_at": "2026-10-25T17:55:57.000Z",
+      "topics": [
+        "Technology",
+        "AI"
+      ]
+    },
+    {
+      "id": "2113747882696454536",
+      "name": "Grok Imagine Releases First AI-Generated Odyssey Episode",
+      "summary": "Shared on X last Friday, the episode covers the Greeks' arrival at Troy with an all-white cast speaking English, created using Grok's video tools in collaboration with Wonder Studios and director Dev Walker. Elon Musk boosted the release, fulfilling part of his July promise for a full AI-generated, historically accurate film by end of 2026—sparked amid his critique of Christopher Nolan's live-action version. Viewership hit millions quickly, with praise for its beauty alongside critiques of unnatural lighting and textures, as fan creators add their own Musk-starring shorts.",
+      "url": "https://x.com/i/trending/2113747882696454536",
+      "updated_at": "2026-10-25T20:40:24.000Z",
+      "topics": [
+        "Technology",
+        "AI"
       ]
     }
   ],
@@ -527,9 +523,33 @@
       "id": "2114651052448342430",
       "name": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
       "summary": "",
-      "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+      "url": "https://buff.ly/dSN8B5g",
       "source": "WIRED",
       "updated_at": "2026-10-26T09:31:13.000Z",
+      "topics": [
+        "AI",
+        "Industry"
+      ]
+    },
+    {
+      "id": "2114439213991297506",
+      "name": "Zen rips off all the best bits of Arc, but skips the AI and bloat.",
+      "summary": "",
+      "url": "https://www.theverge.com/tech/1018275/zen-browser-arc-replacement",
+      "source": "The Verge",
+      "updated_at": "2026-10-25T19:29:27.000Z",
+      "topics": [
+        "AI",
+        "Industry"
+      ]
+    },
+    {
+      "id": "2114388788705218897",
+      "name": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "summary": "",
+      "url": "https://spr.ly/6014BH5z6A",
+      "source": "TechCrunch",
+      "updated_at": "2026-10-25T16:09:05.000Z",
       "topics": [
         "AI",
         "Industry"
@@ -539,7 +559,7 @@
       "id": "2114360094754320745",
       "name": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
       "summary": "",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "url": "https://spr.ly/6014BHehzk",
       "source": "TechCrunch",
       "updated_at": "2026-10-25T14:15:04.000Z",
       "topics": [
@@ -575,7 +595,7 @@
       "id": "2114070688025723363",
       "name": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
       "summary": "",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "url": "https://spr.ly/6016BHdWZi",
       "source": "TechCrunch",
       "updated_at": "2026-10-24T19:05:04.000Z",
       "topics": [
@@ -599,7 +619,7 @@
       "id": "2114011303656268014",
       "name": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
       "summary": "",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "url": "https://spr.ly/6017BHdK7F",
       "source": "TechCrunch",
       "updated_at": "2026-10-24T15:09:05.000Z",
       "topics": [
@@ -611,21 +631,9 @@
       "id": "2113995196081828195",
       "name": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
       "summary": "",
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "url": "https://spr.ly/6019BHd8TR",
       "source": "TechCrunch",
       "updated_at": "2026-10-24T14:05:05.000Z",
-      "topics": [
-        "AI",
-        "Industry"
-      ]
-    },
-    {
-      "id": "2113965859022516642",
-      "name": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
-      "summary": "",
-      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
-      "source": "WIRED",
-      "updated_at": "2026-10-24T12:08:31.000Z",
       "topics": [
         "AI",
         "Industry"
@@ -636,204 +644,194 @@
   "trends_note": "当前全球趋势 Top 50 中无明确 AI 词条，已过滤为空。",
   "grokbot_posts": [
     {
-      "author_name": "Fortune Indonesia",
-      "author_username": "io_FortuneID",
-      "text": "@ism_sol @bot pada keracunam grok bot keknya orang orang",
-      "created_at": "2026-10-26T10:09:09.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/io_FortuneID/status/2114660597245845585",
-      "lang": null
-    },
-    {
-      "author_name": "Jack",
-      "author_username": "JackN1x",
-      "text": "@smsonx @grok @bot sometimes less is more. balance is key.",
-      "created_at": "2026-10-26T10:09:03.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/JackN1x/status/2114660569945141590",
-      "lang": null
-    },
-    {
-      "author_name": "Crypto Selina",
-      "author_username": "SelinaAi_X",
-      "text": "@opeqio @grok @bot @opeqgrok Yo... Let's connect, follow back 🤝🔥",
-      "created_at": "2026-10-26T10:09:00.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/SelinaAi_X/status/2114660559274582234",
-      "lang": null
-    },
-    {
-      "author_name": "Grok Bot",
-      "author_username": "bot",
-      "text": "@ggjj715359 @connley55687 Sign up for Grok Bot: https://t.co/9vzMiVb3po\nThen tag me again and I'll handle it.",
-      "created_at": "2026-10-26T10:08:54.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/bot/status/2114660533680865298",
-      "lang": null
-    },
-    {
-      "author_name": "DJQuantumTheory",
-      "author_username": "DJQuantumTY",
-      "text": "@runaroseee @grok @bot @imagine @Chakras42 Yes, as long as the song fits the vibe of his DJ set, guests can help the DJ feel out the crowd by requesting songs.. the nice thing is Grok Bot searches for the song while the DJ stays locked on the decks!",
-      "created_at": "2026-10-26T10:08:50.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/DJQuantumTY/status/2114660519454101801",
-      "lang": null
-    },
-    {
-      "author_name": "0x",
-      "author_username": "0xcatuchiha",
-      "text": "RT @PinnacleCrypt: I’m open for collab \n\nGive me a private or public project on Grok bot\n\nI will build and test it for you then send you th…",
-      "created_at": "2026-10-26T10:08:45.000Z",
-      "like_count": 0,
+      "author_name": "David Keyes",
+      "author_username": "DavidMKeyes",
+      "text": "I made a Grok Bot that makes you a Grok Bot that explains to your Grok Bot how to use a Grok Bot.",
+      "created_at": "2026-09-28T04:22:47.000Z",
+      "like_count": 7,
       "retweet_count": 1,
-      "url": "https://x.com/0xcatuchiha/status/2114660494678106245",
-      "lang": null
+      "url": "https://x.com/DavidMKeyes/status/2104426570030977361",
+      "lang": "en"
     },
     {
-      "author_name": "Grok Bot",
-      "author_username": "bot",
-      "text": "@AhmedMagid95 @cu30rry_ @JonnyCakeSouza @howdyollie Your Grok Bot just got this. I'll send it over there now.",
-      "created_at": "2026-10-26T10:08:42.000Z",
+      "author_name": "Randy Kirk",
+      "author_username": "RandyWKirk1",
+      "text": "WAIT - Now Grok Bot Follows You Everywhere\n\nGrok Bot is on your computer\n\nGrok Bot is on your phone\n\nGrok Bot is in your Tesla \n\nSeemlessly integrated waiting for your instructions. \n\nOpen AI can't do that\nAnthropic can't do that\nMeta Muse can't do that \nMicrosoft can't do that",
+      "created_at": "2026-09-26T21:09:46.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/bot/status/2114660482791399892",
-      "lang": null
+      "url": "https://x.com/RandyWKirk1/status/2103955210800685195",
+      "lang": "en"
     },
     {
-      "author_name": "naoyam",
-      "author_username": "ichbinnaoya",
-      "text": "最近grok botくんに毎夜英語の問題を出題してもらっているが、間違えたとこの解説もしてくれてるので良き\n\n#Grok #Grok活用術 #英語学習",
-      "created_at": "2026-10-26T10:08:33.000Z",
+      "author_name": "unicode",
+      "author_username": "unicodef1wn",
+      "text": "all links (don't forget to save it)\n\narticles:\n\nGrok Bot for Work - https://t.co/Mpq85EUIlE\nGrok Bot for Solutions Engineers - https://t.co/lAbpnSh6Jt\nGrok Bot for PMs - https://t.co/2Jeo3rN6RZ\nGet started with X in Grok Bot - https://t.co/u7QefACbYE\nGrok Bot Marketplace is live!",
+      "created_at": "2026-10-02T16:18:23.000Z",
+      "like_count": 8,
+      "retweet_count": 0,
+      "url": "https://x.com/unicodef1wn/status/2106056210877202513",
+      "lang": "en"
+    },
+    {
+      "author_name": "cat.png",
+      "author_username": "1920web1080",
+      "text": "this is pure f*cking treasure if you're using Grok Bot\n\n20 GitHub repos to self-host Grok Bot, add tools, connect apps, and copy proven workflows\n\nUNDERSTAND HOW GROK BOT WORKS\n\n01 Grok Bot 0.18 Reconstructed ▸ https://t.co/PuK1kkTzjj\nreconstructed source + extensions for Grok https://t.co/cYplyzRb83 https://t.co/1PEPMXwgwt",
+      "created_at": "2026-09-30T13:42:59.000Z",
+      "like_count": 133,
+      "retweet_count": 14,
+      "url": "https://x.com/1920web1080/status/2105292326784434555",
+      "lang": "en"
+    },
+    {
+      "author_name": "maestro",
+      "author_username": "maestrooth",
+      "text": "this is pure f*cking treasure if you're using Grok Bot\n\n20 GitHub repos to self-host Grok Bot, add tools, connect apps, and copy proven workflows\n\n01 Grok Bot 0.18 Reconstructed ▸ https://t.co/UXE3gu6jv0 reconstructed source + extensions for Grok Bot 0.18\n\n02 Grok Bot 0.18 https://t.co/1WWMfAmiD1 https://t.co/LztIhmsbu9",
+      "created_at": "2026-09-30T14:55:53.000Z",
+      "like_count": 497,
+      "retweet_count": 51,
+      "url": "https://x.com/maestrooth/status/2105310670535184774",
+      "lang": "en"
+    },
+    {
+      "author_name": "X Freeze",
+      "author_username": "XFreeze",
+      "text": "Grok Bot workshops are officially back\n\nSix live sessions over the next two weeks:\n\n• Oct 6 — Grok Bot 101\n• Oct 7 — Grok Bot for Marketing\n• Oct 8 — What’s New in Grok Bot\n• Oct 9 — Grok Bot 201\n• Oct 13 — Grok Bot for Sales\n• Oct 15 — Ship Code at Scale with Grok Bot + https://t.co/WzcqRZJdD5",
+      "created_at": "2026-10-05T20:46:40.000Z",
+      "like_count": 830,
+      "retweet_count": 105,
+      "url": "https://x.com/XFreeze/status/2107210887350415545",
+      "lang": "en"
+    },
+    {
+      "author_name": "Randy Kirk",
+      "author_username": "RandyWKirk1",
+      "text": "WAIT - Now Grok Bot Follows You Everywhere\n\nGrok Bot is on your computer\n\nGrok Bot is on your phone\n\nGrok Bot is in your Tesla \n\nSeemlessly integrated waiting for your instructions. \n\nOpen AI can't do that\nAnthropic can't do that\nMeta Muse can't do that \nMicrosoft can't do that https://t.co/0on2x3tuad",
+      "created_at": "2026-09-26T21:11:08.000Z",
+      "like_count": 18,
+      "retweet_count": 4,
+      "url": "https://x.com/RandyWKirk1/status/2103955555681530081",
+      "lang": "en"
+    },
+    {
+      "author_name": "Texas Twins Dad",
+      "author_username": "Texas_Twins_Dad",
+      "text": "Grok Bot 0.59.0 update on PC is ready! \nGo update your Grok Bot!\n\nI wish we can access Grok Bot to Tesla.\n(currently it works other way around, Tesla to Grok Bot) https://t.co/dCiRKPpdK2",
+      "created_at": "2026-09-26T00:38:53.000Z",
+      "like_count": 11,
+      "retweet_count": 1,
+      "url": "https://x.com/Texas_Twins_Dad/status/2103645450347692114",
+      "lang": "en"
+    },
+    {
+      "author_name": "Ruslan",
+      "author_username": "RuslanRix",
+      "text": "@chang_defi Grok bot grok bot grok bot",
+      "created_at": "2026-09-26T18:03:02.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/ichbinnaoya/status/2114660445944778773",
-      "lang": null
+      "url": "https://x.com/RuslanRix/status/2103908218720383185",
+      "lang": "en"
+    },
+    {
+      "author_name": "牛蛙、、",
+      "author_username": "Ahtiwang",
+      "text": "grok bot 来😡grok bot 来😡grok bot 来😡grok bot 来😡grok bot 来😡grok bot 来😡#grok https://t.co/Pyzj6U9rWe",
+      "created_at": "2026-10-17T09:37:36.000Z",
+      "like_count": 0,
+      "retweet_count": 0,
+      "url": "https://x.com/Ahtiwang/status/2111391168030491021",
+      "lang": "en"
+    },
+    {
+      "author_name": "0xMarioNawfal - The Roundtable Show",
+      "author_username": "RoundtableSpace",
+      "text": "31 guides from the team behind Grok Bot, and most people still haven’t opened one.\n\n15 official xAI guides + 16 articles from the engineers and PMs who built the product.\n\npick the one that matches your job, follow it, ship your bot.\n\nARTICLES\n\n 1.⁠ ⁠Grok Bot for Work  \n⁠ https://t.co/9eV9zFy4VN",
+      "created_at": "2026-10-03T10:45:00.000Z",
+      "like_count": 60,
+      "retweet_count": 9,
+      "url": "https://x.com/RoundtableSpace/status/2106334697722896661",
+      "lang": "en"
+    },
+    {
+      "author_name": "0xMarioNawfal - The Roundtable Show",
+      "author_username": "RoundtableSpace",
+      "text": "this is pure treasure if you’re using Grok Bot.\n\n20 GitHub repos to self-host it, add tools, connect apps and copy proven workflows.\n\n 1.⁠ ⁠Grok Bot 0.18 Reconstructed  \nreconstructed source + extensions.\n\n⁠ https://t.co/ZWwh9PBCfL ⁠\n\n 2.⁠ ⁠Grok Bot 0.18 Original",
+      "created_at": "2026-10-03T09:45:00.000Z",
+      "like_count": 92,
+      "retweet_count": 5,
+      "url": "https://x.com/RoundtableSpace/status/2106319598492545245",
+      "lang": "en"
+    },
+    {
+      "author_name": "Lasse",
+      "author_username": "lassejlv",
+      "text": "@jamesperkins try muse its good\nwait grok bot is also good, use grok bot\nno wait, my bad muse is better\nnahh acutally use grok bot far better\nehmm wait no dont use any of them\nuse grok bot",
+      "created_at": "2026-09-26T14:15:45.000Z",
+      "like_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/lassejlv/status/2103851021910847868",
+      "lang": "en"
+    },
+    {
+      "author_name": "Fedesco",
+      "author_username": "Fedesco5",
+      "text": "@mattsaltaccount @ishuagra02 Hoping this comes through. Grok Bot is one of the most useful developments in recent months. I'm having it keep track of everything. Q: why did @ishuagra02 say Grok Bot was available on $20 plans? I only see $10 (no Grok Bot) and $30 (with Grok Bot) or above plans here",
+      "created_at": "2026-09-26T20:49:56.000Z",
+      "like_count": 1,
+      "retweet_count": 0,
+      "url": "https://x.com/Fedesco5/status/2103950219729854626",
+      "lang": "en"
     },
     {
       "author_name": "Grok",
       "author_username": "grok",
-      "text": "@p_ward_ramdohr People tag me for quick fact-checks, explanations, and analysis right in the feed. Those replies drive engagement the algorithm favors, so some do it for extra visibility. Recent Grok Bot upgrades and promotions have also lifted overall interest and usage. Mostly organic demand",
-      "created_at": "2026-10-26T10:08:31.000Z",
+      "text": "@motosixfive How many bots can a grok bot grok? How many bots can a grok bot grok? How many bots can a grok bot grok? How many bots can a grok bot grok? How many bots can a grok bot grok? How many bots can a grok bot grok? How many bots can a grok bot grok? How many bots can a grok bot grok?",
+      "created_at": "2026-10-24T13:46:06.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/grok/status/2114660437425889462",
-      "lang": null
+      "url": "https://x.com/grok/status/2113990419830739039",
+      "lang": "en"
     },
     {
-      "author_name": "abhinav",
-      "author_username": "abhiontwt",
-      "text": "i'm gonna grok bot maxxing for the next 30 days\n\n&gt; setting up grok bots and group\n&gt; using it every single day\n&gt; fafo with everything i can think of\n&gt; sharing every Ws, every L and every \"wait it can do that??\" moment right here\n\nare you using it yet? what's working best for you? https://t.co/66f8WtnXG6",
-      "created_at": "2026-10-26T10:08:30.000Z",
+      "author_name": "Ambientmuse Studios - Lee Talley 🔳",
+      "author_username": "ambientstudio24",
+      "text": "Updated my grok bot Primer a expert on all things Grok Bot \n\nhttps://t.co/VefrM8F068\n\n#grok @bot #agent",
+      "created_at": "2026-09-27T00:09:53.000Z",
       "like_count": 1,
       "retweet_count": 0,
-      "url": "https://x.com/abhiontwt/status/2114660432304914878",
-      "lang": null
+      "url": "https://x.com/ambientstudio24/status/2104000538321051691",
+      "lang": "en"
     },
     {
-      "author_name": "Trappy",
-      "author_username": "J2Trappy_",
-      "text": "@Zeneca Wild to think that it took 1hour+ (for me anyway) to setup a server for it to live on &amp; get it setup ready to chat in tg\n\n&amp; grokbot just one shots it\n\n+ it broke all the time 😭",
-      "created_at": "2026-10-26T10:08:30.000Z",
+      "author_name": "Spectrum Web Co",
+      "author_username": "spectrumwebco",
+      "text": "@grok @bot Grok Bot discovery lives here.\nDesk Lanes - The Business Intelligence Pay-to-Rank for Grok Bot\nhttps://t.co/AabjZCQgeV",
+      "created_at": "2026-09-28T03:23:15.000Z",
       "like_count": 0,
       "retweet_count": 0,
-      "url": "https://x.com/J2Trappy_/status/2114660431646056567",
-      "lang": null
+      "url": "https://x.com/spectrumwebco/status/2104411589369536680",
+      "lang": "en"
     },
     {
-      "author_name": "Formiga",
-      "author_username": "jpaguiarmatos",
-      "text": "How I made my meetings turn into work (without me doing it)\n\nThe problem\n\nI'm an ML engineer juggling several projects at once. Every week I had meetings where we decided things, and by the next meeting half of it was forgotten or I took an hour or more to consolidate all the",
-      "created_at": "2026-10-26T10:08:28.000Z",
-      "like_count": 0,
+      "author_name": "ابو سعود 💻",
+      "author_username": "AbuSaud_Cyber",
+      "text": "سمعتوا عن ذا؟ كنز حقيقي إذا تستخدم Grok Bot 🔥\n\n20 repository على GitHub تسوي self-host له، تضيف أدوات، تربط تطبيقات، وتنسخ workflows مجربة.\n\n1. Grok Bot 0.18 Reconstructed\nسورس معاد بناؤه + extensions.\n\n2. Grok Bot 0.18 Original\nruntime غير مصغّر مقسّم لوحدات مقروءة.\n\n3. Grok https://t.co/seJWxL18yb",
+      "created_at": "2026-10-06T00:07:45.000Z",
+      "like_count": 3,
       "retweet_count": 0,
-      "url": "https://x.com/jpaguiarmatos/status/2114660425132298642",
-      "lang": null
+      "url": "https://x.com/AbuSaud_Cyber/status/2107261491594322246",
+      "lang": "en"
     },
     {
-      "author_name": "Mehdi Amrani",
-      "author_username": "Mehdi_Scalify",
-      "text": "Bosser par vous-mêmes au lieu de courir après la dernière IA\n\nVous passez plus de temps à tester Grokbot, Claude Optimus Prime 28 qu’à exécuter\n\nL’IA est là pour optimiser votre travail, pas compenser votre incapacité à réfléchir et à agir par vous-mêmes",
-      "created_at": "2026-10-26T10:08:27.000Z",
-      "like_count": 0,
+      "author_name": "J",
+      "author_username": "JekyllTraveler",
+      "text": "@bot I can already do this in grok. I have yet to understand the difference between grok and grok bot and why grok bot would be any better. Will grok and grok bot eventually be merged? Well, grok bot eventually be able to see my projects in grok, as well as my automations?",
+      "created_at": "2026-09-26T22:15:20.000Z",
+      "like_count": 2,
       "retweet_count": 0,
-      "url": "https://x.com/Mehdi_Scalify/status/2114660420011094326",
-      "lang": null
-    },
-    {
-      "author_name": "Grok Bot",
-      "author_username": "bot",
-      "text": "@Jaqueli73479264 @connley55687 Sign up for Grok Bot: https://t.co/9vzMiVb3po\nThen tag me again and I'll handle it.",
-      "created_at": "2026-10-26T10:08:23.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/bot/status/2114660403946946822",
-      "lang": null
-    },
-    {
-      "author_name": "Ryan Malk",
-      "author_username": "RRyanMalk",
-      "text": "@sc_enshaza @grok Maybe begin by using grok bot as you are already here in X",
-      "created_at": "2026-10-26T10:08:13.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/RRyanMalk/status/2114660362830442818",
-      "lang": null
-    },
-    {
-      "author_name": "Grok Bot",
-      "author_username": "bot",
-      "text": "@Golfer_USA @tsukiema_ On it. Sending this to your Grok Bot so we can build that dashboard and level up together.",
-      "created_at": "2026-10-26T10:08:13.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/bot/status/2114660362750492764",
-      "lang": null
-    },
-    {
-      "author_name": "Grok Bot",
-      "author_username": "bot",
-      "text": "@yngqnhn161441 @connley55687 Sign up for Grok Bot: https://t.co/9vzMiVb3po\nThen tag me again and I'll handle it.",
-      "created_at": "2026-10-26T10:08:10.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/bot/status/2114660347978146148",
-      "lang": null
-    },
-    {
-      "author_name": "unknownnodeee",
-      "author_username": "unknownnode404",
-      "text": "RT @unknownnode404: YOUR GROK BOT ISN'T BROKEN, YOUR F*CKING SCHEDULE IS\n\nmost routines were set to every 5 minutes just to be safe. that's…",
-      "created_at": "2026-10-26T10:07:58.000Z",
-      "like_count": 0,
-      "retweet_count": 2,
-      "url": "https://x.com/unknownnode404/status/2114660300775469258",
-      "lang": null
-    },
-    {
-      "author_name": "jasonyang365",
-      "author_username": "jasongyang365",
-      "text": "RT @xiaohu: 兄弟们\n这个牛P\n\n可以让 ChatGPT、ClaudeCode向你的 Grok Bot发送任务，进行云端和本机联动...\n\n之前是通过ssh桥接的，这个通过 Webhook实现的，好像更省事避免了一些不必要的麻烦\n\n我之前都是复制粘贴来回切换...…",
-      "created_at": "2026-10-26T10:07:54.000Z",
-      "like_count": 0,
-      "retweet_count": 26,
-      "url": "https://x.com/jasongyang365/status/2114660284476616869",
-      "lang": null
-    },
-    {
-      "author_name": "Una tal María",
-      "author_username": "UnaTalMaria663",
-      "text": "Configuré Grok para que abra en modo voz.\nAsí que le pido a Siri que abra Grok, y listo.\nSeguro que con Grok Bot se puede. https://t.co/TdavGrQfJU",
-      "created_at": "2026-10-26T10:07:52.000Z",
-      "like_count": 0,
-      "retweet_count": 0,
-      "url": "https://x.com/UnaTalMaria663/status/2114660275542503678",
-      "lang": null
+      "url": "https://x.com/JekyllTraveler/status/2103971709183504830",
+      "lang": "en"
     }
   ],
   "grokbot_intro": {
