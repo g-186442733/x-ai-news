@@ -1,0 +1,66 @@
+{
+  "id": "period-20261027-21",
+  "kind": "period",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-10-27T21:50:42+08:00",
+  "window_note": "首轮周期简报；本时段无全新官方重大发布，主体为近 8–14 天仍有效动态 + 本窗社区热议",
+  "highlights": [
+    "企业伙伴网络（10-22）：130+ 早期伙伴，Transformation / Marketplace 双轨",
+    "Grok Voice 3.0（10-14）：AA 语音指数 86.9 #1，价同 2.0，$0.08/min",
+    "Grok Bot v0.75.8（10-24）：Vault / Pages / 视频 / Auto-review；本窗社区热议幕僚式用法"
+  ],
+  "sections": [
+    "重大发布",
+    "产品更新",
+    "模型动态",
+    "其他"
+  ],
+  "sources": [
+    {
+      "title": "x.ai 官网",
+      "url": "https://x.ai/"
+    },
+    {
+      "title": "x.ai News",
+      "url": "https://x.ai/news"
+    },
+    {
+      "title": "Partner Network 公告",
+      "url": "https://x.ai/news/partnernetworkannouncement"
+    },
+    {
+      "title": "Grok Voice 3.0",
+      "url": "https://x.ai/news/grok-voice-3"
+    },
+    {
+      "title": "The X Subscription",
+      "url": "https://x.ai/news/x-subscription"
+    },
+    {
+      "title": "Grok Bot Changelog",
+      "url": "https://x.ai/changelog/bot"
+    },
+    {
+      "title": "API Release Notes",
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "title": "X News: Grok Bot as Chief of Staff",
+      "url": "https://x.com/i/trending/2114876093278634068"
+    },
+    {
+      "title": "X News: Feed cleanup / AI teams",
+      "url": "https://x.com/i/trending/2114996492071244056"
+    },
+    {
+      "title": "X News: X connector for Premium",
+      "url": "https://x.com/i/trending/2114927513025851898"
+    }
+  ],
+  "paths": {
+    "md": "data/briefings/period-20261027-21.md",
+    "json": "data/briefings/period-20261027-21.json",
+    "html": "site/briefings/period-20261027-21.html"
+  },
+  "pages_url": "https://g-186442733.github.io/x-ai-news/briefings/period-20261027-21.html"
+}
